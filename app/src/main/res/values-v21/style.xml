@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Game_space" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/color_text_login_and_cadre</item>
+        <item name="colorPrimaryDark">@color/color_text_login_and_cadre</item>
+        <item name="colorAccent">@color/color_text_login_and_cadre</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:itemBackground">@color/background_snack</item>
+        <item name="itemTextColor">@color/color_text_login_and_cadre</item>
+        <item name="itemPadding">@dimen/demens_23px</item>
+        <item name="itemIconPadding">@dimen/dimens_32px</item>
+        <item name="fontFamily">@font/font_</item>
+    </style>
+
+
+
+
+
+</resources>

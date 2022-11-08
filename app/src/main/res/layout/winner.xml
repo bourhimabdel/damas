@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back_win"
+    android:scaleX="0.9"
+    android:scaleY="0.9"
+    >
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        style="@style/scrollbar_shape_style"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/image_player1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/image_player1"
+        android:background="@drawable/circle_winner_back"
+        />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/image_player2"
+       app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/image_player2"
+        android:background="@drawable/circle_winner_back_"
+        />
+
+    <View
+        android:background="@drawable/back_image_snack"
+        android:layout_width="@dimen/dimen_330px"
+        android:layout_height="@dimen/dimen_330px"
+        app:layout_constraintStart_toStartOf="@id/image_player1"
+        app:layout_constraintTop_toTopOf="@id/image_player1"
+        app:layout_constraintEnd_toEndOf="@id/image_player1"
+        app:layout_constraintBottom_toBottomOf="@id/image_player1"
+        />
+    <View
+        android:background="@drawable/back_image_snack"
+        android:layout_width="@dimen/dimen_330px"
+        android:layout_height="@dimen/dimen_330px"
+        app:layout_constraintStart_toStartOf="@id/image_player2"
+        app:layout_constraintTop_toTopOf="@id/image_player2"
+        app:layout_constraintEnd_toEndOf="@id/image_player2"
+        app:layout_constraintBottom_toBottomOf="@id/image_player2"
+        />
+
+    <TextView
+        android:id="@+id/txt_my_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_home"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:layout_marginTop="@dimen/dimens_45px"
+
+
+
+        android:textColor="@color/color_text_login_and_cadre"
+        android:textSize="@dimen/txt_15_sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="@dimen/dimens_32px"
+
+        android:background="@drawable/money_back_winner"
+        android:drawablePadding="@dimen/dimens_18px"
+        app:drawableEndCompat="@drawable/coins" />
+
+    <com.joooonho.SelectableRoundedImageView
+        android:id="@+id/image_player1"
+        android:layout_width="@dimen/dimens_300px"
+        android:layout_height="@dimen/dimens_300px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_marginStart="@dimen/dimens_130px"
+        android:layout_marginTop="@dimen/dimens_130px"
+        android:src="@color/gr2"
+        app:sriv_oval="true"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="@dimen/dimens_130px" />
+
+    <View
+        android:id="@+id/view_player1"
+        android:layout_width="@dimen/dimens_250px"
+        android:layout_height="@dimen/dimens_250px"
+        app:layout_constraintStart_toStartOf="@id/image_player1"
+        app:layout_constraintEnd_toEndOf="@id/image_player1"
+        app:layout_constraintBottom_toBottomOf="@id/image_player1"
+        app:layout_constraintTop_toTopOf="@id/image_player1"
+        android:background="@drawable/circle_win"
+        android:visibility="gone"
+
+        />
+    <com.joooonho.SelectableRoundedImageView
+        android:id="@+id/image_player2"
+        android:layout_width="@dimen/dimens_300px"
+        android:layout_height="@dimen/dimens_300px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="@dimen/dimens_130px"
+        android:layout_marginTop="@dimen/dimens_130px"
+        android:src="@color/gr2"
+        app:sriv_oval="true"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="@dimen/dimens_130px" />
+    <View
+        android:id="@+id/view_player2"
+        android:layout_width="@dimen/dimens_250px"
+        android:layout_height="@dimen/dimens_250px"
+        app:layout_constraintStart_toStartOf="@id/image_player2"
+        app:layout_constraintEnd_toEndOf="@id/image_player2"
+        app:layout_constraintBottom_toBottomOf="@id/image_player2"
+        app:layout_constraintTop_toTopOf="@id/image_player2"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/txt_match_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dimens_130px"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/currentState_level"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/dimens_85px"
+
+
+        android:textColor="@color/color_text_login_and_cadre"
+        android:textSize="@dimen/txt_15_sp"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        android:background="@drawable/back_prix"
+
+        android:padding="@dimen/dimens_45px"
+
+        />
+
+    <TextView
+        android:id="@+id/currentState_level"
+        android:layout_width="@dimen/dimen_330px"
+        android:layout_height="@dimen/dimen_330px"
+        android:gravity="center"
+        android:textColor="#272727"
+        android:textSize="@dimen/txt_20_sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_player1"
+        android:layout_marginTop="@dimen/dimens_130px"
+        android:visibility="gone"
+       />
+
+    <Button
+        android:id="@+id/btn_ads"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_height="@dimen/dimens_200px"
+        android:layout_marginTop="@dimen/dimens_70px"
+        android:background="@drawable/btn_copy_id"
+        android:text="@string/cashback"
+        android:textAllCaps="false"
+        android:textSize="@dimen/txt_15_sp"
+        android:gravity="start|center_vertical"
+        android:textStyle="bold"
+        android:textColor="@color/color_text_login_and_cadre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_match_description"
+        app:layout_constraintBottom_toTopOf="@id/btn_replay"
+        android:layout_marginBottom="@dimen/dimens_45px"
+        android:drawableStart="@drawable/video"
+        android:drawableLeft="@drawable/video"
+
+        android:paddingEnd="@dimen/demens_65pex"
+        android:paddingStart="@dimen/demens_65pex"
+        android:drawablePadding="@dimen/dimens_55px"
+        tools:ignore="RtlSymmetry"
+        />
+    <Button
+        android:id="@+id/btn_replay"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_height="@dimen/dimens_180px"
+        android:background="@drawable/btn_replay"
+        android:text="@string/replay"
+        android:textAllCaps="false"
+        android:textSize="@dimen/txt_13_sp"
+        android:gravity="start|center_vertical"
+        android:textStyle="bold"
+        android:textColor="@color/color_text_login_and_cadre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_ads"
+        android:drawableEnd="@drawable/replay"
+        android:drawableRight="@drawable/replay"
+        android:layout_marginTop="@dimen/dimens_45px"
+
+        android:paddingEnd="@dimen/demens_65pex"
+        android:paddingStart="@dimen/demens_65pex"
+        android:drawablePadding="@dimen/dimens_55px"
+        tools:ignore="RtlSymmetry"/>
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.8"
+        android:layout_height="@dimen/dimens_180px"
+        android:background="@drawable/btn_selector_play_local_match"
+        android:text="@string/go_back"
+        android:textAllCaps="false"
+        android:textSize="@dimen/txt_13_sp"
+        android:gravity="start|center_vertical"
+        android:textStyle="bold"
+        android:textColor="@color/color_text_login_and_cadre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_replay"
+        android:layout_marginTop="@dimen/dimens_45px"
+        android:drawableEnd="@drawable/exit"
+        android:drawableRight="@drawable/exit"
+
+        android:paddingEnd="@dimen/demens_65pex"
+        android:paddingStart="@dimen/demens_65pex"
+        android:drawablePadding="@dimen/dimens_55px"
+        tools:ignore="RtlSymmetry" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_win3"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/congratulation"
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimens_300px"
+
+
+        app:layout_constraintBottom_toBottomOf="@id/image_player1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/image_player1"
+        android:visibility="gone"
+
+        />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_gift"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/gift"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:scaleY="0.8"
+        android:scaleX="0.8"
+
+        app:layout_constraintBottom_toBottomOf="@id/btn_ads"
+        app:layout_constraintEnd_toEndOf="@id/btn_ads"
+        app:layout_constraintTop_toTopOf="@id/btn_ads"
+        app:layout_constraintVertical_bias="0.6"
+        android:elevation="10dp"
+        tools:targetApi="lollipop" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie_trophie"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/trophie"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:scaleX="0.3"
+                android:scaleY="0.3"
+
+                app:layout_constraintTop_toBottomOf="@id/image_player1"
+                app:layout_constraintBottom_toBottomOf="@id/image_player1"
+                app:layout_constraintStart_toStartOf="@id/image_player1"
+                app:layout_constraintEnd_toEndOf="@id/image_player1"
+                android:visibility="gone"
+              />
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie_trophie2"
+                app:lottie_autoPlay="true"
+                app:lottie_rawRes="@raw/trophie"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:scaleX="0.3"
+                android:scaleY="0.3"
+
+                app:layout_constraintTop_toBottomOf="@id/image_player2"
+                app:layout_constraintBottom_toBottomOf="@id/image_player2"
+                app:layout_constraintStart_toStartOf="@id/image_player2"
+                app:layout_constraintEnd_toEndOf="@id/image_player2"
+                android:visibility="gone"
+                />
+
+    <TextView
+        android:id="@+id/txt_msg1"
+        style="@style/scrollbar_shape_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_message1"
+
+        android:gravity="start|center_vertical"
+
+        android:scaleX="1.75"
+        android:scaleY="1.75"
+        android:paddingStart="@dimen/dimens_11px"
+        android:paddingEnd="@dimen/dimens_11px"
+        android:paddingTop="@dimen/dimens_11px"
+        android:paddingBottom="@dimen/dimens_11px"
+
+        android:scrollbars="vertical"
+
+        android:textColor="@color/color_text_login_and_cadre"
+        android:textSize="@dimen/txt_7_5_sp"
+
+        app:layout_constraintTop_toBottomOf="@id/image_player2"
+        app:layout_constraintBottom_toBottomOf="@id/image_player2"
+        app:layout_constraintStart_toStartOf="@id/image_player1"
+        app:layout_constraintEnd_toEndOf="@id/image_player1"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:id="@+id/txt_msg2"
+        style="@style/scrollbar_shape_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_message1"
+
+        android:gravity="start|center_vertical"
+
+        android:scaleX="1.75"
+        android:scaleY="1.75"
+        android:paddingStart="@dimen/dimens_11px"
+        android:paddingEnd="@dimen/dimens_11px"
+        android:paddingTop="@dimen/dimens_11px"
+        android:paddingBottom="@dimen/dimens_11px"
+
+        android:scrollbars="vertical"
+
+        android:textColor="@color/color_text_login_and_cadre"
+        android:textSize="@dimen/txt_7_5_sp"
+
+        app:layout_constraintTop_toBottomOf="@id/image_player2"
+        app:layout_constraintBottom_toBottomOf="@id/image_player2"
+        app:layout_constraintStart_toStartOf="@id/image_player2"
+        app:layout_constraintEnd_toEndOf="@id/image_player2"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,54 @@
+{
+  "info":{
+    "info_1":{
+      "title":"Comment puis-je me connecter ?",
+      "description":"vous pouvez vous connecter par trois fournisseurs :\nGoogle\nFacebook\n⬤ anonyme ( Visiteur )\n\nune fois que vous vous êtes connecté avec succès avec Google ou Facebook, nous utilisons uniquement votre photo et votre nom.\nsi vous choisissez de vous connecter comme un visiteur, votre nom sera le nom de votre téléphone et votre photo sera une photo vide.\nsi vous choisissez de vous connecter comme un visiteur, vous pouvez lier votre compte à un compte facebook ou google pour enregistrer vos données (amis et score de matchs, points d'expérience, pièces collectées et plus de données utilisateur) dans le lieu de réglage.\nsi vous souhaitez lier votre compte anonyme à un compte google ou un compte facebook, vous devez utiliser un compte sans vous connecter avant\nDans l'application.\net enfin vous pouvez vous déconnecter à tout moment.",
+      "lien":"D9lXAW6UjvU"
+    },
+    "info_2":{
+      "title":"Comment ajouter des amis ?",
+      "description":"Il existe deux méthodes pour ajouter un ami :\nEnvoyé une demande à un ami.\naccepter une demande reçue d'un démon.\n\ncomment puis-je envoyer une demande?\ndites à un ami de vous envoyer son identifiant (est disponible dans la place du compte et également dans la place du jeu en ligne dans l'application)\net copiez cet identifiant, ouvrez l'application dama et allez à l'endroit envoyé, et collez l'identifiant à l'endroit de l'identifiant\net cliquez pour ajouter , vous pouvez voir la demande envoyée dans la liste du bas.\nvotre ami recevra votre demande. Si la demande est acceptée, vous et votre ami serez amis dans l'application.\n\ncomment accepter une demande reçue ?\nallez simplement aux demandes reçues et cliquez sur accepter l'ami que vous souhaitez accepter.\n\nRemarque : si un ami vous a envoyé une demande et que cette demande ne vient pas ou tarde à venir , je vous conseille de recharger ou de rafraîchir la liste\npar balayage de haut en bas, l'application reçoit automatiquement toutes les demandes reçues du serveur.\nvous pouvez également le faire dans la liste de lecture ou la liste d'envoi.",
+      "lien":"TNhf9iGUq_E"
+    },
+    "info_3":{
+      "title":"Comment puis-je commencer un match aléatoire en ligne ?",
+      "description":"Cliquez simplement sur le prix auquel vous souhaitez jouer et nos serveurs rechercheront un joueur pour vous",
+      "lien":""
+    },
+    "info_4":{
+      "title":"Comment puis-je commencer un match en ligne ?",
+      "description":"Il existe une méthode pour démarrer un match en ligne :\njouer avec un ami :\n     ⬤ envoyé défi.\n          ou\n     accepter le défi.\n\ndéfi envoyé :\nallez sur le lieu de jeu et cliquez sur l'image ou le nom de votre ami,\nl'application vous propose automatiquement le multi prix :\n⬤ 100 pièces\n⬤ 500 pièces\n⬤ 2,5 K pièces\n⬤ 10 000 pièces\n⬤ 50 000 pièces\n⬤ 100 000 pièces\n⬤ 500 000 pièces\n⬤ 2,5 millions de pièces\n⬤ 10 millions de pièces\nchoisissez l'un d'entre eux, et l'application enverra votre défi\nà votre ami, si votre ami accepte votre défi, une notification apparaîtra dans votre téléphone ou dans la liste de vos amis, vous devez simplement cliquer sur jouer et le match commencera automatiquement.\n\naccepter le défi :\nsi un ami vous défie, vous pouvez voir dans la liste des amis ce défi.\nsi vous cliquez en jeu cela signifie que vous acceptez ce défi\nsi vous avez le prix de ce défi le match commence avec le prix initial\n si vous n'avez pas l'application créez le match avec ce que vous avez d'argent\nExemple :\nvotre ami vous défie avec 10K\net vous n'avez que 216 pièces\nle match commence automatiquement avec 100 pièces\n\nRemarque :\nsi vous n'avez pas le prix minimum pour jouer un match en ligne\nl'application vous propose de collecter plus de pièces",
+      "lien":"glN1biw7b8A"
+    },
+    "info_5":{
+      "title":"Si je gagne un match en ligne ?",
+      "description":"si je gagne un match en ligne , je reçois le prix du match * 2\nExemple :\nsi je joue un match de 2,5 K pièces, je gagnerai 5 K pièces.",
+      "lien":"6v_Yl1vTDYs"
+    },
+    "info_6":{
+      "title":"Qu'en est-il du score ?",
+      "description":"quand j'ai un ami, l'application enregistre le score des matchs entre lui et moi.\nLe score apparaît comme ceci :\n                   { Note : A-B }\n⬤ A = c'est le nombre de matchs que je gagne.\n⬤ B = c'est le nombre de matchs que je perds (ami gagne).",
+      "lien":"keOxan3vCDk"
+    },
+    "info_7":{
+      "title":"Comment puis-je démarrer un match Bluetooth ?",
+      "description":"Vous pouvez démarrer une partie Bluetooth avec un ami proche de vous en termes de distance.\nLes outils nécessaires dans votre téléphone :\n   la technologie bluetooth\n   la technologie de localisation\n\nCes deux technologies nous aident à connecter votre téléphone avec le téléphone de votre ami.\nlorsque j'active ces deux derniers éléments, je clique sur le bouton \"Trouver quelqu'un avec qui jouer avec bluetooth\", l'application affichera deux listes :\n ⬤ liste des appareils couplés\n liste des appareils non appariés\n\nsi le téléphone de mon ami est dans la liste des appareils couplés, je clique simplement sur le bouton de lecture et un match commencera.\n\nsi le téléphone de mon ami est dans la liste des appareils non appariés, je dois cliquer sur le bouton \"Associer l'appareil\", une fois l'appareil apparié avec succès\nl'application le déplace vers la liste des appareils couplés, et maintenant vous pouvez jouer avec lui.\n\n\uD83D\uDD34 Remarque : le prix d'un match bluetooth est de 75 pièces, personne ne gagne quelque chose après un match bluetooth.",
+      "lien":"evN0Y87CVT8"
+    },
+    "info_8":{
+      "title":"Comment puis-je commencer un match local ?",
+      "description":"Vous pouvez jouer un match local avec un ami sur votre téléphone.\n\n\uD83D\uDD34 Remarque : le prix d'un match local est de 25 pièces.",
+      "lien":"n93pJYEh124"
+    },
+    "info_9":{
+      "title":"Comment puis-je collecter plus de pièces ?",
+      "description":"vous pouvez collecter plus de pièces de trois manières :\n gagner des matchs en ligne.\n obtenir la récompense périodique.\n regardez la vidéo des annonces de récompense.\n\nà propos de gagner des matchs en ligne, quand je défie un ami avec 500 pièces\net je gagne le match, j'obtiendrai 1 000 pièces.\n\nà propos de la récompense périodique, à la place des pièces de monnaie, il y a un cercle\nen haut de la page , quand je passe ce cercle et le laisse revenir à sa place , il me donne 25 pièces .\net après 10 minutes, il sera à nouveau prêt à être glissé.\n\nà propos de regarder les annonces vidéo de récompense, il existe trois types d'annonces vidéo de récompense :\n ⬤ récompense orange.\n ⬤ récompense verte (verrouillée par défaut).\n ⬤ récompense bleue (verrouillée par défaut).\n\nsi vous regardez la vidéo orange, vous gagnerez 75 pièces + la vidéo verte sera débloquée .\nsi vous regardez la vidéo verte, vous gagnerez 125 pièces + la vidéo bleue sera débloquée.\nsi vous regardez la vidéo bleue, vous gagnerez 175 pièces + l'application démarre un timer de 1h pour débloquer à nouveau l'annonce orange.",
+      "lien":"gdjv0LYNpQ8"
+    },
+    "info_10":{
+      "title":"Qu'en est-il des paramètres dans cette application ?",
+      "description":"Il y a plusieurs paramètres dans cette application :\n Thème\n ⬤ Barre de navigation inférieure\n Langue\n Son\n Vibrations\n\nà propos du réglage du thème, vous pouvez basculer entre le mode jour et le mode nuit.\nà propos du paramètre de la barre de navigation inférieure, vous pouvez basculer entre afficher ou masquer ce dernier.\nà propos du réglage de la langue, vous pouvez basculer entre 7 langues dans l'application.\nsur le réglage du son, vous pouvez utiliser l'application avec ou sans son.\nà propos du réglage des vibrations, vous pouvez utiliser l'application avec ou sans vibration.\n\n\nToujours dans le lieu de mise en scène,\nvous pouvez lier votre compte à un compte google ou un compte facebook si vous êtes un visiteur.\net vous pouvez nous évaluer dans le Play Store.\net vous pouvez partager le lien de l'application avec d'autres.\net vous pouvez en savoir plus sur cette application.\nvous pouvez également vous déconnecter.",
+      "lien":"AAC3yqiHtJc"
+    }
+  }
+}

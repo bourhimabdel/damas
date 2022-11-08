@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Шашки</string>
+
+    <string name="Login_while">Идет проверка подлинности …</string>
+    <string name="sign_in_with_us">Аутентификация позволяет получить идентификатор в приложении.</string>
+    <string name="sign_in_with_go">Войти через Google</string>
+    <string name="sign_in_with_fb">Войти с Facebook</string>
+    <string name="login_success">Успешная аутентификация</string>
+    <string name="try_again">Попробуйте снова</string>
+    <string name="setting">Параметр</string>
+    <string name="account">Счет</string>
+    <string name="home">Главная страница</string>
+    <string name="coins">Монеты</string>
+    <string name="theme">Тема</string>
+    <string name="light">свет</string>
+    <string name="night">ночь</string>
+    <string name="bottom_navigation_bar">Нижняя панель навигации</string>
+    <string name="not_activated">Не активировано</string>
+    <string name="activated">Включено</string>
+    <string name="language">Языки</string>
+    <string name="five_stars">Пять звезд, \nпожалуйста</string>
+    <string name="share_the_app">Поделитесь приложением \nс друзьями</string>
+    <string name="share">Делиться</string>
+    <string name="store">Оценка</string>
+    <string name="log_out">Выйти</string>
+    <string name="arabic">Араб</string>
+    <string name="english">английский</string>
+    <string name="french">французкий язык</string>
+    <string name="spanish">испанский</string>
+    <string name="hindi">Индийский</string>
+    <string name="japanese">Японский</string>
+    <string name="russian">русский</string>
+    <string name="yes_log_out">Да я хочу отключиться</string>
+    <string name="log_out_q">Вы действительно хотите выйти?</string>
+    <string name="no">Нет</string>
+    <string name="about_the_app">О приложении</string>
+    <string name="read">Читать</string>
+    <string name="share_text">Игра</string>
+    <string name="Lien_text">Ссылка на приложение в магазине</string>
+    <string name="request_sent">Запрос на размещение рекламы отправлен, ждем ответа через несколько секунд</string>
+    <string name="request_gain_an_ads">Рекламный ролик готов, смотрите его и получайте вознаграждение</string>
+    <string name="request_failed_no_ads">Запрос объявления был успешным, но объявления не были возвращены из-за отсутствия рекламных ресурсов или в вашем регионе нет объявлений, соответствующих эффективной цене за тысячу показов, мы попробуем еще раз, когда счетчик закончится.</string>
+    <string name="request_failed_no_internet">Запрос объявления не удался из-за сетевого подключения, мы попробуем еще раз после того, как счетчик закончится.</string>
+    <string name="swipe">Критиковать</string>
+    <string name="oureo"> $</string>
+    <string name="seconde">s</string>
+    <string name="ecpm">1 видео</string>
+    <string name="wait">ждать …</string>
+    <string name="no_account_found">Не найдено ни одной учетной записи с идентификатором:</string>
+    <string name="add_you_self">Вы не можете добавить себя в друзья</string>
+    <string name="type_the_ID">Введите идентификатор перед нажатием кнопки "Добавить"</string>
+    <string name="deleting">Удаление …</string>
+    <string name="refuse">отказаться</string>
+    <string name="accepting">Это принято …</string>
+    <string name="accept">Успешно одобрено</string>
+    <string name="wait_re">Жду ответа от</string>
+    <string name="three_p">…</string>
+    <string name="lets_play">Давайте играть</string>
+    <string name="log_in_as_a_visitor">Войти как посетитель</string>
+    <string name="b_i_n_a">Bluetooth недоступен</string>
+    <string name="type_a_message">написать сообщение …</string>
+    <string name="retry_again_to_connect_with">Попробуй снова подключиться</string>
+    <string name="you_are_offline">Вы не связаны</string>
+    <string name="you_are_online">Ты в сети</string>
+    <string name="we_are_waiting_for_your_friend">Ждем твоего друга</string>
+    <string name="read_more_information_about_this_game_and_watch_videos">Узнайте больше об этой игре и посмотрите видео:</string>
+    <string name="learn_the_rules_of_the_game">Изучите правила игры:</string>
+    <string name="id">Я БЫ:</string>
+    <string name="level_progress_and_personal_data">Уровень успеваемости и личные данные</string>
+    <string name="statistics_of_playing_online_matches">Статистика онлайн-матчей</string>
+    <string name="total_winnings">Общая выгода:</string>
+    <string name="coins_wallet">кошелек:</string>
+    <string name="rank">Классифицировать :</string>
+    <string name="games_won">Игры выиграны:</string>
+    <string name="win_percentage">процент выигрыша:</string>
+    <string name="n_75_coins_n_open_green_ads">\n⬤ +75 монет \n⬤ открытое зеленое объявление</string>
+    <string name="n_125_coins_n_open_blue_ads">\n⬤ +125 монет \n⬤ открытая синяя реклама</string>
+    <string name="n_175_coins_n">\n⬤ +175 шт.</string>
+    <string name="add_some_friends_to_play_online">Добавьте друзей, чтобы играть онлайн</string>
+    <string name="start_bluetooth_match">Начать Bluetooth-матч</string>
+    <string name="in_order_to_play_a_bluetooth_match_you_must_activate_the_2_elements">Чтобы сыграть в матч по Bluetooth, вам необходимо активировать оба элемента.</string>
+    <string name="find_someone_to_play_with_with_bluetooth">Найдите кого-нибудь, чтобы начать матч по Bluetooth</string>
+    <string name="paired_devices">Сопряженные устройства</string>
+    <string name="unpaired_devices">Непарные устройства</string>
+    <string name="_1_match_for_75">Матч на 75</string>
+    <string name="about_start_bluetooth_match">O</string>
+    <string name="start_online_match">Начать матч онлайн</string>
+    <string name="tap_to_get_your_id">имя пользователя</string>
+    <string name="about_start_online_match">О начале онлайн-матча</string>
+    <string name="start_local_match">Начать местный матч</string>
+    <string name="play_a_local_match_with_someone">Сыграйте с кем-нибудь местный матч</string>
+    <string name="_1_match_for_25">Матч на 25</string>
+    <string name="about_start_local_match">О начале местного матча</string>
+    <string name="no_friend_request_yet">На данный момент запросов о дружбе нет</string>
+    <string name="type_or_paste_the_id_of_your_friend">Введите или вставьте идентификатор вашего друга</string>
+    <string name="add">добавление</string>
+    <string name="list_request">Список запросов:</string>
+    <string name="no_request_sent_yet">Запрос еще не отправлен</string>
+    <string name="sound">звук</string>
+    <string name="vibration">Вибрация</string>
+    <string name="save_your_account_by_linking_it_to_a_facebook_account">Зарегистрируйте свою учетную запись, связав ее со своей учетной записью Facebook</string>
+    <string name="save_your_account_by_linking_it_to_a_google_account">Зарегистрируйте свою учетную запись, связав ее с учетной записью Google</string>
+    <string name="ok">да</string>
+    <string name="pair_the_device">Подключите устройство</string>
+    <string name="play">Играть</string>
+    <string name="accept_">Принятие</string>
+    <string name="cancel">Отмена</string>
+    <string name="request_sent_">Запрос отправлен</string>
+    <string name="_100">100</string>
+    <string name="go_back">Чтобы восстановить</string>
+    <string name="core">календарь :\t</string>
+    <string name="Connected_successful">Успешное соединение</string>
+    <string name="try_to_C">попытаться связаться \t</string>
+    <string name="waiting">ждать \t</string>
+    <string name="to_Come">\tприсоединиться…</string>
+    <string name="pairing">Сопряжение …</string>
+    <string name="waiting_for_your_fr">Ждем твоего друга \t</string>
+    <string name="def">Исходный язык</string>
+    <string name="sent">послал</string>
+    <string name="recieve">Получать</string>
+    <string name="_0">0</string>
+
+    <string name="applique">Посмотрите видео, чтобы узнать, как применить эту информацию</string>
+    <string name="we_are_create_match">Мы делаем матч</string>
+    <string name="cancel_match">отменить матч</string>
+    <string name="friend_not_join">Если ваш друг не присоединяется, отмените этот матч</string>
+    <string name="K">\tK</string>
+    <string name="M">\tM</string>
+    <string name="back">Если ты вернешься, ты проиграешь этот матч</string>
+    <string name="end">Если твой друг не присоединяется, возвращайся</string>
+    <string name="congrats">Поздравляю с победой</string>
+    <string name="Point_of_experience">Очки опыта</string>
+    <string name="Unfortunately">К сожалению я проиграл</string>
+    <string name="toplay">Чтобы сыграть местный матч, вы должны \n</string>
+    <string name="tocollect">Чтобы собрать их, добавьте монеты</string>
+    <string name="bluetooth">Чтобы сыграть в матч по Bluetooth, вы должны \n</string>
+    <string name="turn_on_bluetooth">Bluetooth должен быть активирован</string>
+    <string name="oth_and_loc">Вы должны активировать bluetooth и местоположение</string>
+    <string name="y">Необходимо активировать локализацию</string>
+    <string name="level">уровень :</string>
+    <string name="ri">Сейчас не ваша очередь играть!</string>
+
+    <string name="add_a_friend">Добавить</string>
+    <string name="ollect">\nВам нужно как минимум\n</string>
+    <string name="yo">\nвы уже отправили запрос на\n</string>
+    <string name="re">\nу вас есть запрос от\n</string>
+    <string name="cce">\n, примите его с места получения\n</string>
+    <string name="ve">\nу вас есть\n</string>
+    <string name="is">\nв твоем списке друг\n</string>
+    <string name="lrea">\nу вас уже есть запрос от\n</string>
+    <string name="an">\nобновите список приема и примите его\n</string>
+
+    <string name="yoa">ты и</string>
+    <string name="are">теперь друзья</string>
+    <string name="invit">отклонил ваше приглашение</string>
+    <string name="wants">хочет подружиться с вами</string>
+    <string name="with">Я хочу поиграть с тобой</string>
+    <string name="aiting_">Я жду тебя на ринге</string>
+    <string name="Rewar">Периодическая награда готова, получите ее</string>
+    <string name="Reward">Периодическая награда</string>
+    <string name="hi">Привет</string>
+    <string name="We">Мы надеемся на это</string>
+    <string name="sunday">Воскресенье</string>
+    <string name="monday">понедельник</string>
+    <string name="tuesday">вторник</string>
+    <string name="wednesday">среда</string>
+    <string name="thursday">четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="well">находит тебя хорошо</string>
+    <string name="coming_soon">Скоро будет …</string>
+    <string name="start_a_random_match_online">Начать случайный матч онлайн</string>
+    <string name="star_progress">Звездный прогресс :</string>
+
+    <string name="con">условия и политика конфиденциальности</string>
+    <string name="i_accept">Когда вы нажмете «Я принимаю», игра будет использовать ваш: \ n ⬤ общедоступный профиль (имя + изображение) \ n ⬤ адрес электронной почты (для входа)</string>
+    <string name="i">Я принимаю Я согласен</string>
+
+
+    <string name="timer">Таймер</string>
+    <string name="virc">Круговой индикатор выполнения</string>
+    <string name="text">Текст</string>
+    <string name="sent_challenge">отправил вызов</string>
+
+
+    <string name="there_are_no_paired_devices">Нет сопряженных устройств</string>
+    <string name="we_could_not_detect_any_unpaired_device">Мы не смогли обнаружить ни одного неподключенного устройства</string>
+    <string name="lml">Включите Bluetooth, чтобы увидеть сопряженные устройства</string>
+    <string name="req">Bluetooth и местоположение необходимы для поиска ближайших устройств.</string>
+    <string name="mm">Сделайте ваше устройство необнаружимым</string>
+    <string name="mak">Сделайте ваше устройство доступным для обнаружения</string>
+    <string name="add_f">Добавить новых друзей</string>
+    <string name="with_id">с идентификатором</string>
+    <string name="randomly">случайно</string>
+    <string name="open">Открытым</string>
+    <string name="update">Обновлять</string>
+    <string name="to">Чтобы открыть это изображение, вам нужно</string>
+    <string name="type_name">Введите свое любимое имя …</string>
+    <string name="need">Чтобы сменить имя вам нужно</string>
+    <string name="it">Похоже, у тебя нет имени</string>
+    <string name="name">Имя</string>
+    <string name="pic">рисунок</string>
+
+
+    <string name="use">Использовать</string>
+    <string name="select_new_picture">Выбрать новое изображение</string>
+    <string name="cashback">Возврат наличных</string>
+    <string name="replay">Воспроизвести</string>
+    <string name="p">Прибыль * 2</string>
+    <string name="hello_blank_fragment">Привет пустой фрагмент</string>
+    <string name="vs">Против</string>
+    <string name="look">как будто ты устал ждать, приносим свои извинения</string>
+    <string name="country">Страна :</string>
+    <string name="m">м</string>
+    <string name="h">час</string>
+    <string name="year">год</string>
+    <string name="month">месяц</string>
+    <string name="day">день</string>
+    <string name="edit">Редактировать</string>
+    <string name="lev">Уровень</string>
+    <string name="id_m">Идентификатор не должен содержать</string>
+    <string name="b">B</string>
+    <string name="t">Т</string>
+    <string name="q">Q</string>
+    <string name="accepted_your_challenge">принял ваш вызов</string>
+    <string name="i_send_you_a_challenge">отправить тебе вызов</string>
+    <string name="onlinz">онлайн</string>
+    <string name="world">Мир</string>
+    <string name="no_data_yet">Данных пока нет</string>
+    <string name="the_request_has_been_sent_successfully">Запрос был успешно отправлен</string>
+
+    <string name="live_players">Живые игроки</string>
+    <string name="rando">Случайный</string>
+    <string name="friend">Друзья</string>
+    <string name="bluetoot">блютус</string>
+    <string name="local">Местный</string>
+
+    <string name="canot_play">Я не могу играть сейчас</string>
+    <string name="lets_play_a">Поиграем снова</string>
+    <string name="coo">подключение к серверу</string>
+    <string name="w">ждем игрока</string>
+    <string name="starting">Стартовый матч</string>
+
+
+
+    <string name="yesterday_s_heroes">Вчерашние герои</string>
+    <string name="today_t">Сегодняшний рекорд</string>
+    <string name="congrate">Поздравляю ты первый в</string>
+    <string name="con_g">Поздравляю, ты второй в</string>
+    <string name="congra">Поздравляю, ты третий в</string>
+
+    <string-array name="rang_name">
+        <item>Стажер</item>
+        <item>Новичок</item>
+        <item>Ученик</item>
+        <item>Любительское</item>
+        <item>Hustler</item>
+        <item>Полу про</item>
+        <item>Профессиональный</item>
+        <item>Виртуоз</item>
+        <item>Эксперт</item>
+        <item>Ветеран</item>
+        <item>Мастер</item>
+        <item>Великий Магистр</item>
+        <item>Туз</item>
+        <item>Супер звезда</item>
+        <item>король</item>
+        <item>Дамасский император</item>
+    </string-array>
+
+</resources>

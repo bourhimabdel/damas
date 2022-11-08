@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    tools:context=".fragment_account">
+
+    <androidx.core.widget.NestedScrollView
+        style="@style/scrollbar_shape_style"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+            <View
+
+                android:id="@+id/n"
+                android:layout_width="@dimen/dimens_550px"
+                android:layout_height="@dimen/dimens_850px"
+                app:layout_constraintBottom_toBottomOf="@id/image_profil"
+                android:layout_marginBottom="@dimen/dimens_130px"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:scaleX="4"
+
+
+                android:background="@drawable/circle_frag_account"
+                />
+
+
+            <View
+
+                android:layout_width="0dp"
+                app:layout_constraintWidth_percent="0.96"
+                android:layout_height="@dimen/dimens_180px"
+                app:layout_constraintTop_toTopOf="@id/id"
+                app:layout_constraintBottom_toBottomOf="@id/id"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_margin="@dimen/dimens_55px"
+
+                android:background="@drawable/back_id"
+                />
+
+            <ImageButton
+                android:id="@+id/btn_info"
+                android:layout_width="@dimen/dimens_70px"
+                android:layout_height="@dimen/dimens_70px"
+
+                app:layout_constraintTop_toBottomOf="@id/progressbar"
+                app:layout_constraintEnd_toEndOf="@id/progressbar"
+                android:src="@drawable/info"
+                android:background="@drawable/selector_retate_table"
+                tools:ignore="ContentDescription" />
+
+
+            <View
+                android:background="@drawable/back_image"
+                android:layout_width="@dimen/dimens_460px"
+                android:layout_height="@dimen/dimens_460px"
+                app:layout_constraintStart_toStartOf="@id/image_profil"
+                app:layout_constraintTop_toTopOf="@id/image_profil"
+                app:layout_constraintEnd_toEndOf="@id/image_profil"
+                app:layout_constraintBottom_toBottomOf="@id/image_profil"
+                />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/image_profil"
+                android:layout_width="@dimen/dimens_420px"
+                android:layout_height="@dimen/dimens_420px"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="@dimen/dimen_330px"
+                android:scaleType="centerCrop"
+                app:sriv_oval="true" />
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:maxWidth="@dimen/dimens_420px"
+
+                app:layout_constraintTop_toBottomOf="@id/image_profil"
+                app:layout_constraintStart_toStartOf="@id/image_profil"
+                app:layout_constraintEnd_toEndOf="@id/image_profil"
+                android:layout_marginTop="@dimen/dimens_11px"
+
+                android:textSize="@dimen/txt_15_sp"
+                android:textColor="@color/color_text_petit"
+                android:textStyle="bold"
+                android:gravity="center"
+
+
+                android:padding="@dimen/dimens_11px"
+                />
+
+
+                 <TextView
+                     android:id="@+id/id"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+
+                     android:text="@string/id"
+                     android:textColor="@color/color_text_login_and_cadre"
+                     android:textSize="@dimen/txt_15_sp"
+                     android:textStyle="bold"
+                     app:layout_constraintStart_toStartOf="parent"
+                     app:layout_constraintEnd_toStartOf="@id/txt_id"
+                     app:layout_constraintBottom_toBottomOf="parent"
+                     android:layout_marginBottom="@dimen/dimens_420px"
+                     android:layout_marginTop="@dimen/dimens_220px"
+                     android:layout_marginStart="@dimen/dimens_55px"
+                     android:layout_marginEnd="@dimen/dimens_55px"
+                     app:layout_constraintTop_toBottomOf="@id/Win_percentage"/>
+
+                 <TextView
+                     android:id="@+id/txt_id"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:textColor="@color/tit"
+                     android:textSize="@dimen/txt_13_sp"
+                     android:textStyle="bold"
+                     app:layout_constraintStart_toEndOf="@id/id"
+                     app:layout_constraintEnd_toStartOf="@id/btn_share_id"
+                     app:layout_constraintTop_toTopOf="@id/id"
+                     app:layout_constraintBottom_toBottomOf="@id/id"
+                     />
+
+
+
+          <!--  <ImageButton
+                android:id="@+id/btn_edit"
+                android:layout_width="@dimen/dimen_100_px"
+                android:layout_height="@dimen/dimen_100_px"
+                app:layout_constraintTop_toBottomOf="@id/img_country"
+                app:layout_constraintEnd_toStartOf="@id/btn_info"
+                app:layout_constraintStart_toStartOf="@id/txt_name"
+                android:layout_margin="@dimen/demens_23px"
+                android:src="@drawable/edit"
+                android:background="@drawable/selector_retate_table"
+                tools:ignore="ContentDescription" />-->
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_45px"
+                android:background="@drawable/btn_search_bluetooth"
+                android:text="@string/edit"
+                android:textAllCaps="false"
+                android:textSize="@dimen/txt_13_sp"
+                android:gravity="start|center_vertical"
+                android:textStyle="bold"
+                android:textColor="@color/color_text_login_and_cadre"
+
+                app:layout_constraintTop_toBottomOf="@id/img_country"
+                app:layout_constraintEnd_toEndOf="@id/n"
+                app:layout_constraintStart_toStartOf="@id/n"
+
+
+                android:drawableEnd="@drawable/edit"
+                android:drawableRight="@drawable/edit"
+
+
+                android:paddingEnd="@dimen/demens_23px"
+                android:paddingStart="@dimen/demens_23px"
+                android:drawablePadding="@dimen/dimens_55px"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/img_current_level"
+                android:layout_width="@dimen/dimens_45dp"
+                android:layout_height="@dimen/dimens_45dp"
+                android:gravity="center"
+                android:textColor="#272727"
+                android:textSize="@dimen/txt_10_sp"
+                android:textStyle="bold"
+
+
+                app:layout_constraintEnd_toEndOf="@id/image_profil"
+                app:layout_constraintBottom_toBottomOf="@id/image_profil"
+
+                />
+
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                style="?android:attr/progressBarStyleHorizontal"
+
+                android:layout_width="0dp"
+                app:layout_constraintWidth_percent="0.75"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintTop_toBottomOf="@id/img_next_level"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="@dimen/dimens_45px"
+
+
+             />
+
+
+
+            <TextView
+                android:id="@+id/txt_point_experience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimens_5px"
+                android:textSize="@dimen/txt_10_sp"
+                android:textColor="@color/color_text_login_and_cadre"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@id/progressbar"
+                app:layout_constraintBottom_toTopOf="@id/progressbar" />
+
+            <TextView
+                android:id="@+id/img_next_level"
+                android:layout_width="@dimen/dimens_220px"
+                android:layout_height="@dimen/dimens_220px"
+                android:gravity="center"
+                android:textColor="#272727"
+                android:textSize="@dimen/txt_20_sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_edit"
+                android:layout_marginTop="@dimen/dimens_130px"/>
+
+
+
+                 <ImageButton
+                     android:id="@+id/btn_share_id"
+                     android:layout_width="@dimen/dimens_97px"
+                     android:layout_height="@dimen/dimens_97px"
+                     app:layout_constraintTop_toTopOf="@id/id"
+                     app:layout_constraintBottom_toBottomOf="@id/id"
+                     app:layout_constraintStart_toEndOf="@id/txt_id"
+                     app:layout_constraintEnd_toEndOf="parent"
+                     android:scaleType="centerInside"
+                     android:src="@drawable/copy"
+                     android:background="@drawable/selector_retate_table"
+                     android:layout_margin="@dimen/dimens_55px"
+                     tools:ignore="ContentDescription" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/total_win"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_180px"
+                    android:gravity="center"
+                    android:text="@string/total_winnings"
+                    android:textColor="@color/tit"
+                    android:textSize="@dimen/txt_15_sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/text_total_win"
+                    app:layout_constraintTop_toBottomOf="@id/progressbar"/>
+
+                <TextView
+                    android:id="@+id/text_total_win"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:maxWidth="@dimen/dimens_460px"
+                    android:textColor="@color/color_text_petit"
+                    android:textSize="@dimen/txt_15_sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@id/total_win"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/total_win"
+                    app:layout_constraintTop_toTopOf="@id/total_win"
+                    android:drawablePadding="@dimen/dimens_18px"
+                    app:drawableEndCompat="@drawable/coins" />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/rank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_32px"
+                    android:gravity="center"
+                    android:text="@string/rank"
+
+                    android:textColor="@color/tit"
+                    android:textSize="@dimen/txt_15_sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@id/total_win"
+                    app:layout_constraintTop_toBottomOf="@id/total_win" />
+
+                <TextView
+                    android:id="@+id/text_rank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/color_text_petit"
+                    android:textSize="@dimen/txt_15_sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@id/rank"
+                    app:layout_constraintStart_toStartOf="@id/text_total_win"
+                    app:layout_constraintTop_toTopOf="@id/rank" />
+
+
+
+
+                <TextView
+                    android:id="@+id/Games_won"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_32px"
+
+                    android:gravity="center"
+                    android:text="@string/games_won"
+
+                    android:textColor="@color/tit"
+                    android:textSize="@dimen/txt_15_sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@id/total_win"
+                    app:layout_constraintTop_toBottomOf="@id/rank" />
+
+                <TextView
+                    android:id="@+id/text_Games_won"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:maxWidth="@dimen/dimens_460px"
+                    android:textColor="@color/color_text_petit"
+                    android:textSize="@dimen/txt_15_sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@id/Games_won"
+                    app:layout_constraintStart_toStartOf="@id/text_total_win"
+                    app:layout_constraintTop_toTopOf="@id/Games_won" />
+
+
+                <TextView
+                    android:id="@+id/Win_percentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_32px"
+
+                    android:gravity="center"
+                    android:text="@string/win_percentage"
+
+                    android:textColor="@color/tit"
+                    android:textSize="@dimen/txt_15_sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="@id/total_win"
+                    app:layout_constraintTop_toBottomOf="@id/Games_won" />
+
+                <TextView
+                    android:id="@+id/text_Win_percentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:textColor="@color/color_text_petit"
+                    android:textSize="@dimen/txt_15_sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@id/Win_percentage"
+                    app:layout_constraintStart_toStartOf="@id/text_total_win"
+                    app:layout_constraintTop_toTopOf="@id/Win_percentage" />
+
+
+
+            <TextView
+                android:id="@+id/img_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="@dimen/txt_15_sp"
+                android:textStyle="bold"
+                android:textColor="@color/color_text_login_and_cadre"
+
+                app:layout_constraintStart_toStartOf="@id/txt_name"
+                app:layout_constraintEnd_toEndOf="@id/txt_name"
+                app:layout_constraintTop_toBottomOf="@id/txt_name"
+                android:layout_marginTop="@dimen/dimens_11px"
+
+
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

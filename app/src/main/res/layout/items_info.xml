@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_18px"
+
+        android:textColor="@color/color_text_petit"
+        android:textSize="@dimen/txt_20_sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        android:layout_margin="@dimen/dimens_55px"/>
+
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_18px"
+        android:textColor="@color/tit"
+        android:textSize="@dimen/txt_15_sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/title"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="@dimen/dimens_32px"/>
+
+    <WebView
+        android:id="@+id/videoView"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        app:layout_constraintTop_toBottomOf="@id/txt_description"
+        android:layout_marginTop="@dimen/dimens_45px"
+        android:visibility="invisible"
+        tools:ignore="WebViewLayout" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_wait"
+        app:lottie_rawRes="@raw/load"
+        app:lottie_speed="2"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+
+        android:layout_width="@dimen/dimens_550px"
+        android:layout_height="@dimen/dimens_550px"
+        app:layout_constraintStart_toStartOf="@id/videoView"
+        app:layout_constraintEnd_toEndOf="@id/videoView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_description"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btn_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/dimens_850px"
+
+        android:background="@drawable/btn_selector_play_local_match"
+
+        android:gravity="center"
+        android:text="@string/applique"
+        android:textAllCaps="false"
+        android:textSize="@dimen/txt_15_sp"
+        android:textStyle="bold"
+        android:textColor="@color/color_text_login_and_cadre"
+
+
+        app:layout_constraintTop_toBottomOf="@id/txt_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/dimens_32px"
+
+        android:drawableEnd="@drawable/video"
+        android:drawableRight="@drawable/video"
+        android:padding="@dimen/dimens_32px"
+        android:drawablePadding="@dimen/dimens_32px"
+        android:layout_marginTop="@dimen/dimens_55px"
+
+        android:visibility="gone"
+        />
+
+    <com.joooonho.SelectableRoundedImageView
+        android:id="@+id/image_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_description"
+
+        android:layout_margin="@dimen/dimens_45px"
+
+        app:sriv_right_bottom_corner_radius="@dimen/dimens_18px"
+        app:sriv_left_bottom_corner_radius="@dimen/dimens_18px"
+        app:sriv_right_top_corner_radius="@dimen/dimens_18px"
+        app:sriv_left_top_corner_radius="@dimen/dimens_18px"
+        android:visibility="gone"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

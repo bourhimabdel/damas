@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <item
+        android:id="@+id/arab"
+        android:icon="@drawable/arabe_logo"
+        android:title="@string/arabic"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="7"
+
+        />
+    <item
+        android:id="@+id/english"
+        android:icon="@drawable/english_logo"
+        android:title="@string/english"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="1"
+        />
+    <item
+        android:id="@+id/french"
+        android:icon="@drawable/french_logo"
+        android:title="@string/french"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="2"
+        />
+    <item
+        android:id="@+id/spanish"
+        android:icon="@drawable/spain_logo"
+        android:title="@string/spanish"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="3"
+        />
+    <item
+        android:id="@+id/hindi"
+        android:icon="@drawable/hindi_logo"
+        android:title="@string/hindi"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="4"
+        />
+    <item
+        android:id="@+id/japon"
+        android:icon="@drawable/japon_logo"
+        android:title="@string/japanese"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="5"
+        />
+    <item
+        android:id="@+id/russu"
+        android:icon="@drawable/ressu_logo"
+        android:title="@string/russian"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="6"
+        />
+    <item
+        android:id="@+id/default_l"
+        android:icon="@drawable/language_"
+        android:title="@string/def"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="8"
+        />
+
+
+
+</menu>

@@ -1,0 +1,55 @@
+{
+  "info":{
+    "info_1":{
+      "title":"How can I Sign in ?",
+      "description":"you can sign in by three providers :\n⬤ Google\n⬤ Facebook\n⬤ anonymous ( Visitor )\n\nafter you sign in successfully with Google or Facebook , we use your picture and your name only .\nif you select to sign in like a visitor , your name will be your phone name ,and your picture will be an empty picture.\nif you select to sign in like a visitor , you can link your account to an facebook acount or google acount to save your data (friends and score of matches , points of experience, coins collected and more user data) in the Setting place.\nif you want to link your anonymous account to a google account or facebook account ,you must use an account not sign in before\nin the application.\nand finally you can log out at any time you want.",
+      "lien":"D9lXAW6UjvU"
+    },
+    "info_2":{
+      "title":"How can I add friends ?",
+      "description":"There is two methods to add a friends : \n⬤ Sent a request to a friend. \n⬤ accept a request received from a fiends.\n\nhow can i sent a request ?\ntell a friend to sent you her id (is available in account place and also in play online place in application)\nand copy this id ,open dama application and go to sent place ,and paste the id in the id place \nand click to add , you can see the request sented in to bottom list.\nyour fiend will recieve your request , If the request is accepted, you and your friend will be friends in the application.\n\nhow can i accept a request received ?\njust go to recieved requests and click accept  friend you want to accept .\n\nNote : if a friend sent you a request and this request not come or take a long time to coming , i advice you to reload or refrech the list\nby swip from the top to bottom , the application get all request recived from the server automaticly  .\nyou can do also in the play list or \u200Bthe sent list.",
+      "lien":"TNhf9iGUq_E"
+    },
+    "info_3":{
+      "title":"How can I start a random match online ?",
+      "description":"Simply click on the price you want to play at, and our servers will search for a player for you",
+      "lien":""
+    },
+    "info_4":{
+      "title":"How can I start an online match ?",
+      "description":"There is one method to start an online match :\n⬤ play with friend:\n     ⬤ sent challenge.\n          or\n     ⬤ accept challenge.\n\nsent challenge :\ngo to play place and click into your friend image or name ,\nthe application automatically propose  to you multi price :\n⬤ 100 coins\n⬤ 500 coins\n⬤ 2.5 K coins\n⬤ 10 K coins\n⬤ 50 K coins\n⬤ 100 K coins\n⬤ 500 K coins\n⬤ 2.5 M coins\n⬤ 10 M coins\nchose one of them , and application will sent your challenge\nto your friend ,if your friend accept your challenge , a notification will be apear in your phone or in list of your friends ,you must just click in play and match will be starting automatically .\n\naccept challenge:\nif a friend challenge you , you can see in the list of friends this challenge.\nif you click in play that means you accept this challenge \nif you have the price of this challenge the match start with initial price \n if you don't have the application create the match with what you have of money\nexample :\nyour friend challenge you with 10K\nand you have only 216 coins\nthe match start automatically with 100 coins\n\n\uD83D\uDD34 Note :\nif you don't have the minimum price to play an online match\nthe application propose you to collect more coins",
+      "lien":"glN1biw7b8A"
+    },
+    "info_5":{
+      "title":"If I win an online match ?",
+      "description":"if i win an online match , i get the price of match * 2 \nExample : \nif i play a match of 2.5 K coins , i will win 5 K coins.",
+      "lien":"6v_Yl1vTDYs"
+    },
+    "info_6":{
+      "title":"What about score ?",
+      "description":"when i have a friend , the application record the score of matches between me and he.\nThe score appear like this :\n                   { Score : A-B }\n⬤ A = its the number of matches i win.\n⬤ B = its the number of matches i lose (friend win).",
+      "lien":"keOxan3vCDk"
+    },
+    "info_7":{
+      "title":"How can i start a bluetooth match ?",
+      "description":"You can start a Bluetooth match with a friend who is close to you in terms of distance. \nThe tools needed in your phone: \n   ⬤ the bluetooth technology\n   ⬤ the location technology\n\nThis two technology help us to connect your phone with your friend phone .\nwhen I active this two last element , I click in \" Find someone to play with with bluetooth \" button, the application will showing two list :\n ⬤ list of paired devices\n ⬤ list of unpaired devices\n\nif the phone of my friend is in list of paired devices ,I just click in play button and a match will be start.\n\nif the phone of my friend is in list of unpaired devices, i need to click in \"Pair the device\" button , after the device paired successfully\nthe application move it to list of paired devices , and now you can play with he.\n\n\uD83D\uDD34 Note : the price of a bluetooth match is 75 coins , no one win something after a bluetooth match.",
+      "lien":"evN0Y87CVT8"
+    },
+
+    "info_8":{
+      "title":"How can i start a local match ?",
+      "description":"You can play a local match with a friend in your phone .\n\n\uD83D\uDD34 Note : the price of a local match is 25 coins .",
+      "lien":"n93pJYEh124"
+    },
+    "info_9":{
+      "title":"How can i collect more coins ?",
+      "description":"you can collect more coins in three methods : \n ⬤ win online matches. \n ⬤ get the periodic reward. \n ⬤ watch the reward ads video. \n\nabout win online matches , when i challenge a friend by 500 coins\nand i win the match i will get 1 K coins.\n\nabout the periodic reward, in the add coins place there is a circle \nin the top of page , when i swip this circle and let it return to his place , it give me 25 coins .\nand after 10 minutes it will be ready again to swiped .\n\nabout watch the reward ads vedio , there is three type of reward video ads :\n ⬤ orange reward.\n ⬤ green reward (locked in default).\n ⬤ blue reward (locked in default).\n\nif you watch the orange video, you will win  75 coins + the green video will be unlocked .\nif you watch the green video, you will win 125 coins + the blue vedio will be unlocked .\nif you watch the blue video, you will win 175 coins + the  application start a timer of 1h to unlocked again the orange ad.",
+      "lien":"gdjv0LYNpQ8"
+    },
+    "info_10":{
+      "title":"What about settings in this application ?",
+      "description":"There are multiple settings in this app:\n ⬤ Theme\n ⬤ Bottom navigation bar\n ⬤ Language\n ⬤ Sound\n ⬤ Vibration\n\nabout the theme setting, you can switch between the day and night mode.\nabout the bottom navigation bar setting, you can switch between show or hide this last.\nabout the language setting, you can swith between 7 language into the application.\nabout the sound setting, you can use the application with sound or without.\nabout the vibration setting, you can use the application with vibration or without.\n\n\nAlso in the setting place , \nyou can linking your account to a google account or facebook account if you are a visitor.\nand you can rate us in play store.\nand  you can share the link of application with others.\nand you can learn more about this application.\nalso you can log out .",
+      "lien":"AAC3yqiHtJc"
+    }
+  }
+}

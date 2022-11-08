@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <View
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="50dp"
+        android:layout_height="3dp"
+        android:background="@drawable/bg_bottom_sheet_view"
+        android:alpha=".90" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_show_data_use">
+        <View
+
+            android:id="@+id/n"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/image_profil"
+            android:layout_marginBottom="@dimen/dimens_130px"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+
+
+            android:background="@drawable/circle_frag_account"
+            />
+
+        <View
+            android:id="@+id/cancel_line"
+            android:layout_width="@dimen/dimens_200px"
+            android:layout_height="@dimen/dimens_70px"
+
+            android:background="@drawable/flech"
+            android:layout_marginTop="@dimen/dimens_32px"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            android:visibility="invisible"
+            />
+
+
+        <View
+            android:background="@drawable/back_image_snack"
+            android:layout_width="@dimen/dimens_460px"
+            android:layout_height="@dimen/dimens_460px"
+            app:layout_constraintStart_toStartOf="@id/image_profil"
+            app:layout_constraintTop_toTopOf="@id/image_profil"
+            app:layout_constraintEnd_toEndOf="@id/image_profil"
+            app:layout_constraintBottom_toBottomOf="@id/image_profil"
+            />
+
+        <com.joooonho.SelectableRoundedImageView
+            android:id="@+id/image_profil"
+            android:layout_width="@dimen/dimens_420px"
+            android:layout_height="@dimen/dimens_420px"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cancel_line"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/dimens_55px"
+            android:scaleType="centerCrop"
+            app:sriv_oval="true" />
+
+
+
+        <TextView
+            android:id="@+id/img_current_level"
+            android:layout_width="@dimen/dimens_180px"
+            android:layout_height="@dimen/dimens_180px"
+            android:gravity="center"
+            android:textColor="#272727"
+            android:textSize="@dimen/txt_20_sp"
+            android:textStyle="bold"
+
+
+            app:layout_constraintStart_toEndOf="@id/image_profil"
+            app:layout_constraintEnd_toEndOf="@id/image_profil"
+
+            app:layout_constraintBottom_toBottomOf="@id/image_profil"
+            />
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:maxWidth="@dimen/dimens_550px"
+
+            app:layout_constraintTop_toBottomOf="@id/image_profil"
+            android:layout_marginTop="@dimen/dimens_11px"
+            app:layout_constraintStart_toStartOf="@id/image_profil"
+            app:layout_constraintEnd_toEndOf="@id/image_profil"
+
+            android:textSize="@dimen/txt_15_sp"
+            android:textColor="@color/color_text_petit"
+            android:textStyle="bold"
+            android:gravity="center"
+
+
+            android:padding="@dimen/dimens_11px"
+            />
+
+        <!--      Player Static   -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/static_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimens_55px"
+            android:layout_marginBottom="@dimen/dimens_130px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_add"
+            >
+
+
+
+            <TextView
+                android:id="@+id/total_win"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_70px"
+                android:gravity="center"
+                android:text="@string/total_winnings"
+                android:textColor="@color/tit"
+                android:textSize="@dimen/txt_13_sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/text_total_win"/>
+
+            <TextView
+                android:id="@+id/text_total_win"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxWidth="@dimen/dimens_460px"
+                android:textColor="@color/color_text_petit"
+                android:textSize="@dimen/txt_15_sp"
+                android:text=""
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/total_win"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/total_win"
+                app:layout_constraintTop_toTopOf="@id/total_win"
+                android:drawablePadding="@dimen/dimens_18px"
+                app:drawableEndCompat="@drawable/coins" />
+
+
+
+
+            <TextView
+                android:id="@+id/rank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/demens_23px"
+                android:gravity="center"
+                android:text="@string/rank"
+                android:textColor="@color/tit"
+                android:textSize="@dimen/txt_13_sp"
+                android:textStyle="bold"
+
+                app:layout_constraintStart_toStartOf="@id/total_win"
+                app:layout_constraintTop_toBottomOf="@id/total_win" />
+
+            <TextView
+                android:id="@+id/text_rank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/color_text_petit"
+                android:textSize="@dimen/txt_15_sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/rank"
+                app:layout_constraintStart_toStartOf="@id/text_total_win"
+                app:layout_constraintTop_toTopOf="@id/rank" />
+
+
+            <TextView
+                android:id="@+id/Games_won"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/demens_23px"
+                android:gravity="center"
+                android:text="@string/games_won"
+                android:textColor="@color/tit"
+                android:textSize="@dimen/txt_13_sp"
+                android:textStyle="bold"
+
+                app:layout_constraintStart_toStartOf="@id/total_win"
+                app:layout_constraintTop_toBottomOf="@id/rank" />
+
+            <TextView
+                android:id="@+id/text_Games_won"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxWidth="@dimen/dimens_460px"
+                android:textColor="@color/color_text_petit"
+                android:textSize="@dimen/txt_15_sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/Games_won"
+                app:layout_constraintStart_toStartOf="@id/text_total_win"
+                app:layout_constraintTop_toTopOf="@id/Games_won" />
+
+
+            <TextView
+                android:id="@+id/Win_percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/demens_23px"
+                android:gravity="center"
+                android:text="@string/win_percentage"
+                android:textColor="@color/tit"
+                android:textSize="@dimen/txt_13_sp"
+                android:textStyle="bold"
+
+
+                app:layout_constraintStart_toStartOf="@id/total_win"
+                app:layout_constraintTop_toBottomOf="@id/Games_won"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="@dimen/dimens_70px"/>
+
+            <TextView
+                android:id="@+id/text_Win_percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/color_text_petit"
+                android:textSize="@dimen/txt_15_sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/Win_percentage"
+                app:layout_constraintStart_toStartOf="@id/text_total_win"
+                app:layout_constraintTop_toTopOf="@id/Win_percentage" />
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/img_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textSize="@dimen/txt_15_sp"
+            android:textStyle="bold"
+            android:textColor="@color/color_text_login_and_cadre"
+
+            app:layout_constraintStart_toStartOf="@id/txt_name"
+            app:layout_constraintEnd_toEndOf="@id/txt_name"
+            app:layout_constraintTop_toBottomOf="@id/txt_name"
+            android:layout_marginTop="@dimen/dimens_11px"
+
+
+            />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimens_45px"
+            android:background="@drawable/btn_copy_id"
+            app:layout_constraintWidth_percent="0.5"
+            android:text="@string/add"
+            android:textAllCaps="false"
+            android:textSize="@dimen/txt_13_sp"
+            android:gravity="start|center_vertical"
+            android:textStyle="bold"
+            android:textColor="@color/color_text_login_and_cadre"
+
+            app:layout_constraintTop_toBottomOf="@id/img_country"
+            app:layout_constraintEnd_toEndOf="@id/n"
+            app:layout_constraintStart_toStartOf="@id/n"
+
+
+            android:drawableEnd="@drawable/add_plean_"
+            android:drawableRight="@drawable/add_plean_"
+
+
+            android:paddingEnd="@dimen/demens_23px"
+            android:paddingStart="@dimen/demens_23px"
+            android:drawablePadding="@dimen/dimens_55px"
+            tools:ignore="RtlSymmetry"
+            android:visibility="gone"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

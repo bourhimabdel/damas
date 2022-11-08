@@ -1,0 +1,44 @@
+{
+  "rule":{
+    "rule_1":{
+      "title":"Game description",
+      "description":"There are two players in the game, first player and second player, each player has 12 pieces that he can play with.\nThe game table consists of 64 squares, 32 in white and 32 in black.",
+      "lien":"image"
+    },
+    "rule_2":{
+      "title":"How can i get the role ?",
+      "description":"The application gives each player a 30-second turn, to think of the most suitable piece to move, after the opponent plays, the turn is automatically transferred to you",
+      "lien":"nNG3D83rvlg"
+    },
+    "rule_3":{
+      "title":"How can i move a piece ?",
+      "description":"When it's your turn, the app will suggest to you every piece that can move, you can see the pieces are burning, when you touch a piece, the app will suggest places you can go and color it green, when you touch a green square, the piece will automatically move to its place.\nYour pieces can only move forward toward the opponent's pieces and cannot go backwards.\n\n\n\uD83D\uDD34 Note: You can touch all the pieces that can move and then choose the most suitable ones",
+      "lien":"lNmzkntNh4k"
+    },
+    "rule_4":{
+      "title":"How can i eat the opponent pieces ?",
+      "description":"Conditions for eating the opponent's pieces:\n     ⚫ One of the opponent's pieces is in the same column as yours\n     ⚫ be in the direction of its movement\n     ⚫ The box next to the opponent's piece is empty\nYour piece can pass to the empty square and eat the opponent's piece\n\n\uD83D\uDD34 Note: If you ate one of the opponent's pieces and the conditions for eating another of the opponent's pieces are met with the same piece you ate the first time, you can eat again until the conditions are over.",
+      "lien":"LLrYv3Cp_BY"
+    },
+    "rule_5":{
+      "title":"Eat or move ?",
+      "description":"When there is an opportunity to eat or several opportunities to eat at once\nThe application will only give you the right to eat and you cannot neglect the opportunity to eat\nMovement is only when there is no opportunity to eat",
+      "lien":"null"
+    },
+    "rule_6":{
+      "title":"How can a normal piece be a king piece ?",
+      "description":"When you pass one of your pieces to the last row of your opponent's pieces\nThis piece turns from a normal piece to a king piece",
+      "lien":"t0eXC9SFZKE"
+    },
+    "rule_7":{
+      "title":"Conditions for moving and eating for the king piece ",
+      "description":"Movement conditions:\n    ⚫ Move over several empty squares\n    ⚫ Moves back and forth\nEating conditions:\n    ⚫ Eat pieces in the same column\n    ⚫ without a condition that he be next to him \n    ⚫ But provided that there is an empty square next to it",
+      "lien":"P78xAQMtuLk"
+    },
+    "rule_8":{
+      "title":"How can i win a match",
+      "description":"I can win in case : \n    ⚫ I ate all the opponent's pieces\n    ⚫ Make the opponent unable to move a piece\n    ⚫ The opponent left the game voluntarily or technically (internet or bluetooth problem)",
+      "lien":"6v_Yl1vTDYs"
+    }
+  }
+}

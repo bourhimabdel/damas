@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">لعبة الداما</string>
+    <string name="Login_while">المصادقة قيد التقدم …</string>
+    <string name="sign_in_with_us">يتيح لك تسجيل الدخول الحصول على معرف داخل التطبيق.</string>
+    <string name="sign_in_with_go">تسجيل الدخول عبر جوجل</string>
+    <string name="sign_in_with_fb">تسجيل الدخول باستخدام الفيسبوك</string>
+    <string name="login_success">نجاح المصادقة</string>
+    <string name="try_again">حاول مجددا</string>
+    <string name="setting">ضبط</string>
+    <string name="account">حساب</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="coins">عملات معدنية</string>
+    <string name="theme">الوضع</string>
+    <string name="light">ضوء</string>
+    <string name="night">ليل</string>
+    <string name="bottom_navigation_bar">شريط التنقل السفلي</string>
+    <string name="not_activated">غير مفعل</string>
+    <string name="activated"> مفعل</string>
+    <string name="language"> لغة</string>
+    <string name="five_stars">خمس نجوم \nمن فضلك</string>
+    <string name="share_the_app">شارك التطبيق \nمع أصدقائك</string>
+    <string name="share">شارك</string>
+    <string name="store">تقييم</string>
+    <string name="log_out">تسجيل خروج</string>
+    <string name="arabic">عربي</string>
+    <string name="english">إنجليزي</string>
+    <string name="french">فرنسي</string>
+    <string name="spanish">الأسبانية</string>
+    <string name="hindi">هندي</string>
+    <string name="japanese">اليابانية</string>
+    <string name="russian">الروسية</string>
+    <string name="yes_log_out">نعم أريد تسجيل الخروج</string>
+    <string name="log_out_q">هل تريد حقًا تسجيل الخروج؟</string>
+    <string name="no">لا</string>
+    <string name="about_the_app">حول التطبيق</string>
+    <string name="read">اقرأ</string>
+    <string name="share_text">لعبة</string>
+    <string name="Lien_text">رابط التطبيق في المتجر</string>
+    <string name="request_sent">تم إرسال طلب لإحضار إعلان ، ننتظر الرد في غضون ثوان</string>
+    <string name="request_gain_an_ads">الإعلان جاهز شاهده واربح المكافأة</string>
+    <string name="request_failed_no_ads">كان طلب الإعلان ناجحًا ، ولكن لم يتم إرجاع أي إعلان بسبب نقص المخزون الإعلاني ، أو لا توجد إعلانات متوافقة مع التكلفة الفعلية لكل ألف ظهور في منطقتك ، سنحاول مرة أخرى بمجرد انتهاء العداد.</string>
+    <string name="request_failed_no_internet">لم ينجح طلب الإعلان بسبب اتصال الشبكة ، سنحاول مرة أخرى بمجرد انتهاء العداد.</string>
+    <string name="swipe">انتقد</string>
+    <string name="oureo"> $</string>
+    <string name="seconde">ث</string>
+    <string name="ecpm">١ فيديو </string>
+    <string name="wait">انتظر …</string>
+    <string name="no_account_found">لم يتم العثور على اي حساب بالمعرف:</string>
+    <string name="add_you_self">لا يمكنك إضافة نفسك كصديق</string>
+    <string name="type_the_ID">اكتب المعرف قبل النقر فوق إضافة</string>
+    <string name="deleting">جارٍ الحذف …</string>
+    <string name="refuse">رفض</string>
+    <string name="accepting"> يتم القبول …</string>
+    <string name="accept">تمت الموافقة بنجاح</string>
+    <string name="wait_re">في انتظار الرد من</string>
+    <string name="three_p">…</string>
+    <string name="lets_play">هيا بنا لنلعب</string>
+    <string name="log_in_as_a_visitor">تسجيل الدخول كزائر</string>
+    <string name="b_i_n_a">البلوتوث غير متوفر</string>
+    <string name="type_a_message">اكتب رسالة …</string>
+    <string name="retry_again_to_connect_with">أعد المحاولة للاتصال بـ</string>
+    <string name="you_are_offline">انت غير متصل</string>
+    <string name="you_are_online">أنت متصل</string>
+    <string name="we_are_waiting_for_your_friend">نحن ننتظر صديقك</string>
+    <string name="read_more_information_about_this_game_and_watch_videos">اقرأ المزيد من المعلومات حول هذه اللعبة وشاهد مقاطع الفيديو:</string>
+    <string name="learn_the_rules_of_the_game">تعرف على قواعد اللعبة:</string>
+    <string name="id">هوية شخصية :</string>
+    <string name="level_progress_and_personal_data">مستوى التقدم والبيانات الشخصية</string>
+    <string name="statistics_of_playing_online_matches">إحصائيات لعب المباريات عبر الإنترنت</string>
+    <string name="total_winnings">إجمالي الأرباح :</string>
+    <string name="coins_wallet">محفظة عملات معدنية:</string>
+    <string name="rank">مرتبة :</string>
+    <string name="games_won">الألعاب التي فازت بها:</string>
+    <string name="win_percentage">نسبة الفوز :</string>
+    <string name="n_75_coins_n_open_green_ads"> \n⬤ +٧٥ قطعة نقدية \n⬤ افتح الإعلانات الخضراء</string>
+    <string name="n_125_coins_n_open_blue_ads">\n⬤ +١٢٥ قطعة نقدية \n⬤ فتح إعلانات زرقاء</string>
+    <string name="n_175_coins_n">⬤ +١٧٥ قطعة نقدية</string>
+    <string name="add_some_friends_to_play_online">أضف بعض الأصدقاء للعب عبر الإنترنت</string>
+    <string name="start_bluetooth_match">ابدأ مباراة البلوتوث</string>
+    <string name="in_order_to_play_a_bluetooth_match_you_must_activate_the_2_elements">من أجل لعب مباراة بلوتوث ، يجب عليك تنشيط العنصرين</string>
+    <string name="find_someone_to_play_with_with_bluetooth">ابحث عن شخص ما لبدء مباراة بلوتوث</string>
+    <string name="paired_devices">الأجهزة المقترنة</string>
+    <string name="unpaired_devices">الأجهزة غير المقترنة</string>
+    <string name="_1_match_for_75">مباراة واحدة مقابل ٧٥</string>
+    <string name="about_start_bluetooth_match">حول</string>
+    <string name="start_online_match"> ابدأ مباراة عبر الإنترنت</string>
+    <string name="tap_to_get_your_id">المعرف الخاص بك</string>
+    <string name="about_start_online_match"> حول بدء المباراة عبر الإنترنت</string>
+    <string name="start_local_match"> ابدأ مباراة محلية</string>
+    <string name="play_a_local_match_with_someone"> العب مباراة محلية مع شخص ما</string>
+    <string name="_1_match_for_25"> مباراة واحدة مقابل ٢٥</string>
+    <string name="about_start_local_match">حول</string>
+    <string name="no_friend_request_yet"> لا يوجد طلب صداقة حتى الآن</string>
+    <string name="type_or_paste_the_id_of_your_friend"> اكتب أو الصق معرّف صديقك</string>
+    <string name="add"> اضافة</string>
+    <string name="list_request"> قائمة الطلبات :</string>
+    <string name="no_request_sent_yet"> لم يتم إرسال أي طلب حتى الآن</string>
+    <string name="sound">الصوت</string>
+    <string name="vibration"> اهتزاز</string>
+    <string name="save_your_account_by_linking_it_to_a_facebook_account"> احفظ حسابك بربطه بحساب فايسبوك</string>
+    <string name="save_your_account_by_linking_it_to_a_google_account"> احفظ حسابك بربطه بحساب كووكل</string>
+    <string name="ok"> نعم</string>
+    <string name="pair_the_device"> قم بإقران الجهاز</string>
+    <string name="play">العب</string>
+    <string name="accept_">قبول</string>
+    <string name="cancel">الغاء</string>
+    <string name="request_sent_">تم ارسال الطلب</string>
+    <string name="_100">١٠٠</string>
+    <string name="go_back">الرجوع</string>
+    <string name="core">نتيجة :\t</string>
+    <string name="Connected_successful">تم الاتصال بنجاح</string>
+    <string name="try_to_C">\tنحاول الاتصال مع\t</string>
+    <string name="waiting"> \tانتظار\t</string>
+    <string name="to_Come">\tليلتحق … \t</string>
+    <string name="pairing">في طور الاقتران …</string>
+    <string name="waiting_for_your_fr"> نحن ننتظر صديقك\t</string>
+    <string name="def">اللغة الاصلية</string>
+    <string name="sent">ارسال</string>
+    <string name="recieve">استلام</string>
+    <string name="_0">٠</string>
+    <string name="applique">شاهد مقطع فيديو لترى كيف يمكنك تطبيق هذه المعلومات</string>
+    <string name="we_are_create_match">نحن نصنع المباراة</string>
+    <string name="cancel_match">إلغاء المباراة</string>
+    <string name="friend_not_join">إذا لم ينضم صديقك ، قم بإلغاء هذه المباراة</string>
+    <string name="K">\tك</string>
+    <string name="M">\tم</string>
+    <string name="back">إذا عدت ، ستخسر هذه المباراة</string>
+    <string name="end">إذا لم ينضم صديقك ، فارجع</string>
+    <string name="congrats">تهانينا لقد فزت</string>
+    <string name="Point_of_experience">نقاط الخبرة</string>
+    <string name="Unfortunately">للأسف خسرت</string>
+    <string name="toplay">\n للعب مباراة محلية تحتاجها</string>
+    <string name="tocollect">لجمعها اذهب لإضافة عملات معدنية</string>
+    <string name="bluetooth">\n للعب مباراة بلوتوث ، تحتاج</string>
+    <string name="turn_on_bluetooth">يجب عليك تشغيل البلوتوث</string>
+    <string name="oth_and_loc">يجب عليك تشغيل البلوتوث والموقع</string>
+    <string name="y">يجب عليك تشغيل الموقع</string>
+    <string name="level">مستوى :</string>
+    <string name="ri">ليس دورك في اللعب الان !</string>
+
+    <string name="add_a_friend">أضف</string>
+    <string name="ollect">\tتحتاج على الاقل الى \t</string>
+    <string name="yo">\tلقد قمت بالفعل بإرسال طلب إلى\t</string>
+    <string name="re">\tلديك طلب منأضف صديق\t</string>
+    <string name="cce">\t، اقبله من مكان الاستلام\t</string>
+    <string name="ve">\tعندك\t</string>
+    <string name="is">\tفي قائمة أصدقائ\t</string>
+    <string name="lrea">\tلديك بالفعل طلب من\t</string>
+    <string name="an">\tقم بتحديث قائمة الاستلام واقبلها\t</string>
+
+
+    <string name="yoa">انت و</string>
+    <string name="are">اصدقاء الان</string>
+    <string name="invit">رفض دعوتك</string>
+    <string name="wants">يريد ان يكون صديقك</string>
+    <string name="with">اريد ان العب معك</string>
+    <string name="aiting_">أنا أنتظرك في الحلبة</string>
+    <string name="Rewar">المكافأة الدورية جاهزة ، احصل عليها</string>
+    <string name="Reward">مكافأة دورية</string>
+    <string name="hi">أهلا</string>
+    <string name="We">نأمل هذا</string>
+    <string name="sunday">يوم الأحد</string>
+    <string name="monday">الإثنين</string>
+    <string name="tuesday">يوم الثلاثاء</string>
+    <string name="wednesday">الأربعاء</string>
+    <string name="thursday">يوم الخميس</string>
+    <string name="friday">جمعة</string>
+    <string name="saturday">السبت</string>
+    <string name="well">يجدك بخير</string>
+
+    <string name="coming_soon">قريبا …</string>
+    <string name="start_a_random_match_online">ابدأ مباراة عشوائية عبر الإنترنت</string>
+    <string name="star_progress">تقدم النجوم :</string>
+
+    <string name="con">الشروط وسياسة الخصوصية</string>
+    <string name="i_accept">عند النقر فوق موافق ، ستستخدم اللعبة:\n⬤ ملف التعريف العام (الاسم + الصورة)\n⬤ البريد الإلكتروني (لتسجيل الدخول)</string>
+    <string name="i">أنا أقبل</string>
+
+    <string name="timer">الموقت</string>
+    <string name="virc">شريط التقدم الدائري</string>
+    <string name="text">نص</string>
+
+    <string name="sent_challenge">أرسل التحدي</string>
+
+    <string name="there_are_no_paired_devices">لا توجد أجهزة مقترنة</string>
+    <string name="we_could_not_detect_any_unpaired_device">لم نتمكن من الكشف عن أي جهاز غير مقترن</string>
+    <string name="lml">قم بتشغيل البلوتوث لرؤية الأجهزة المقترنة</string>
+    <string name="req">يلزم تشغيل البلوتوث والموقع للعثور على الأجهزة المجاورة</string>
+    <string name="mm">اجعل جهازك غير قابل للكشف</string>
+    <string name="mak">اجعل جهازك قابلاً للاكتشاف</string>
+    <string name="add_f">أضف أصدقاء جدد</string>
+    <string name="with_id">مع معرف</string>
+    <string name="randomly">بطريقة عشوائية</string>
+    <string name="open">افتح</string>
+    <string name="update">تحديث</string>
+    <string name="to">لفتح هذه الصورة تحتاج</string>
+    <string name="type_name">اكتب اسمك المفضل …</string>
+    <string name="need">لتغيير اسمك تحتاج</string>
+    <string name="it">يبدو أنه ليس لديك اسم</string>
+    <string name="name">اسم</string>
+    <string name="pic">صورة</string>
+
+
+    <string name="use">يستخدم</string>
+    <string name="select_new_picture">حدد صورة جديدة</string>
+    <string name="cashback">استرداد النقود</string>
+    <string name="replay">اعادتها</string>
+    <string name="p">الأرباح * 2</string>
+    <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+    <string name="vs">ضد</string>
+    <string name="look">كأنك تعبت من الإنتظار نعتذر</string>
+    <string name="country">دولة :</string>
+    <string name="m">د</string>
+    <string name="h">س</string>
+    <string name="year">عام</string>
+    <string name="month">شهر</string>
+    <string name="day">يوم</string>
+    <string name="edit">تعديل</string>
+    <string name="lev">مستوى</string>
+    <string name="id_m">يجب ألا يحتوي المعرف على</string>
+    <string name="b">ب</string>
+    <string name="t">تي</string>
+    <string name="q">س</string>
+    <string name="accepted_your_challenge">قبلت التحدي الخاص بك</string>
+    <string name="i_send_you_a_challenge">أرسل لك التحدي</string>
+    <string name="onlinz">اون لاين</string>
+    <string name="world">عالمي</string>
+    <string name="no_data_yet">لا توجد بيانات حتى الآن</string>
+    <string name="the_request_has_been_sent_successfully">تم إرسال الطلب بنجاح</string>
+
+    <string name="live_players">لاعبين مباشرين</string>
+    <string name="rando">عشوائي</string>
+    <string name="friend">أصدقاء</string>
+    <string name="bluetoot">بلوتوث</string>
+    <string name="local">محلي</string>
+
+
+    <string name="canot_play">لا أستطيع اللعب الآن</string>
+    <string name="lets_play_a">هيا نلعب مرة أخرى</string>
+    <string name="coo">الاتصال بالخادم</string>
+    <string name="w">في انتظار لاعب</string>
+    <string name="starting">بدء المباراة</string>
+
+
+    <string name="yesterday_s_heroes">أبطال الأمس</string>
+    <string name="today_t">أعلى نتيجة اليوم</string>
+    <string name="congrate">مبروك أنت الأول في</string>
+    <string name="con_g">تهانينا ، أنت الثاني في</string>
+    <string name="congra">مبروك انت الثالث في</string>
+
+    <string-array name="rang_name">
+        <item>متدرب</item>
+        <item>مبتدئ</item>
+        <item>طالب</item>
+        <item>هواة</item>
+        <item>محتال</item>
+        <item>شبه محترف</item>
+        <item>احترافي</item>
+        <item>فيرتوسو</item>
+        <item>خبير</item>
+        <item>محارب قديم</item>
+        <item>يتقن</item>
+        <item>جراند ماستر</item>
+        <item>أجاد</item>
+        <item>نجم النجوم</item>
+        <item>ملك</item>
+        <item>امبراطور داماس</item>
+    </string-array>
+</resources>

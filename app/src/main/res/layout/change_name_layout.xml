@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+
+        <View
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="50dp"
+        android:layout_height="3dp"
+        android:background="@drawable/bg_bottom_sheet_view"
+        android:alpha=".90" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_snack_bar">
+
+            <EditText
+                android:id="@+id/edt_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="@dimen/dimens_45px"
+                android:layout_marginEnd="@dimen/dimens_45px"
+                android:layout_marginTop="@dimen/dimens_70px"
+                android:hint="@string/type_name"
+
+                android:maxLength="20"
+                android:lines="1"
+                android:textColor="@color/color_text_login_and_cadre"
+                android:textStyle="bold"
+                android:textSize="@dimen/txt_20_sp"
+
+                android:gravity="start|center_vertical"
+                android:autofillHints="@string/type_or_paste_the_id_of_your_friend"
+                android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txt_prix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_id"
+
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/dimens_55px"
+
+        android:textColor="@color/color_text_login_and_cadre"
+        android:textSize="@dimen/txt_20_sp"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        android:background="@drawable/back_prix"
+
+        app:drawableEndCompat="@drawable/coins"
+        android:padding="@dimen/demens_23px"
+        android:drawablePadding="@dimen/demens_23px"
+
+        />
+
+            <Button
+                android:id="@+id/btn_ajj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_18px"
+                android:background="@drawable/btn_copy_id"
+                android:text="@string/update"
+                android:textAllCaps="false"
+                android:textSize="@dimen/txt_15_sp"
+                android:textColor="@color/color_text_login_and_cadre"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_prix"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="@dimen/dimens_45px"
+                android:drawableEnd="@drawable/update"
+                android:drawableRight="@drawable/update"
+
+                android:padding="@dimen/dimens_55px"
+                android:drawablePadding="@dimen/dimens_45px"
+
+                tools:ignore="RtlSymmetry" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

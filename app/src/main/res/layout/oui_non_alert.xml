@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back_select_price"
+  >
+
+  <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/color_text_login_and_cadre"
+      android:textSize="@dimen/txt_20_sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      android:layout_marginTop="@dimen/dimens_45px"
+      android:layout_marginStart="@dimen/dimens_32px"
+      android:layout_marginLeft="@dimen/dimens_32px" />
+
+  <TextView
+      android:id="@+id/discription"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:textColor="@color/color_text_login_and_cadre"
+      android:textSize="@dimen/txt_15_sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="@id/title"
+      app:layout_constraintTop_toBottomOf="@id/title"
+      app:layout_constraintEnd_toEndOf="parent"
+      android:layout_margin="@dimen/dimens_55px"/>
+
+
+
+  <Button
+      android:id="@+id/btn_oui"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:background="@drawable/btn_selector_refuse"
+      android:gravity="center"
+      android:textAllCaps="false"
+      android:textSize="@dimen/txt_15_sp"
+      android:textStyle="bold"
+      android:textColor="@color/color_text_login_and_cadre"
+
+
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/discription"
+      app:layout_constraintBottom_toBottomOf="parent"
+
+     android:layout_marginTop="@dimen/dimens_55px"
+      android:layout_marginBottom="@dimen/demens_23px"
+      />
+
+  <Button
+      android:id="@+id/btn_non"
+      android:layout_width="wrap_content"
+      android:layout_height="0dp"
+
+
+      android:background="@drawable/btn_selector_back_cancel"
+
+
+      app:layout_constraintEnd_toStartOf="@id/btn_oui"
+      app:layout_constraintBottom_toBottomOf="@id/btn_oui"
+      app:layout_constraintTop_toTopOf="@id/btn_oui"
+
+
+      android:layout_marginEnd="@dimen/dimens_32px"
+
+
+
+
+      android:textColor="@color/color_text_login_and_cadre"
+      android:gravity="center"
+      android:textSize="@dimen/txt_15_sp"
+      android:textAllCaps="false"
+
+      />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

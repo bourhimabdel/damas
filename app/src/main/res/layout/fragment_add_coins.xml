@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:layout_marginBottom="@dimen/dim_height_view_top"
+    tools:context=".fragment_add_coins">
+
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/sc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        style="@style/scrollbar_shape_style">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/dimens_97px">
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/periodic_reward"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/play_with_anynoums"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/dimens_45px"
+                app:layout_constraintBottom_toTopOf="@id/ads_faible"
+                app:layout_constraintWidth_percent="0.85"
+                android:padding="@dimen/dimens_45px"
+                >
+
+
+                <TextView
+                    android:id="@+id/txt_chrono_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toTopOf="@id/progressbar"
+
+
+                    android:textColor="@color/color_text_petit"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/txt_25_sp"
+                    android:layout_margin="@dimen/dimens_45px"
+                    />
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    style="?android:attr/progressBarStyleHorizontal"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+
+                    app:layout_constraintTop_toBottomOf="@id/txt_chrono_logo"
+                    app:layout_constraintBottom_toBottomOf="@id/progressbar"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+
+                    android:progressDrawable="@drawable/progress_9"
+                    android:max="600000"
+                    android:visibility="invisible"/>
+
+
+                <Button
+                    android:id="@+id/btn_collect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_selector_play_online__match"
+                    android:gravity="center"
+                    android:padding="@dimen/dimens_32px"
+                    android:text="@string/Rewar"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_text_login_and_cadre"
+                    android:textSize="@dimen/txt_15_sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+              />
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/ads_faible"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/ads_low"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/periodic_reward"
+                android:layout_marginTop="@dimen/dimens_45px"
+                app:layout_constraintBottom_toTopOf="@id/ads_normal"
+                app:layout_constraintWidth_percent="0.85"
+                >
+
+                <Button
+                    android:id="@+id/btn_low_ads"
+                    android:layout_width="@dimen/dimens_220px"
+
+                    android:layout_height="@dimen/dimens_220px"
+
+                    android:layout_marginTop="@dimen/dimens_45px"
+                    android:background="@drawable/btn_selector_play"
+                    app:layout_constraintEnd_toStartOf="@id/line_s_1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    android:enabled="false"
+                    />
+
+                <View
+                    android:id="@+id/line"
+                    android:layout_width="1dp"
+                    android:layout_height="1dp"
+                    android:background="@color/background_transparent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/line_s_1"
+                    android:layout_width="1dp"
+                    android:layout_height="0dp"
+                    android:background="@color/color_text_login_and_cadre"
+                    app:layout_constraintBottom_toBottomOf="@id/btn_low_ads"
+                    app:layout_constraintEnd_toStartOf="@id/txt_chrono_low_ads"
+                    app:layout_constraintStart_toEndOf="@id/btn_low_ads"
+                    app:layout_constraintTop_toTopOf="@id/btn_low_ads" />
+
+                <TextView
+                    android:id="@+id/txt_chrono_low_ads"
+                    android:layout_width="wrap_content"
+                    android:minWidth="@dimen/dimens_220px"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                   app:layout_constraintTop_toBottomOf="@id/img_lock_low"
+                    app:layout_constraintEnd_toEndOf="@id/img_lock_low"
+                    app:layout_constraintStart_toStartOf="@id/img_lock_low"
+
+                    android:textColor="@color/color_text_petit"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/txt_10_sp"
+                    android:visibility="invisible"
+                    />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottie_low"
+                    app:lottie_rawRes="@raw/connexuion_encore"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+
+                    android:layout_width="@dimen/dimens_460px"
+                    android:layout_height="@dimen/dimens_460px"
+                    app:layout_constraintBottom_toBottomOf="@id/line_s_1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/line_s_1"
+                    app:layout_constraintTop_toTopOf="@id/line_s_1"
+                    />
+
+                <ImageView
+                    android:id="@+id/img_lock_low"
+                    android:layout_width="@dimen/dimens_180px"
+                    android:layout_height="@dimen/dimens_180px"
+
+                    app:layout_constraintBottom_toBottomOf="@id/line_s_1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/line_s_1"
+                    app:layout_constraintTop_toTopOf="@id/line_s_1"
+
+                    android:background="@drawable/lock"
+                    android:visibility="invisible"
+                    tools:ignore="ContentDescription" />
+
+
+                <ImageView
+                    android:id="@+id/img_state_low"
+                    android:layout_width="@dimen/dimens_130px"
+                    android:layout_height="@dimen/dimens_130px"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/btn_low_ads"
+                    android:layout_marginTop="@dimen/dimens_45px"
+                    android:background="@drawable/info"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:id="@+id/txt_state_low"
+                    android:layout_width="0dp"
+                    app:layout_constraintWidth_percent="0.9"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/img_state_low"
+                    app:layout_constraintTop_toBottomOf="@id/img_state_low"
+                    app:layout_constraintEnd_toEndOf="@id/img_state_low"
+                    android:layout_marginTop="@dimen/demens_23px"
+                    android:layout_marginStart="@dimen/dimens_18px"
+                    android:layout_marginLeft="@dimen/dimens_18px"
+                    android:layout_marginEnd="@dimen/dimens_18px"
+                    android:gravity="center"
+
+                    android:text="@string/request_sent"
+                    android:textColor="@color/color_text_login_and_cadre"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/txt_10_sp"
+                    android:visibility="gone"
+                    />
+
+
+                <Button
+                    android:id="@+id/txt_ecpm_low_ads"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_55px"
+                    android:background="@drawable/ads_low"
+                    android:drawableTop="@drawable/logo_reward"
+                    android:maxWidth="@dimen/dimens_690px"
+                    android:minWidth="@dimen/dimens_550px"
+                    android:text="@string/n_75_coins_n_open_green_ads"
+
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_text_login_and_cadre"
+
+                    android:textSize="@dimen/txt_15_sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/txt_state_low"
+                    app:layout_constraintVertical_bias="0.375" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/ads_normal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/ads_normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ads_faible"
+                app:layout_constraintBottom_toTopOf="@id/ads_top"
+                app:layout_constraintWidth_percent="0.85"
+                android:layout_marginTop="@dimen/dimens_70px">
+
+                <Button
+                    android:id="@+id/btn_normal_ads"
+                    android:layout_width="@dimen/dimens_220px"
+
+                    android:layout_height="@dimen/dimens_220px"
+
+                    android:layout_marginTop="@dimen/dimens_45px"
+                    android:background="@drawable/btn_selector_play"
+                    app:layout_constraintEnd_toStartOf="@id/line_s_1_normal"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    android:enabled="false"
+                    />
+
+                <View
+                    android:id="@+id/line_normal"
+                    android:layout_width="1dp"
+                    android:layout_height="1dp"
+                    android:background="@color/background_transparent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    />
+
+                <View
+                    android:id="@+id/line_s_1_normal"
+                    android:layout_width="1dp"
+                    android:layout_height="0dp"
+                    android:background="@color/color_text_login_and_cadre"
+                    app:layout_constraintBottom_toBottomOf="@id/btn_normal_ads"
+                    app:layout_constraintEnd_toStartOf="@id/txt_chrono_normal_ads"
+                    app:layout_constraintStart_toEndOf="@id/btn_normal_ads"
+                    app:layout_constraintTop_toTopOf="@id/btn_normal_ads" />
+
+                <TextView
+                    android:id="@+id/txt_chrono_normal_ads"
+                    android:layout_width="@dimen/dimens_220px"
+                    android:layout_height="@dimen/dimens_97px"
+                    android:gravity="center"
+                    app:layout_constraintBottom_toBottomOf="@id/line_s_1_normal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/line_s_1_normal"
+                    app:layout_constraintTop_toTopOf="@id/line_s_1_normal"
+
+
+                    android:textColor="@color/color_text_login_and_cadre"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/txt_25_sp"
+                    android:visibility="invisible"
+
+                    />
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottie_normal"
+                    app:lottie_rawRes="@raw/connexuion_encore"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+
+                    android:layout_width="@dimen/dimens_460px"
+                    android:layout_height="@dimen/dimens_460px"
+                    app:layout_constraintBottom_toBottomOf="@id/line_s_1_normal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/line_s_1_normal"
+                    app:layout_constraintTop_toTopOf="@id/line_s_1_normal"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/img_lock_normal"
+                    android:layout_width="@dimen/dimens_180px"
+                    android:layout_height="@dimen/dimens_180px"
+
+                    app:layout_constraintBottom_toBottomOf="@id/line_s_1_normal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/line_s_1_normal"
+                    app:layout_constraintTop_toTopOf="@id/line_s_1_normal"
+
+                    android:background="@drawable/lock"
+                    android:visibility="invisible"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:id="@+id/img_state_normal"
+                    android:layout_width="@dimen/dimens_130px"
+                    android:layout_height="@dimen/dimens_130px"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/btn_normal_ads"
+                    android:layout_marginTop="@dimen/dimens_45px"
+                    android:background="@drawable/info"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:id="@+id/txt_state_normal"
+                    android:layout_width="0dp"
+                    app:layout_constraintWidth_percent="0.9"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/img_state_normal"
+                    app:layout_constraintTop_toBottomOf="@id/img_state_normal"
+                    app:layout_constraintEnd_toEndOf="@id/img_state_normal"
+                    android:layout_marginTop="@dimen/demens_23px"
+                    android:layout_marginStart="@dimen/dimens_18px"
+                    android:layout_marginLeft="@dimen/dimens_18px"
+                    android:layout_marginEnd="@dimen/dimens_18px"
+                    android:gravity="center"
+
+                    android:text="@string/request_sent"
+                    android:textColor="@color/color_text_login_and_cadre"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/txt_10_sp"
+                    android:visibility="gone"
+                    />
+
+
+                <Button
+                    android:id="@+id/txt_ecpm_normal_ads"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_55px"
+                    android:background="@drawable/ads_normal"
+                    android:drawableTop="@drawable/logo_reward"
+                    android:maxWidth="@dimen/dimens_690px"
+                    android:minWidth="@dimen/dimens_550px"
+                    android:text="@string/n_125_coins_n_open_blue_ads"
+
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_text_login_and_cadre"
+
+                    android:textSize="@dimen/txt_15_sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/txt_state_normal" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/ads_top"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/ads_height"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/btn_info"
+                app:layout_constraintTop_toBottomOf="@id/ads_normal"
+                app:layout_constraintWidth_percent="0.85"
+                android:layout_marginTop="@dimen/dimens_70px"
+                android:layout_marginBottom="@dimen/dimens_55px">
+
+                <Button
+                    android:id="@+id/btn_top_ads"
+                    android:layout_width="@dimen/dimens_220px"
+
+                    android:layout_height="@dimen/dimens_220px"
+
+                    android:layout_marginTop="@dimen/dimens_45px"
+                    android:background="@drawable/btn_selector_play"
+                    app:layout_constraintEnd_toStartOf="@id/line_s_1_top"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    android:enabled="false"
+                    />
+
+                <View
+                    android:id="@+id/line_top"
+                    android:layout_width="1dp"
+                    android:layout_height="1dp"
+                    android:background="@color/background_transparent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/line_s_1_top"
+                    android:layout_width="1dp"
+                    android:layout_height="0dp"
+                    android:background="@color/color_text_login_and_cadre"
+                    app:layout_constraintBottom_toBottomOf="@id/btn_top_ads"
+                    app:layout_constraintEnd_toStartOf="@id/txt_chrono_top_ads"
+                    app:layout_constraintStart_toEndOf="@id/btn_top_ads"
+                    app:layout_constraintTop_toTopOf="@id/btn_top_ads" />
+
+                <TextView
+                    android:id="@+id/txt_chrono_top_ads"
+                    android:layout_width="@dimen/dimens_220px"
+                    android:layout_height="@dimen/dimens_97px"
+                    android:gravity="center"
+                    app:layout_constraintBottom_toBottomOf="@id/line_s_1_top"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/line_s_1_top"
+                    app:layout_constraintTop_toTopOf="@id/line_s_1_top"
+
+
+                    android:textColor="@color/color_text_login_and_cadre"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/txt_25_sp"
+
+                    android:visibility="invisible"
+                    />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottie_top"
+                    app:lottie_rawRes="@raw/connexuion_encore"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+
+                    android:layout_width="@dimen/dimens_460px"
+                    android:layout_height="@dimen/dimens_460px"
+                    app:layout_constraintBottom_toBottomOf="@id/line_s_1_top"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/line_s_1_top"
+                    app:layout_constraintTop_toTopOf="@id/line_s_1_top"
+                    />
+
+                <ImageView
+                    android:id="@+id/img_lock_top"
+                    android:layout_width="@dimen/dimens_180px"
+                    android:layout_height="@dimen/dimens_180px"
+
+                    app:layout_constraintBottom_toBottomOf="@id/line_s_1_top"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/line_s_1_top"
+                    app:layout_constraintTop_toTopOf="@id/line_s_1_top"
+
+                    android:background="@drawable/lock"
+                    android:visibility="invisible"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/img_state_top"
+                    android:layout_width="@dimen/dimens_130px"
+                    android:layout_height="@dimen/dimens_130px"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/btn_top_ads"
+                    android:layout_marginTop="@dimen/dimens_45px"
+                    android:background="@drawable/info"
+                    android:visibility="gone"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:id="@+id/txt_state_top"
+                    android:layout_width="0dp"
+                    app:layout_constraintWidth_percent="0.9"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/img_state_top"
+                    app:layout_constraintTop_toBottomOf="@id/img_state_top"
+                    app:layout_constraintEnd_toEndOf="@id/img_state_top"
+                    android:layout_marginTop="@dimen/demens_23px"
+                    android:layout_marginStart="@dimen/dimens_18px"
+                    android:layout_marginLeft="@dimen/dimens_18px"
+                    android:layout_marginEnd="@dimen/dimens_18px"
+                    android:gravity="center"
+
+                    android:text="@string/request_sent"
+                    android:textColor="@color/color_text_login_and_cadre"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/txt_10_sp"
+                    android:visibility="gone"
+                    />
+
+                <Button
+                    android:id="@+id/txt_ecpm_top_ads"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_55px"
+                    android:background="@drawable/ads_height"
+                    android:drawableTop="@drawable/logo_reward"
+                    android:maxWidth="@dimen/dimens_690px"
+                    android:minWidth="@dimen/dimens_550px"
+                    android:text="@string/n_175_coins_n"
+
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_text_login_and_cadre"
+
+                    android:textSize="@dimen/txt_15_sp"
+
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/txt_state_top" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageButton
+                android:id="@+id/btn_info"
+                android:layout_width="@dimen/dimen_100_px"
+                android:layout_height="@dimen/dimen_100_px"
+                app:layout_constraintTop_toBottomOf="@id/ads_top"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="@dimen/dimens_250px"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="@dimen/demens_23px"
+                android:layout_marginEnd="@dimen/dimens_32px"
+                android:layout_marginRight="@dimen/dimens_32px"
+                android:src="@drawable/info"
+                android:background="@drawable/selector_retate_table"
+                tools:ignore="ContentDescription" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

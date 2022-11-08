@@ -1,0 +1,44 @@
+{
+  "rule":{
+    "rule_1":{
+      "title":"Descripción del juego",
+      "description":"Hay dos jugadores en el juego, el primer jugador y el segundo jugador, cada jugador tiene 12 piezas con las que puede jugar.\nLa mesa de juego consta de 64 casillas, 32 en blanco y 32 en negro.",
+      "lien":"image"
+    },
+    "rule_2":{
+      "title":"¿Cómo puedo conseguir el puesto?",
+      "description":"La aplicación le da a cada jugador un turno de 30 segundos, para pensar en la pieza más adecuada para mover, después de que el oponente juega, el turno se te transfiere automáticamente.",
+      "lien":"nNG3D83rvlg"
+    },
+    "rule_3":{
+      "title":"¿Cómo puedo mover una pieza?",
+      "description":"Cuando sea tu turno, la aplicación te sugerirá todas las piezas que se pueden mover, puedes ver que las piezas se están quemando, cuando toques una pieza, la aplicación te sugerirá lugares a los que puedes ir y colorearla de verde, cuando toques un cuadrado verde. , la pieza se moverá automáticamente a su lugar.\nTus piezas solo pueden avanzar hacia las piezas del oponente y no pueden retroceder.\n\n\n\uD83D\uDD34 Nota: Puedes tocar todas las piezas que se pueden mover y luego elegir las más adecuadas",
+      "lien":"lNmzkntNh4k"
+    },
+    "rule_4":{
+      "title":"¿Cómo puedo comerme las piezas del oponente?",
+      "description":"Condiciones para comerse las piezas del oponente:\n     ⚫ Una de las piezas del oponente está en la misma columna que la tuya\n     ⚫ estar en la dirección de su movimiento\n     ⚫ La casilla junto a la pieza del oponente está vacía\nTu pieza puede pasar al cuadrado vacío y comerse la pieza del oponente.\n\n\uD83D\uDD34 Nota: Si te comiste una de las piezas del oponente y las condiciones para comer otra de las piezas del oponente se cumplen con la misma pieza que comiste la primera vez, puedes volver a comer hasta que las condiciones terminen.",
+      "lien":"LLrYv3Cp_BY"
+    },
+    "rule_5":{
+      "title":"¿Comer o moverse?",
+      "description":"Cuando hay una oportunidad para comer o varias oportunidades para comer a la vez.\nLa aplicación solo te dará derecho a comer y no puedes desaprovechar la oportunidad de comer\nEl movimiento es solo cuando no hay oportunidad de comer",
+      "lien":"null"
+    },
+    "rule_6":{
+      "title":"¿Cómo puede una pieza normal ser una pieza de rey?",
+      "description":"Cuando pasas una de tus piezas a la última fila de piezas de tu oponente\nEsta pieza pasa de ser una pieza normal a una pieza rey.",
+      "lien":"t0eXC9SFZKE"
+    },
+    "rule_7":{
+      "title":"Condiciones para moverse y comer por la pieza rey.",
+      "description":"Condiciones de movimiento:\n    ⚫ Moverse por varios cuadrados vacíos\n    ⚫ Se mueve hacia adelante y hacia atrás\nCondiciones alimentarias:\n    ⚫ Come trozos en la misma columna\n    ⚫ sin condición de que esté a su lado\n    ⚫ Pero siempre que haya un cuadrado vacío al lado",
+      "lien":"P78xAQMtuLk"
+    },
+    "rule_8":{
+      "title":"¿Cómo puedo ganar un partido?",
+      "description":"Puedo ganar en caso de:\n    ⚫ Me comí todas las piezas del oponente\n    ⚫ Hacer que el oponente no pueda mover una pieza\n    ⚫ El oponente abandonó el juego voluntaria o técnicamente (problema de internet o bluetooth)",
+      "lien":"6v_Yl1vTDYs"
+    }
+  }
+}

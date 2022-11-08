@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.damasingo">
+
+    <application
+        android:name=".open_app_ads"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_game"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:roundIcon="@mipmap/logo_game"
+        android:theme="@style/NotificationBar"
+        tools:ignore="AllowBackup"
+        tools:replace="android:supportsRtl">
+
+        <activity android:name=".randomly.game_space_randomly"
+            android:screenOrientation="portrait"
+            android:theme="@style/Game_space"/>
+
+        <activity android:name=".randomly.before_rundomly_match" />
+        <activity android:name=".activity_more_info" />
+        <activity
+            android:name=".bluetooth_match.bluetooth_game_space"
+            android:screenOrientation="portrait"
+            android:theme="@style/Game_space" />
+        <activity
+            android:name=".local_match.local_game_space"
+            android:screenOrientation="portrait"
+            android:theme="@style/Game_space" />
+        <activity
+            android:name=".local_match.local_game_space_robot"
+            android:screenOrientation="portrait"
+            android:theme="@style/Game_space" />
+        <activity android:name=".play_onlinge.before_game" />
+        <activity android:name=".Praincipal" />
+        <activity
+            android:name=".sign_in"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".play_onlinge.game_space"
+            android:screenOrientation="portrait"
+            android:theme="@style/Game_space" />
+        <activity
+            android:name=".splach_screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2065152596342192~6947722233" /> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <receiver android:name=".periodic_reward.Alarm" />
+        <receiver
+            android:name=".periodic_reward.AutoStart"
+            android:enabled="false"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".Remind_user.remind_Alarm" />
+        <receiver
+            android:name=".Remind_user.remind_Auto_Start"
+            android:enabled="false"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".SendNotificationPack.MyFireBaseMessagingService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".SendNotificationPack.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".periodic_reward.YourService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name=".Remind_user.remind_Service"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        tools:ignore="ManifestOrder" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission
+        android:name="android.permission.LOCAL_MAC_ADDRESS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_PRIVILEGED"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+</manifest>

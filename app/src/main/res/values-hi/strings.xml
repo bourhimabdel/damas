@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">चेकर्स</string>
+
+    <string name="Login_while">प्रमाणीकरण जारी है…</string>
+    <string name="sign_in_with_us">प्रमाणीकरण आपको एप्लिकेशन में एक पहचानकर्ता प्राप्त करने की अनुमति देता है।</string>
+    <string name="sign_in_with_go">गूगल के साथ साइन इन करें</string>
+    <string name="sign_in_with_fb">फेसबुक में जाये</string>
+    <string name="login_success">सफल प्रमाणीकरण</string>
+    <string name="try_again">पुनः प्रयास करें</string>
+    <string name="setting">स्थापना</string>
+    <string name="account">लेखा</string>
+    <string name="home">मुख्य पृष्ठ</string>
+    <string name="coins">सिक्के</string>
+    <string name="theme">विषय</string>
+    <string name="light">रोशनी</string>
+    <string name="night">रात</string>
+    <string name="bottom_navigation_bar">निचला नेविगेशन बार</string>
+    <string name="not_activated">सक्रिय नहीं</string>
+    <string name="activated">सक्रिय</string>
+    <string name="language">बोली</string>
+    <string name="five_stars">फाइव स्टार \nप्लीज</string>
+    <string name="share_the_app">ऐप को अपने दोस्तों \nके साथ शेयर करें</string>
+    <string name="share">साझा करने के लिए</string>
+    <string name="store">मूल्यांकन</string>
+    <string name="log_out">लॉग आउट</string>
+    <string name="arabic">अरब</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="french">फ्रेंच</string>
+    <string name="spanish">स्पेनिश</string>
+    <string name="hindi">भारतीय</string>
+    <string name="japanese">जापानी</string>
+    <string name="russian">रूसी</string>
+    <string name="yes_log_out">हाँ मैं डिस्कनेक्ट करना चाहता हूँ</string>
+    <string name="log_out_q">क्या आप लॉग आउट करना चाहते हैं?</string>
+    <string name="no">नहीं</string>
+    <string name="about_the_app">ऐप के बारे में</string>
+    <string name="read">पढ़ना</string>
+    <string name="share_text">खेल</string>
+    <string name="Lien_text">स्टोर में आवेदन लिंक</string>
+    <string name="request_sent">एक विज्ञापन योगदान अनुरोध भेजा गया है, हम कुछ सेकंड में प्रतिक्रिया की प्रतीक्षा कर रहे हैं</string>
+    <string name="request_gain_an_ads">विज्ञापन तैयार है, इसे देखें और इनाम पाएं</string>
+    <string name="request_failed_no_ads">विज्ञापन अनुरोध सफल रहा, लेकिन विज्ञापन इन्वेंट्री की कमी के कारण कोई विज्ञापन नहीं लौटाया गया, या आपके क्षेत्र में कोई eCPM अनुपालन विज्ञापन नहीं है, काउंटर समाप्त होने के बाद हम फिर से प्रयास करेंगे।</string>
+    <string name="request_failed_no_internet">नेटवर्क कनेक्शन के कारण घोषणा अनुरोध विफल रहा, काउंटर समाप्त होने के बाद हम फिर से प्रयास करेंगे।</string>
+    <string name="swipe">आलोचना</string>
+    <string name="oureo"> $</string>
+    <string name="seconde">एस</string>
+    <string name="ecpm">1 वीडियो</string>
+    <string name="wait">रुको …</string>
+    <string name="no_account_found">आईडी वाला कोई खाता नहीं मिला:</string>
+    <string name="add_you_self">आप खुद को एक मित्र के रूप में नहीं जोड़ सकते</string>
+    <string name="type_the_ID">Add . पर क्लिक करने से पहले आईडी टाइप करें</string>
+    <string name="deleting">मिटाना…</string>
+    <string name="refuse">अस्वीकार करना</string>
+    <string name="accepting">यह स्वीकार किया जाता है …</string>
+    <string name="accept">सफलतापूर्वक स्वीकृत</string>
+    <string name="wait_re">से प्रतिक्रिया की प्रतीक्षा कर रहा है</string>
+    <string name="three_p">…</string>
+    <string name="lets_play">आइए खेलते हैं</string>
+    <string name="log_in_as_a_visitor">एक आगंतुक के रूप में लॉग इन करें</string>
+    <string name="b_i_n_a">ब्लूटूथ उपलब्ध नहीं है</string>
+    <string name="type_a_message">संदेश लिखने के लिए…</string>
+    <string name="retry_again_to_connect_with">पुन: कनेक्ट करने का प्रयास करें</string>
+    <string name="you_are_offline">आप जुड़े नहीं हैं</string>
+    <string name="you_are_online">आप ऑनलाइन हैं</string>
+    <string name="we_are_waiting_for_your_friend">हम आपके दोस्त की प्रतीक्षा कर रहे हैं</string>
+    <string name="read_more_information_about_this_game_and_watch_videos">इस गेम के बारे में अधिक जानकारी पढ़ें और वीडियो देखें:</string>
+    <string name="learn_the_rules_of_the_game">खेल के नियम जानें:</string>
+    <string name="id">पहचान:</string>
+    <string name="level_progress_and_personal_data">प्रगति का स्तर और व्यक्तिगत डेटा</string>
+    <string name="statistics_of_playing_online_matches">ऑनलाइन मैच के आंकड़े</string>
+    <string name="total_winnings">कुल लाभ:</string>
+    <string name="coins_wallet">बटुआ:</string>
+    <string name="rank">पद :</string>
+    <string name="games_won">खेल जीता:</string>
+    <string name="win_percentage">जीत का प्रतिशत:</string>
+    <string name="n_75_coins_n_open_green_ads">\n⬤ +75 सिक्के हरा विज्ञापन खोलें</string>
+    <string name="n_125_coins_n_open_blue_ads">\n⬤ +125 सिक्के खुला नीला विज्ञापन</string>
+    <string name="n_175_coins_n">\n⬤ +175 टुकड़े</string>
+    <string name="add_some_friends_to_play_online">ऑनलाइन खेलने के लिए दोस्तों को जोड़ें</string>
+    <string name="start_bluetooth_match">ब्लूटूथ मैच शुरू करें</string>
+    <string name="in_order_to_play_a_bluetooth_match_you_must_activate_the_2_elements">ब्लूटूथ मैच खेलने के लिए, आपको दोनों आइटम सक्रिय करने होंगे</string>
+    <string name="find_someone_to_play_with_with_bluetooth">ब्लूटूथ मैच शुरू करने के लिए किसी को ढूंढें</string>
+    <string name="paired_devices">युग्मित उपकरण</string>
+    <string name="unpaired_devices">अयुग्मित उपकरण</string>
+    <string name="_1_match_for_75">75 . के लिए एक मैच</string>
+    <string name="about_start_bluetooth_match">के बारे में</string>
+    <string name="start_online_match">मैच ऑनलाइन शुरू करें</string>
+    <string name="tap_to_get_your_id">लिए क्लिक करें</string>
+    <string name="about_start_online_match">ऑनलाइन मैच की शुरुआत के बारे में</string>
+    <string name="start_local_match">स्थानीय मैच शुरू करें</string>
+    <string name="play_a_local_match_with_someone">किसी के साथ स्थानीय मैच खेलें</string>
+    <string name="_1_match_for_25">25 . के लिए एक मैच</string>
+    <string name="about_start_local_match">स्थानीय मैच की शुरुआत के बारे में</string>
+    <string name="no_friend_request_yet">फिलहाल कोई फ्रेंड रिक्वेस्ट नहीं</string>
+    <string name="type_or_paste_the_id_of_your_friend">अपने मित्र की आईडी टाइप या पेस्ट करें</string>
+    <string name="add">योग</string>
+    <string name="list_request">अनुरोधों की सूची:</string>
+    <string name="no_request_sent_yet">अभी तक कोई अनुरोध नहीं भेजा गया है</string>
+    <string name="sound">आवाज</string>
+    <string name="vibration">कंपन</string>
+    <string name="save_your_account_by_linking_it_to_a_facebook_account">अपने अकाउंट को अपने फेसबुक अकाउंट से लिंक करके रजिस्टर करें</string>
+    <string name="save_your_account_by_linking_it_to_a_google_account">अपने खाते को Google खाते से लिंक करके पंजीकृत करें</string>
+    <string name="ok">हां</string>
+    <string name="pair_the_device">डिवाइस को पेयर करें</string>
+    <string name="play">क्रीड़ा करना</string>
+    <string name="accept_">स्वीकार</string>
+    <string name="cancel">निरस्तीकरण</string>
+    <string name="request_sent_">निमंत्रण भेजा गया</string>
+    <string name="_100">100</string>
+    <string name="go_back">वसूल करना</string>
+    <string name="core">पंचांग :\t</string>
+    <string name="Connected_successful">सफल कनेक्शन</string>
+    <string name="try_to_C">संपर्क करने का प्रयास करें \t</string>
+    <string name="waiting">रुको \t</string>
+    <string name="to_Come">\t शामिल हों…</string>
+    <string name="pairing">जोड़ी जा रही है…</string>
+    <string name="waiting_for_your_fr">हम आपके दोस्त की प्रतीक्षा कर रहे हैं \t</string>
+    <string name="def">वास्तविक भाषा</string>
+    <string name="sent">भेजे गए</string>
+    <string name="recieve">प्राप्त करना</string>
+    <string name="_0">0</string>
+
+    <string name="applique">आप इस जानकारी को कैसे लागू कर सकते हैं, यह देखने के लिए एक वीडियो देखें</string>
+    <string name="we_are_create_match">हम मैच बनाते हैं</string>
+    <string name="cancel_match">मैच रद्द करो</string>
+    <string name="friend_not_join">अगर आपका दोस्त शामिल नहीं होता है, तो इस मैच को रद्द कर दें</string>
+    <string name="K">\tक</string>
+    <string name="M">\tएम</string>
+    <string name="back">अगर आप वापस आए तो आप यह मैच हार जाएंगे</string>
+    <string name="end">अगर आपका दोस्त शामिल नहीं होता है, तो वापस आएं</string>
+    <string name="congrats">आपकी जीत पर बधाई</string>
+    <string name="Point_of_experience">अनुभव बिंदु</string>
+    <string name="Unfortunately">दुर्भाग्य से मैं हार गया</string>
+    <string name="toplay">एक स्थानीय मैच खेलने के लिए, आपको चाहिए \n</string>
+    <string name="tocollect">उन्हें इकट्ठा करने के लिए, सिक्के जोड़ें</string>
+    <string name="bluetooth">ब्लूटूथ मैच खेलने के लिए, आपको चाहिए \n</string>
+    <string name="turn_on_bluetooth">ब्लूटूथ सक्रिय होना चाहिए</string>
+    <string name="oth_and_loc">आपको ब्लूटूथ और स्थान सक्रिय करना होगा</string>
+    <string name="y">स्थानीयकरण को सक्रिय करना आवश्यक है</string>
+    <string name="level">स्तर :</string>
+    <string name="ri">अब खेलने की आपकी बारी नहीं है!</string>
+
+    <string name="add_a_friend">मित्र बनाओ</string>
+    <string name="ollect">\nआपको कम से कम चाहिए\n</string>
+    <string name="yo">\nआप पहले ही एक अनुरोध भेज चुके हैं\n</string>
+    <string name="re">\nआपसे एक अनुरोध है\n</string>
+    <string name="cce">\n, इसे प्राप्त स्थान से स्वीकार करें\n</string>
+    <string name="ve">\nआपके पास\n</string>
+    <string name="is">\nआपकी सूची में दोस्त\n</string>
+    <string name="lrea">\nआपके पास पहले से ही अनुरोध है\n</string>
+    <string name="an">\nप्राप्त सूची को ताज़ा करें और इसे स्वीकार करें\n</string>
+
+    <string name="yoa">आप और</string>
+    <string name="are">अब दोस्त हैं</string>
+    <string name="invit">आपका आमंत्रण अस्वीकार कर दिया</string>
+    <string name="wants">अपका दोस्त बनना चाहता हूँ</string>
+    <string name="with">मै तुम्हारे साथ खेलना चाहता हु</string>
+    <string name="aiting_">मैं रिंग में आपका इंतजार कर रहा हूं</string>
+    <string name="Rewar">आवधिक इनाम तैयार है, इसे प्राप्त करें</string>
+    <string name="Reward">आवधिक पुरस्कार</string>
+    <string name="hi">नमस्ते</string>
+    <string name="We">हम यह आशा करते हैं</string>
+    <string name="sunday">रविवार का दिन</string>
+    <string name="monday">सोमवार</string>
+    <string name="tuesday">मंगलवार</string>
+    <string name="wednesday">बुधवार</string>
+    <string name="thursday">गुरूवार</string>
+    <string name="friday">शुक्रवार</string>
+    <string name="saturday">शनिवार</string>
+    <string name="well">आपको अच्छी तरह से ढूंढता है</string>
+    <string name="coming_soon">जल्द आ रहा है …</string>
+    <string name="start_a_random_match_online">एक यादृच्छिक मैच ऑनलाइन शुरू करें</string>
+    <string name="star_progress">स्टार प्रगति :</string>
+
+    <string name="con">शर्तें और गोपनीयता नीति</string>
+    <string name="i_accept">जब आप मुझे स्वीकार करने के लिए क्लिक करते हैं, तो गेम आपके :\n ⬤ सार्वजनिक प्रोफ़ाइल (नाम + चित्र)\n ⬤ ईमेल (साइन इन के लिए) का उपयोग करेगा।</string>
+    <string name="i">मुझे स्वीकार है</string>
+
+    <string name="timer">घड़ी</string>
+    <string name="virc">परिपत्र प्रगति पट्टी</string>
+    <string name="text">मूलपाठ</string>
+
+    <string name="sent_challenge">दूत डेफी</string>
+
+    <string name="there_are_no_paired_devices">कोई युग्मित उपकरण नहीं हैं</string>
+    <string name="we_could_not_detect_any_unpaired_device">हम किसी भी अयुग्मित डिवाइस का पता नहीं लगा सके</string>
+    <string name="lml">युग्मित डिवाइस देखने के लिए ब्लूटूथ चालू करें</string>
+    <string name="req">आस-पास के उपकरणों को खोजने के लिए ब्लूटूथ और स्थान की आवश्यकता होती है</string>
+    <string name="mm">अपने डिवाइस को ज्ञानी न बनाएं</string>
+    <string name="mak">अपने डिवाइस को खोजने योग्य बनाएं</string>
+    <string name="add_f">नए दोस्त जोड़ें</string>
+    <string name="with_id">आईडी के साथ</string>
+    <string name="randomly">बेतरतीब</string>
+    <string name="open">खोलना</string>
+    <string name="update">अद्यतन</string>
+    <string name="to">इस छवि को खोलने के लिए आपको चाहिए</string>
+    <string name="type_name">अपना पसंदीदा नाम लिखें...</string>
+    <string name="need">अपना नाम बदलने के लिए आपको चाहिए</string>
+    <string name="it">ऐसा लगता है कि आपका कोई नाम नहीं है</string>
+    <string name="name">नाम</string>
+    <string name="pic">चित्र</string>
+
+
+    <string name="use">उपयोग</string>
+    <string name="select_new_picture">नई तस्वीर चुनें</string>
+    <string name="cashback">नकदी वापस</string>
+    <string name="replay">फिर से खेलना</string>
+    <string name="p">लाभ * 2</string>
+    <string name="hello_blank_fragment">नमस्ते खाली टुकड़ा</string>
+    <string name="vs">बनाम</string>
+    <string name="look">जैसे आप इंतजार करते-करते थक गए हैं, हम क्षमा चाहते हैं</string>
+    <string name="country">देश :</string>
+    <string name="m">एम</string>
+    <string name="h">एच</string>
+    <string name="year">वर्ष</string>
+    <string name="month">महीना</string>
+    <string name="day">दिन</string>
+    <string name="edit">संपादित करें</string>
+    <string name="lev">स्तर</string>
+    <string name="id_m">आईडी में शामिल नहीं होना चाहिए</string>
+    <string name="b">बी</string>
+    <string name="t">टी</string>
+    <string name="q">क्यू</string>
+    <string name="accepted_your_challenge">आपकी चुनौती स्वीकार की</string>
+    <string name="i_send_you_a_challenge">आपको एक चुनौती भेजें</string>
+    <string name="onlinz">ऑनलाइन</string>
+    <string name="world">दुनिया</string>
+    <string name="no_data_yet">अभी तक कोई डेटा नहीं</string>
+    <string name="the_request_has_been_sent_successfully">अनुरोध सफलतापूर्वक भेज दिया गया है</string>
+
+    <string name="live_players">लाइव खिलाड़ी</string>
+    <string name="rando">यादृच्छिक रूप से</string>
+    <string name="friend">दोस्त</string>
+    <string name="bluetoot">ब्लूटूथ</string>
+    <string name="local">स्थानीय</string>
+
+
+    <string name="canot_play">मैं अभी नहीं खेल सकता</string>
+    <string name="lets_play_a">चलो फिर से खेलते हैं</string>
+    <string name="coo">सर्वर से कनेक्ट हो रहा है</string>
+    <string name="w">एक खिलाड़ी का इंतजार</string>
+    <string name="starting">मैच शुरू करना</string>
+
+
+    <string name="yesterday_s_heroes">कल के नायक</string>
+    <string name="today_t">आज का शीर्ष स्कोर</string>
+    <string name="congrate">बधाई हो आप इसमें प्रथम हैं</string>
+    <string name="con_g">बधाई हो, आप इसमें दूसरे नंबर पर हैं</string>
+    <string name="congra">बधाई हो, आप तीसरे नंबर पर हैं</string>
+
+    <string-array name="rang_name">
+        <item>ट्रेनी</item>
+        <item>शुरुआती</item>
+        <item>विद्यार्थी</item>
+        <item>शौक़ीन व्यक्ति</item>
+        <item>उद्योगी</item>
+        <item>अर्द्ध समर्थक</item>
+        <item>पेशेवर</item>
+        <item>कलाप्रवीण व्यक्ति</item>
+        <item>विशेषज्ञ</item>
+        <item>अनुभवी व्यक्ति</item>
+        <item>गुरुजी</item>
+        <item>ग्रैंड मास्टर</item>
+        <item>ऐस</item>
+        <item>सुपर स्टार</item>
+        <item>राजा</item>
+        <item>दमास सम्राट</item>
+    </string-array>
+</resources>

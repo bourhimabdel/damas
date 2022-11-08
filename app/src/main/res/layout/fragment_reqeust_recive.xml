@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment_play_online.reqeust_recive">
+
+
+    <TextView
+        android:id="@+id/txt_friend_invite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/dimens_750px"
+        android:gravity="center"
+        android:text="@string/no_friend_request_yet"
+        android:textColor="@color/color_text_petit"
+        android:textSize="@dimen/txt_20_sp"
+        android:textStyle="bold"
+
+        app:layout_constraintStart_toStartOf="@id/swip_detect"
+        app:layout_constraintEnd_toEndOf="@id/swip_detect"
+        app:layout_constraintTop_toTopOf="@id/swip_detect"
+        app:layout_constraintBottom_toBottomOf="@id/swip_detect"
+        android:visibility="invisible"
+        />
+
+
+     <custom.widget.SwipeRefreshLayout
+         android:id="@+id/swip_detect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+         <androidx.constraintlayout.widget.ConstraintLayout
+
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+             <androidx.recyclerview.widget.RecyclerView
+                 android:id="@+id/list_freinds_invite"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:scrollbars="horizontal"
+                 style="@style/scrollbar_shape_style_"
+                 app:layout_constraintStart_toStartOf="parent"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 />
+         </androidx.constraintlayout.widget.ConstraintLayout>
+    </custom.widget.SwipeRefreshLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

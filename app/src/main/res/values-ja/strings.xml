@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">チェッカーズ</string>
+    <string name="Login_while">認証が進行中です…</string>
+    <string name="sign_in_with_us">認証を使用すると、アプリケーションで識別子を取得できます。</string>
+    <string name="sign_in_with_go">グーグルでサインイン</string>
+    <string name="sign_in_with_fb">Facebookでログインする</string>
+    <string name="login_success">認証の成功</string>
+    <string name="try_again">再試行</string>
+    <string name="setting">設定</string>
+    <string name="account">アカウント</string>
+    <string name="home">メインページ</string>
+    <string name="coins">コイン</string>
+    <string name="theme">テーマ</string>
+    <string name="light">ライト</string>
+    <string name="night">夜</string>
+    <string name="bottom_navigation_bar">下部ナビゲーションバー</string>
+    <string name="not_activated">有効化されていません</string>
+    <string name="activated">有効</string>
+    <string name="language">言語</string>
+    <string name="five_stars">5つ星をお\n願いします</string>
+    <string name="share_the_app">お友達とアプ\nリを共有する</string>
+    <string name="share">共有するには</string>
+    <string name="store">評価</string>
+    <string name="log_out">ログアウト</string>
+    <string name="arabic">アラブ</string>
+    <string name="english">英語</string>
+    <string name="french">フランス語</string>
+    <string name="spanish">スペイン語</string>
+    <string name="hindi">インド人</string>
+    <string name="japanese">日本</string>
+    <string name="russian">ロシア</string>
+    <string name="yes_log_out">はい、切断したい</string>
+    <string name="log_out_q">ログアウトしてもよろしいですか？</string>
+    <string name="no">番号</string>
+    <string name="about_the_app">アプリについて</string>
+    <string name="read">読んだ</string>
+    <string name="share_text">ゲーム</string>
+    <string name="Lien_text">ストア内のアプリケーションリンク</string>
+    <string name="request_sent">広告投稿リクエストが送信されました。数秒で返信を待っています</string>
+    <string name="request_gain_an_ads">広告の準備ができたら、それを見て報酬を獲得してください</string>
+    <string name="request_failed_no_ads">広告リクエストは成功しましたが、広告枠が不足しているために広告が返されなかったか、お住まいの地域にeCPM準拠の広告がない場合は、カウンターが終了したら再試行します。</string>
+    <string name="request_failed_no_internet">ネットワーク接続が原因でアナウンス要求に失敗しました。カウンターが終了した後、再試行します。</string>
+    <string name="swipe">批判</string>
+    <string name="oureo"> $</string>
+    <string name="seconde">NS</string>
+    <string name="ecpm">1本のビデオ</string>
+    <string name="wait">待つ …</string>
+    <string name="no_account_found">IDのアカウントが見つかりません：</string>
+    <string name="add_you_self">自分を友達として追加することはできません</string>
+    <string name="type_the_ID">[追加]をクリックする前にIDを入力してください</string>
+    <string name="deleting">消す …</string>
+    <string name="refuse">拒否する</string>
+    <string name="accepting">受け入れられました…</string>
+    <string name="accept">承認されました</string>
+    <string name="wait_re">からの応答を待っています</string>
+    <string name="three_p">…</string>
+    <string name="lets_play">遊ぼう</string>
+    <string name="log_in_as_a_visitor">ビジターとしてログインする</string>
+    <string name="b_i_n_a">Bluetoothは利用できません</string>
+    <string name="type_a_message">メッセージを書くために…</string>
+    <string name="retry_again_to_connect_with">もう一度接続してみてください</string>
+    <string name="you_are_offline">あなたは接続されていません</string>
+    <string name="you_are_online">あなたはオンラインです</string>
+    <string name="we_are_waiting_for_your_friend">お友達をお待ちしております</string>
+    <string name="read_more_information_about_this_game_and_watch_videos">このゲームの詳細を読み、ビデオをご覧ください。</string>
+    <string name="learn_the_rules_of_the_game">ゲームのルールを学ぶ：</string>
+    <string name="id">ID：</string>
+    <string name="level_progress_and_personal_data">進捗状況と個人データ</string>
+    <string name="statistics_of_playing_online_matches">オンライン試合統計</string>
+    <string name="total_winnings">総メリット：</string>
+    <string name="coins_wallet">財布：</string>
+    <string name="rank">ランク：</string>
+    <string name="games_won">ゲームは勝ちました：</string>
+    <string name="win_percentage">勝率：</string>
+    <string name="n_75_coins_n_open_green_ads">\n⬤+ 75コイン\n⬤オープングリーン広告</string>
+    <string name="n_125_coins_n_open_blue_ads">\n⬤+ 125コイン\n⬤オープンブルー広告</string>
+    <string name="n_175_coins_n">\n⬤+ 175個</string>
+    <string name="add_some_friends_to_play_online">オンラインでプレイする友達を追加する</string>
+    <string name="start_bluetooth_match">Bluetoothの一致を開始します</string>
+    <string name="in_order_to_play_a_bluetooth_match_you_must_activate_the_2_elements">ブルートゥースマッチをプレイするには、両方のアイテムをアクティブにする必要があります</string>
+    <string name="find_someone_to_play_with_with_bluetooth">だいたい</string>
+    <string name="paired_devices">ペアリングされたデバイス</string>
+    <string name="unpaired_devices">ペアリングされていないデバイス</string>
+    <string name="_1_match_for_75">75の試合</string>
+    <string name="about_start_bluetooth_match">Bluetoothマッチの開始について</string>
+    <string name="start_online_match">オンラインで試合を開始する</string>
+    <string name="tap_to_get_your_id">名を取得</string>
+    <string name="about_start_online_match">オンラインマッチの開始について</string>
+    <string name="start_local_match">ローカルマッチを開始する</string>
+    <string name="play_a_local_match_with_someone">誰かとローカルマッチをする</string>
+    <string name="_1_match_for_25">25の試合</string>
+    <string name="about_start_local_match">ローカルマッチの開始について</string>
+    <string name="no_friend_request_yet">今のところ友達リクエストはありません</string>
+    <string name="type_or_paste_the_id_of_your_friend">友達のIDを入力または貼り付けます</string>
+    <string name="add">添加</string>
+    <string name="list_request">リクエストのリスト：</string>
+    <string name="no_request_sent_yet">リクエストはまだ送信されていません</string>
+    <string name="sound">音</string>
+    <string name="vibration">振動</string>
+    <string name="save_your_account_by_linking_it_to_a_facebook_account">Facebookアカウントにリンクしてアカウントを登録します</string>
+    <string name="save_your_account_by_linking_it_to_a_google_account">アカウントをGoogleアカウントにリンクして登録します</string>
+    <string name="ok">はい</string>
+    <string name="pair_the_device">デバイスをペアリングする</string>
+    <string name="play">遊ぶには</string>
+    <string name="accept_">受け入れ</string>
+    <string name="cancel">キャンセルする</string>
+    <string name="request_sent_">リクエストが送信されました</string>
+    <string name="_100">100</string>
+    <string name="go_back">回復する</string>
+    <string name="core">カレンダー :\t</string>
+    <string name="Connected_successful">正常な接続</string>
+    <string name="try_to_C">連絡してみてください \t</string>
+    <string name="waiting">待つ \t</string>
+    <string name="to_Come">\t 加入…</string>
+    <string name="pairing">ペアリング…</string>
+    <string name="waiting_for_your_fr">お友達をお待ちしております \t</string>
+    <string name="def">元の言語</string>
+    <string name="sent">送信済</string>
+    <string name="recieve">受け取る</string>
+    <string name="_0">0</string>
+
+    <string name="applique">この情報を適用する方法については、ビデオをご覧ください</string>
+    <string name="we_are_create_match">私たちは試合をします</string>
+    <string name="cancel_match">試合をキャンセルする</string>
+    <string name="friend_not_join">友達が参加しない場合は、この試合をキャンセルしてください</string>
+    <string name="K">\tK</string>
+    <string name="M">\tM</string>
+    <string name="back">あなたが戻ってきた場合、あなたはこの試合を失うでしょう</string>
+    <string name="end">友達が参加しない場合は、戻ってきてください</string>
+    <string name="congrats">勝利おめでとうございます</string>
+    <string name="Point_of_experience">経験値</string>
+    <string name="Unfortunately">残念ながら私は負けました</string>
+    <string name="toplay">ローカルマッチをプレイするには、 \n</string>
+    <string name="tocollect">それらを収集するには、コインを追加します</string>
+    <string name="bluetooth">Bluetoothマッチをプレイするには、 \n</string>
+    <string name="turn_on_bluetooth">Bluetoothを有効にする必要があります</string>
+    <string name="oth_and_loc">Bluetoothと場所をアクティブにする必要があります</string>
+    <string name="y">ローカリゼーションをアクティブ化する必要があります</string>
+    <string name="level">レベル :</string>
+    <string name="ri">今すぐプレイする番ではありません！</string>
+
+    <string name="add_a_friend">友達追加</string>
+    <string name="ollect">\n少なくとも必要です\n</string>
+    <string name="yo">\nあなたはすでにリクエストを送信しています\n</string>
+    <string name="re">\nからのリクエストがあります\n</string>
+    <string name="cce">\n、受信場所から受け入れる\n</string>
+    <string name="ve">\nあなたが持っている\n</string>
+    <string name="is">\nあなたのリストの友達に\n</string>
+    <string name="lrea">\nすでにリクエストがあります\n</string>
+    <string name="an">\n受信リストを更新して受け入れます\n</string>
+
+    <string name="yoa">あなたと</string>
+    <string name="are">今は友達です</string>
+    <string name="invit">あなたの招待を拒否しました</string>
+    <string name="wants">あなたの友達になりたい</string>
+    <string name="with">あなたと遊びたい</string>
+    <string name="aiting_">リングであなたを待っています</string>
+    <string name="Rewar">定期的な報酬の準備ができました、それを入手してください</string>
+    <string name="Reward">定期的な報酬</string>
+    <string name="hi">やあ</string>
+    <string name="We">これを願っています</string>
+    <string name="sunday">日曜日</string>
+    <string name="monday">月曜日</string>
+    <string name="tuesday">火曜日</string>
+    <string name="wednesday">水曜日</string>
+    <string name="thursday">木曜日</string>
+    <string name="friday">金曜日</string>
+    <string name="saturday">土曜日</string>
+    <string name="well">あなたをよく見つける</string>
+    <string name="coming_soon">近日公開 …</string>
+    <string name="start_a_random_match_online">オンラインでランダムマッチを開始する</string>
+    <string name="star_progress">スターの進歩：</string>
+
+    <string name="con">条件とプライバシーポリシー</string>
+    <string name="i_accept">[同意する]をクリックすると、ゲームはあなたの：\n⬤公開プロフィール（名前+写真）\n⬤メール（サインイン用）を使用します</string>
+    <string name="i">承諾します</string>
+
+    <string name="timer">タイマー</string>
+    <string name="virc">円形のプログレスバー</string>
+    <string name="text">文章</string>
+
+    <string name="sent_challenge">チャレンジを送信しました</string>
+
+
+    <string name="there_are_no_paired_devices">ペアリングされたデバイスはありません</string>
+    <string name="we_could_not_detect_any_unpaired_device">ペアリングされていないデバイスを検出できませんでした</string>
+    <string name="lml">Bluetoothをオンにして、ペアリングされたデバイスを表示します</string>
+    <string name="req">近くのデバイスを見つけるには、Bluetoothと場所が必要です</string>
+    <string name="mm">デバイスを検出できないようにする</string>
+    <string name="mak">デバイスを検出可能にする</string>
+    <string name="add_f">新しい友達を追加する</string>
+    <string name="with_id">ID付き</string>
+    <string name="randomly">無作為に</string>
+    <string name="open">開ける</string>
+    <string name="update">アップデート</string>
+    <string name="to">この画像を開くには、</string>
+    <string name="type_name">お気に入りの名前を入力してください…</string>
+    <string name="need">名前を変更するには、</string>
+    <string name="it">名前がないようです</string>
+    <string name="name">名前</string>
+    <string name="pic">写真</string>
+
+    <string name="use">つかいます</string>
+    <string name="select_new_picture">新しい画像を選択</string>
+    <string name="cashback">キャッシュバック</string>
+    <string name="replay">リプレイ</string>
+    <string name="p">利益* 2</string>
+    <string name="hello_blank_fragment">こんにちは空白のフラグメント</string>
+    <string name="vs">対</string>
+    <string name="look">あなたが待つのにうんざりしているように、私たちはお詫び申し上げます</string>
+    <string name="country">国 ：</string>
+    <string name="m">m</string>
+    <string name="h">h</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="edit">編集</string>
+    <string name="lev">レベル</string>
+    <string name="id_m">IDに含めることはできません</string>
+    <string name="b">B</string>
+    <string name="t">T</string>
+    <string name="q">Q</string>
+    <string name="accepted_your_challenge">あなたの挑戦を受け入れた</string>
+    <string name="i_send_you_a_challenge">あなたに挑戦を送ってください</string>
+    <string name="onlinz">オンライン</string>
+    <string name="world">世界</string>
+    <string name="no_data_yet">まだデータはありません</string>
+    <string name="the_request_has_been_sent_successfully">リクエストは正常に送信されました</string>
+
+    <string name="live_players">ライブプレーヤー</string>
+    <string name="rando">ランダム</string>
+    <string name="friend">友達</string>
+    <string name="bluetoot">ブルートゥース</string>
+    <string name="local">ローカル</string>
+
+    <string name="canot_play">今は遊べない</string>
+    <string name="lets_play_a">もう一度遊びましょう</string>
+    <string name="coo">サーバーにつなげる</string>
+    <string name="w">プレイヤーを待っています</string>
+    <string name="starting">試合開始</string>
+
+
+    <string name="yesterday_s_heroes">昨日のヒーロー</string>
+    <string name="today_t">今日のトップスコア</string>
+    <string name="congrate">おめでとうございます</string>
+    <string name="con_g">おめでとうございます、あなたは2番目です</string>
+    <string name="congra">おめでとうございます、あなたは3番目です</string>
+
+    <string-array name="rang_name">
+        <item>研修生</item>
+        <item>初心者</item>
+        <item>学生</item>
+        <item>アマチュア</item>
+        <item>ハスラー</item>
+        <item>セミプロ</item>
+        <item>プロ</item>
+        <item>名人</item>
+        <item>エキスパート</item>
+        <item>ベテラン</item>
+        <item>主人</item>
+        <item>グランドマスター</item>
+        <item>エース</item>
+        <item>スーパースター</item>
+        <item>キング</item>
+        <item>ダマス皇帝</item>
+    </string-array>
+</resources>

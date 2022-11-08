@@ -1,0 +1,44 @@
+{
+  "rule":{
+    "rule_1":{
+      "title":"Descriptif du jeu",
+      "description":"Il y a deux joueurs dans le jeu, le premier joueur et le deuxième joueur, chaque joueur dispose de 12 pièces avec lesquelles il peut jouer.\nLa table de jeu se compose de 64 cases, 32 en blanc et 32 \u200B\u200Ben noir.",
+      "lien":"image"
+    },
+    "rule_2":{
+      "title":"Comment puis-je obtenir le rôle ?",
+      "description":"L'application donne à chaque joueur un tour de 30 secondes, pour réfléchir à la pièce la plus appropriée à déplacer, après que l'adversaire ait joué, le tour vous est automatiquement transféré",
+      "lien":"nNG3D83rvlg"
+    },
+    "rule_3":{
+      "title":"Comment déplacer une pièce ?",
+      "description":"Quand c'est votre tour, l'application vous proposera chaque pièce qui peut bouger, vous pouvez voir les pièces brûler, lorsque vous touchez une pièce, l'application vous proposera des endroits où aller et la colorier en vert, lorsque vous touchez un carré vert , la pièce se déplacera automatiquement à sa place.\nVos pièces ne peuvent qu'avancer vers les pièces de l'adversaire et ne peuvent pas reculer.\n\n\n\uD83D\uDD34 Remarque : vous pouvez toucher toutes les pièces qui peuvent bouger, puis choisir celles qui conviennent le mieux",
+      "lien":"lNmzkntNh4k"
+    },
+    "rule_4":{
+      "title":"Comment puis-je manger les pièces adverses ?",
+      "description":"Conditions pour manger les pièces de l'adversaire :\n     ⚫ Une des pièces de l'adversaire est dans la même colonne que la vôtre\n     être dans le sens de son mouvement\n     La case à côté de la pièce de l'adversaire est vide\nVotre pièce peut passer sur la case vide et manger la pièce de l'adversaire\n\nRemarque : si vous avez mangé l'un des morceaux de l'adversaire et que les conditions pour manger un autre morceau de l'adversaire sont remplies avec le même morceau que vous avez mangé la première fois, vous pouvez manger à nouveau jusqu'à ce que les conditions soient levées.",
+      "lien":"LLrYv3Cp_BY"
+    },
+    "rule_5":{
+      "title":"Manger ou bouger ?",
+      "description":"Quand il y a une occasion de manger ou plusieurs occasions de manger à la fois\nL'application ne vous donnera que le droit de manger et vous ne pourrez pas négliger l'opportunité de manger\nLe mouvement est seulement quand il n'y a pas de possibilité de manger",
+      "lien":"null"
+    },
+    "rule_6":{
+      "title":"Comment une pièce normale peut-elle être une pièce de roi ?",
+      "description":"Lorsque vous passez une de vos pièces à la dernière rangée de pièces de votre adversaire\nCette pièce passe d'une pièce normale à une pièce de roi",
+      "lien":"t0eXC9SFZKE"
+    },
+    "rule_7":{
+      "title":"Conditions pour se déplacer et manger pour la pièce du roi",
+      "description":"Conditions de déplacement :\n    Déplacez-vous sur plusieurs cases vides\n    Se déplace d'avant en arrière\nConditions de restauration :\n    ⚫ Mangez des morceaux dans la même colonne\n    sans condition qu'il soit à côté de lui\n    Mais à condition qu'il y ait une case vide à côté",
+      "lien":"P78xAQMtuLk"
+    },
+    "rule_8":{
+      "title":"Comment puis-je gagner un match",
+      "description":"Je peux gagner au cas où :\n    J'ai mangé toutes les pièces de l'adversaire\n    Rendre l'adversaire incapable de déplacer une pièce\n    ⚫ L'adversaire a quitté le jeu volontairement ou techniquement (problème internet ou bluetooth)",
+      "lien":"6v_Yl1vTDYs"
+    }
+  }
+}

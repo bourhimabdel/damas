@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Praincipal">
+    <FrameLayout
+        android:id="@+id/fragment_Container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_accuil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/fragment_add_coins"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_trending"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_height_view_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/place_top_bar"
+        android:background="@drawable/back_snack_bar_top"
+        >
+
+        <ImageButton
+            android:id="@+id/button_2"
+            android:layout_width= "@dimen/dimens_45dp"
+            android:layout_height="@dimen/dimens_45dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/view_5"
+            android:background="@drawable/btn_selector_button_bottom_bat"
+            android:src="@drawable/ic_setting_empty"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription"
+            />
+
+        <View
+            android:id="@+id/view_2"
+            android:layout_width= "@dimen/dimens_2px"
+            android:layout_height="@dimen/dimens_70px"
+            app:layout_constraintEnd_toStartOf="@id/button_5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/button_1"
+            android:background="@color/color_text_login_and_cadre"
+            android:visibility="invisible"
+            />
+
+        <ImageButton
+            android:id="@+id/button_4"
+            android:layout_width= "@dimen/dimens_45dp"
+            android:layout_height="@dimen/dimens_45dp"
+            app:layout_constraintEnd_toStartOf="@id/view_5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/view_0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/add_empty"
+            android:background="@drawable/btn_selector_button_bottom_bat"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription"
+            />
+
+
+        <ImageButton
+            android:id="@+id/button_0"
+            android:layout_width= "@dimen/dimense_60_dp"
+            android:layout_height="@dimen/dimense_60_dp"
+            app:layout_constraintEnd_toStartOf="@id/view_0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/view_6"
+            android:src="@drawable/ic_home_plain_c"
+            android:background="@drawable/btn_selector_button_bottom_bat"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription"
+            />
+
+        <View
+            android:id="@+id/view_0"
+            android:layout_width= "@dimen/dimens_2px"
+            android:layout_height="@dimen/dimens_70px"
+            app:layout_constraintEnd_toStartOf="@id/button_4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/button_0"
+            android:background="@color/color_text_login_and_cadre"
+            android:visibility="invisible"
+            />
+
+        <View
+            android:id="@+id/view_5"
+            android:layout_width= "@dimen/dimens_2px"
+            android:layout_height="@dimen/dimens_70px"
+            app:layout_constraintEnd_toStartOf="@id/button_2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/button_4"
+            android:background="@color/color_text_login_and_cadre"
+            android:visibility="invisible"
+            />
+        <ImageButton
+            android:id="@+id/button_1"
+            android:layout_width= "@dimen/dimens_45dp"
+            android:layout_height="@dimen/dimens_45dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/view_2"
+
+            android:src="@drawable/back_circle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/btn_selector_button_bottom_bat"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription" />
+
+
+        <com.joooonho.SelectableRoundedImageView
+            android:id="@+id/account"
+            android:layout_width= "@dimen/dimens_97px"
+            android:layout_height="@dimen/dimens_97px"
+            app:layout_constraintEnd_toStartOf="@id/button_1"
+            app:layout_constraintTop_toTopOf="@id/button_1"
+            app:layout_constraintBottom_toBottomOf="@id/button_1"
+            app:layout_constraintStart_toEndOf="@id/button_1"
+            android:scaleType="centerCrop"
+            app:sriv_oval="true" />
+
+        <ImageButton
+            android:id="@+id/button_5"
+            android:layout_width= "@dimen/dimens_45dp"
+            android:layout_height="@dimen/dimens_45dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/view_2"
+            app:layout_constraintEnd_toStartOf="@id/view_6"
+            android:src="@drawable/trending_empty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/btn_selector_button_bottom_bat"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription"
+            />
+        <View
+            android:id="@+id/view_6"
+            android:layout_width= "@dimen/dimens_2px"
+            android:layout_height="@dimen/dimens_70px"
+            app:layout_constraintEnd_toStartOf="@id/button_0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/button_5"
+            android:background="@color/color_text_login_and_cadre"
+            android:visibility="invisible"
+            />
+
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play"
+            android:textColor="@color/color_text_login_and_cadre"
+            android:textSize="@dimen/txt_7_5_sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/button_1"
+            app:layout_constraintEnd_toEndOf="@id/button_1"
+            app:layout_constraintHorizontal_bias="0.535"
+            app:layout_constraintStart_toStartOf="@id/button_1"
+            app:layout_constraintTop_toBottomOf="@id/button_1"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/text_stat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/button_0"
+            app:layout_constraintEnd_toEndOf="@id/button_0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            android:text="@string/coins"
+            android:textColor="@color/color_text_petit"
+            android:textSize="@dimen/txt_7_5_sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:id="@+id/text_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/button_4"
+            app:layout_constraintEnd_toEndOf="@id/button_4"
+            app:layout_constraintTop_toBottomOf="@id/button_4"
+            app:layout_constraintBottom_toBottomOf="@id/button_4"
+            android:text="@string/account"
+            android:textColor="@color/color_text_petit"
+            android:textSize="@dimen/txt_7_5_sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:id="@+id/text_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/button_2"
+            app:layout_constraintEnd_toEndOf="@id/button_2"
+            app:layout_constraintTop_toBottomOf="@id/button_2"
+            app:layout_constraintBottom_toBottomOf="@id/button_2"
+            android:text="@string/setting"
+            android:textColor="@color/color_text_petit"
+            android:textSize="@dimen/txt_7_5_sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/txt_my_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/place_top_bar"
+
+        android:layout_marginTop="@dimen/dimens_11px"
+
+
+        android:textColor="@color/color_text_login_and_cadre"
+        android:textSize="@dimen/txt_15_sp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        android:background="@drawable/back_money"
+
+
+        android:drawablePadding="@dimen/dimens_18px"
+        app:drawableEndCompat="@drawable/coins" />
+
+
+    <View
+        android:layout_width="@dimen/dimens_250px"
+        android:layout_height="@dimen/dimens_250px"
+        app:layout_constraintBottom_toBottomOf="@id/txt_my_score"
+        app:layout_constraintEnd_toStartOf="@id/txt_my_score"
+        android:background="@drawable/shape"
+        />
+
+    <!-- <FrameLayout
+        android:id="@+id/fragmentAccount"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_Statico"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_acceuil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/> -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

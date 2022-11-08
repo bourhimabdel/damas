@@ -1,0 +1,87 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="NotificationBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds"  tools:targetApi="lollipop">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/background_snack</item>
+
+        <item name="android:itemBackground">@color/background_snack</item>
+        <item name="itemTextColor">@color/color_text_login_and_cadre</item>
+        <item name="itemPadding">@dimen/demens_23px</item>
+        <item name="itemIconPadding">@dimen/dimens_32px</item>
+        <item name="fontFamily">@font/font_</item>
+
+    </style>
+
+    <style name="Game_space" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/color_text_login_and_cadre</item>
+        <item name="colorPrimaryDark">@color/color_text_login_and_cadre</item>
+        <item name="colorAccent">@color/color_text_login_and_cadre</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="android:itemBackground">@color/background_snack</item>
+        <item name="itemTextColor">@color/color_text_login_and_cadre</item>
+        <item name="itemPadding">@dimen/demens_23px</item>
+        <item name="itemIconPadding">@dimen/dimens_32px</item>
+        <item name="fontFamily">@font/font_</item>
+    </style>
+
+    <style name="scrollbar_shape_style">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scroll_vertical_thumb</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scroll_vertical_track</item>
+        <item name="android:scrollbarSize">@dimen/dimens_18px</item>
+        <item name="android:scrollbarFadeDuration">700</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">700</item>
+        <item name="fontFamily">@font/font_</item>
+    </style>
+
+    <style name="scrollbar_shape_style_">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">horizontal</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/scroll_vertical_thumb</item>
+        <item name="android:scrollbarTrackHorizontal">@drawable/scroll_vertical_track</item>
+        <item name="android:scrollbarSize">@dimen/dimens_18px</item>
+        <item name="android:scrollbarFadeDuration">700</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">700</item>
+        <item name="fontFamily">@font/font_</item>
+    </style>
+
+    <style name="Splash_screen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowDrawsSystemBarBackgrounds"  tools:targetApi="lollipop">true</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/splash_b</item>
+
+    </style>
+
+
+
+    <style name="BottomSheetMainStyle" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.Test.BottomSheet.Modal</item>
+    </style>
+
+    <style name="Widget.Test.BottomSheet.Modal" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <style name="BottomSheetDialogKeyboardTheme" parent="Theme.MaterialComponents.DayNight.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="bottomSheetStyle">@style/Widget.Test.BottomSheet.Modal</item>
+    </style>
+
+
+
+</resources>

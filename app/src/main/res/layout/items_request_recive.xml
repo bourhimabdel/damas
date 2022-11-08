@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dimens_690px"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/dimens_18px"
+
+    >
+
+
+    <com.joooonho.SelectableRoundedImageView
+        android:id="@+id/image_profil"
+        android:layout_width="@dimen/dimens_250px"
+        android:layout_height="@dimen/dimens_250px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="centerCrop"
+
+        android:layout_marginBottom="@dimen/demens_23px"
+        android:layout_marginTop="@dimen/dimens_55px"
+        app:sriv_oval="true" />
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/dimens_300px"
+
+        app:layout_constraintTop_toBottomOf="@id/image_profil"
+        app:layout_constraintStart_toStartOf="@id/image_profil"
+        app:layout_constraintEnd_toEndOf="@id/image_profil"
+
+
+        android:maxLines="3"
+        android:textSize="@dimen/txt_15_sp"
+        android:textColor="@color/color_text_petit"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        android:padding="@dimen/dimens_11px"
+
+        />
+
+
+    <Button
+        android:id="@+id/btn_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/btn_selector_deffie"
+
+
+        app:layout_constraintStart_toEndOf="@id/btn_cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        android:layout_marginStart="@dimen/dimens_11px"
+
+        android:layout_marginBottom="@dimen/dimens_45px"
+        android:textColor="@color/color_text_login_and_cadre"
+        android:gravity="center"
+        android:textSize="@dimen/txt_15_sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="@string/accept_"
+
+        android:drawableEnd="@drawable/freind_online"
+        android:drawableRight="@drawable/freind_online"
+
+
+        android:drawablePadding="@dimen/dimens_55px"
+        tools:ignore="RtlSymmetry"
+        android:layout_marginLeft="@dimen/dimens_11px"
+        />
+    <ImageButton
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+
+
+        android:background="@drawable/btn_selector_back_cancel"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/btn_accept"
+        app:layout_constraintTop_toTopOf="@id/btn_accept"
+
+
+
+
+
+
+        android:textColor="@color/color_text_login_and_cadre"
+        android:gravity="center"
+        android:textSize="@dimen/txt_15_sp"
+        android:textAllCaps="false"
+
+
+        android:src="@drawable/cancel" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

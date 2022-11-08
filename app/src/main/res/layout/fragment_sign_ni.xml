@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".sign_ni">
+
+    <com.damasingo.CLASS_UTIL.LockableNestedScrollView
+        android:id="@+id/ss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scrollbars="vertical"
+        style="@style/scrollbar_shape_style"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/view_onligne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:minHeight="@dimen/dimens_180px"
+
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:paddingTop="@dimen/dimens_32px"
+            android:paddingBottom="@dimen/dimens_32px"
+            android:layout_marginTop="@dimen/dimens_550px"
+            android:layout_marginBottom="@dimen/dimens_250px"
+            android:layout_marginStart="@dimen/dimens_18px"
+            android:layout_marginEnd="@dimen/dimens_18px"
+            >
+
+            <TextView
+                android:id="@+id/txt_play_online"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="@dimen/dimens_750px"
+                android:text="@string/to_view_this_page_you_must_be_sign_in"
+                android:textColor="@color/tit"
+                android:textSize="@dimen/dimens_30_sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <Button
+                android:id="@+id/btn_sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/btn_selector_back_cancel"
+
+                android:gravity="center"
+                android:text="@string/sign_in"
+                android:textAllCaps="false"
+                android:textSize="@dimen/txt_20_sp"
+                android:textStyle="bold"
+                android:textColor="@color/color_text_login_and_cadre"
+
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_play_online"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="@dimen/dimens_250px"
+
+
+
+                android:paddingEnd="@dimen/dimens_130px"
+                android:paddingStart="@dimen/dimens_130px"/>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.damasingo.CLASS_UTIL.LockableNestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dimens_690px"
+    android:layout_margin="@dimen/dimens_18px"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.joooonho.SelectableRoundedImageView
+        android:id="@+id/image_profil"
+        android:layout_width="@dimen/dimens_300px"
+        android:layout_height="@dimen/dimens_300px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/dimens_55px"
+        app:layout_constraintTop_toTopOf="parent"
+        app:sriv_oval="true"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+
+
+    <ImageButton
+        android:id="@+id/view_lock"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="@id/image_profil"
+        app:layout_constraintBottom_toBottomOf="@id/image_profil"
+        app:layout_constraintEnd_toEndOf="@id/image_profil"
+        app:layout_constraintTop_toTopOf="@id/image_profil"
+        android:background="@drawable/chrono_oval"
+        android:src="@drawable/lock"
+
+        android:visibility="invisible"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_prix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/image_profil"
+        app:layout_constraintTop_toBottomOf="@id/image_profil"
+        app:layout_constraintStart_toStartOf="@id/image_profil"
+
+        android:textColor="@color/color_text_login_and_cadre"
+        android:textSize="@dimen/txt_20_sp"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        android:scaleX="0.85"
+        android:scaleY="0.85"
+        android:background="@drawable/back_prix"
+
+        app:drawableEndCompat="@drawable/coins"
+        android:padding="@dimen/demens_23px"
+        android:drawablePadding="@dimen/demens_23px"
+
+        android:visibility="invisible"
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_use"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/btn_copy_id"
+        android:gravity="center"
+        android:text="@string/use"
+        android:textAllCaps="false"
+        android:textSize="@dimen/txt_15_sp"
+        android:textStyle="bold"
+        android:textColor="@color/color_text_login_and_cadre"
+
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_profil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintVertical_bias="0.8"
+        android:layout_marginEnd="@dimen/dimens_55px"
+        android:layout_marginStart="@dimen/dimens_55px"
+
+
+        android:padding="@dimen/dimens_32px"
+        android:drawablePadding="@dimen/dimens_45px"
+
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/btn_selector_play_local_match"
+        android:gravity="center"
+        android:text="@string/open"
+        android:textAllCaps="false"
+        android:textSize="@dimen/txt_15_sp"
+        android:textStyle="bold"
+        android:textColor="@color/color_text_login_and_cadre"
+
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_profil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintVertical_bias="0.8"
+        android:layout_marginEnd="@dimen/dimens_55px"
+        android:layout_marginStart="@dimen/dimens_55px"
+
+
+        android:drawableEnd="@drawable/lock_open"
+        android:drawableRight="@drawable/lock_open"
+        android:padding="@dimen/dimens_32px"
+        android:drawablePadding="@dimen/dimens_45px"
+        android:visibility="invisible"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_wait"
+        app:lottie_rawRes="@raw/load"
+        app:lottie_speed="2"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+
+        android:layout_width="@dimen/dimens_200px"
+        android:layout_height="@dimen/dimens_200px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_profil"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

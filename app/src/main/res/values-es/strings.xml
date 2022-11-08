@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">juego de damas</string>
+    <string name="Login_while">Autenticación en curso …</string>
+    <string name="sign_in_with_us">La autenticación le permite obtener un identificador en la aplicación.</string>
+    <string name="sign_in_with_go">Inicia sesión con Google</string>
+    <string name="sign_in_with_fb">Iniciar sesión con Facebook</string>
+    <string name="login_success">Autenticación exitosa</string>
+    <string name="try_again">Volver a intentar</string>
+    <string name="setting">Configuración</string>
+    <string name="account">Cuenta</string>
+    <string name="home">Página principal</string>
+    <string name="coins">Monedas</string>
+    <string name="theme">Tema</string>
+    <string name="light">luz</string>
+    <string name="night">noche</string>
+    <string name="bottom_navigation_bar">Barra de navegación inferior</string>
+    <string name="not_activated">No esta activado</string>
+    <string name="activated">Activado</string>
+    <string name="language">Idiomas</string>
+    <string name="five_stars">Cinco estrellas \npor favor</string>
+    <string name="share_the_app">Comparte la aplicación \ncon tus amigos.</string>
+    <string name="share">Compartir, repartir</string>
+    <string name="store">Valoración</string>
+    <string name="log_out">Cerrar sesión</string>
+    <string name="arabic">árabe</string>
+    <string name="english">inglés</string>
+    <string name="french">francés</string>
+    <string name="spanish">Español</string>
+    <string name="hindi">indio</string>
+    <string name="japanese">japonés</string>
+    <string name="russian">ruso</string>
+    <string name="yes_log_out">Si quiero desconectar</string>
+    <string name="log_out_q">¿Está seguro de que desea cerrar la sesión?</string>
+    <string name="no">No</string>
+    <string name="about_the_app">Acerca de la aplicación</string>
+    <string name="read">Leer</string>
+    <string name="share_text">Juego</string>
+    <string name="Lien_text">Enlace de aplicación en la tienda</string>
+    <string name="request_sent">Se ha enviado una solicitud de contribución publicitaria, estamos esperando una respuesta en unos segundos.</string>
+    <string name="request_gain_an_ads">El anuncio está listo, míralo y gana la recompensa</string>
+    <string name="request_failed_no_ads">La solicitud de anuncio se realizó correctamente, pero no se devolvieron anuncios debido a la falta de inventario de anuncios, o no hay anuncios que cumplan con eCPM en su área. Intentaremos nuevamente una vez que finalice el contador.</string>
+    <string name="request_failed_no_internet">La solicitud de anuncio falló debido a la conexión de red, lo intentaremos nuevamente después de que finalice el contador.</string>
+    <string name="swipe">Criticar</string>
+    <string name="oureo"> PS</string>
+    <string name="seconde">s</string>
+    <string name="ecpm">1 video</string>
+    <string name="wait">esperar …</string>
+    <string name="no_account_found">No se encontró ninguna cuenta con ID:</string>
+    <string name="add_you_self">No te puedes agregar a t\í mismo como amigo</string>
+    <string name="type_the_ID">Escriba la identificación antes de hacer clic en agregar</string>
+    <string name="deleting">Eliminación …</string>
+    <string name="refuse">rechazar</string>
+    <string name="accepting">Es aceptado …</string>
+    <string name="accept">Aprobado con éxito</string>
+    <string name="wait_re">Esperando una respuesta de</string>
+    <string name="three_p">…</string>
+    <string name="lets_play">Vamos a jugar</string>
+    <string name="log_in_as_a_visitor">Iniciar sesión como visitante</string>
+    <string name="b_i_n_a">Bluetooth no está disponible</string>
+    <string name="type_a_message">escribir un mensaje …</string>
+    <string name="retry_again_to_connect_with">Intenta conectarte de nuevo</string>
+    <string name="you_are_offline">Tu no estas conectado</string>
+    <string name="you_are_online">Estás en línea</string>
+    <string name="we_are_waiting_for_your_friend">Estamos esperando a tu amigo</string>
+    <string name="read_more_information_about_this_game_and_watch_videos">Lea más información sobre este juego y vea los videos:</string>
+    <string name="learn_the_rules_of_the_game">Aprenda las reglas del juego:</string>
+    <string name="id">IDENTIFICACIÓN:</string>
+    <string name="level_progress_and_personal_data">Nivel de progreso y datos personales</string>
+    <string name="statistics_of_playing_online_matches">Estadísticas de partidos en línea</string>
+    <string name="total_winnings">Beneficios totales:</string>
+    <string name="coins_wallet">monedero:</string>
+    <string name="rank">Rango:</string>
+    <string name="games_won">Juegos ganados:</string>
+    <string name="win_percentage">porcentaje de ganancia:</string>
+    <string name="n_75_coins_n_open_green_ads">\n⬤ +75 monedas \n⬤ anuncio verde abierto</string>
+    <string name="n_125_coins_n_open_blue_ads">\n⬤ +125 monedas \n⬤ anuncio azul abierto</string>
+    <string name="n_175_coins_n">⬤ +175 piezas</string>
+    <string name="add_some_friends_to_play_online">Agrega amigos para jugar en línea</string>
+    <string name="start_bluetooth_match">Iniciar una coincidencia de Bluetooth</string>
+    <string name="in_order_to_play_a_bluetooth_match_you_must_activate_the_2_elements">Para jugar una partida por bluetooth, debes activar ambos elementos</string>
+    <string name="find_someone_to_play_with_with_bluetooth">Encuentra a alguien para iniciar una coincidencia de Bluetooth</string>
+    <string name="paired_devices">Dispositivos emparejados</string>
+    <string name="unpaired_devices">Dispositivos no emparejados</string>
+    <string name="_1_match_for_75">Un partido de 75</string>
+    <string name="about_start_bluetooth_match">Acerca</string>
+    <string name="start_online_match">Empieza el partido online</string>
+    <string name="tap_to_get_your_id">nombre de usuario</string>
+    <string name="about_start_online_match">Sobre el inicio del partido online</string>
+    <string name="start_local_match">Iniciar un partido local</string>
+    <string name="play_a_local_match_with_someone">Juega un partido local con alguien</string>
+    <string name="_1_match_for_25">Un partido de 25</string>
+    <string name="about_start_local_match">Sobre el inicio del partido local</string>
+    <string name="no_friend_request_yet">No hay solicitud de amistad por el momento</string>
+    <string name="type_or_paste_the_id_of_your_friend">Escriba o pegue la identificación de su amigo</string>
+    <string name="add">Agregar</string>
+    <string name="list_request">Lista de solicitudes:</string>
+    <string name="no_request_sent_yet">Aún no se ha enviado ninguna solicitud</string>
+    <string name="sound">Sonido</string>
+    <string name="vibration">Vibración</string>
+    <string name="save_your_account_by_linking_it_to_a_facebook_account">Registre su cuenta vinculándola a su cuenta de Facebook</string>
+    <string name="save_your_account_by_linking_it_to_a_google_account">Registre su cuenta vinculándola a una cuenta de Google</string>
+    <string name="ok">sí</string>
+    <string name="pair_the_device">Emparejar el dispositivo</string>
+    <string name="play">Para jugar</string>
+    <string name="accept_">Aceptación</string>
+    <string name="cancel">Cancelación</string>
+    <string name="request_sent_">Solicitud enviada</string>
+    <string name="_100">100</string>
+
+    <string name="go_back">Volver</string>
+    <string name="core">resultado :\t</string>
+    <string name="Connected_successful">Conexión exitosa</string>
+    <string name="try_to_C">tratar de contactar \t</string>
+    <string name="waiting">esperar \t</string>
+    <string name="to_Come">\tentrar …</string>
+    <string name="pairing">Emparejamiento …</string>
+    <string name="waiting_for_your_fr">Estamos esperando a tu amigo \t</string>
+
+    <string name="def">Idioma original</string>
+    <string name="sent">enviado</string>
+    <string name="recieve">recibir</string>
+    <string name="_0">0</string>
+
+    <string name="applique">Mire un video para ver cómo puede aplicar esta información</string>
+    <string name="we_are_create_match">Hacemos el partido</string>
+    <string name="cancel_match">cancelar el partido</string>
+    <string name="friend_not_join">Si tu amigo no se une, cancela esta partida</string>
+    <string name="K">\tK</string>
+    <string name="M">\tM</string>
+    <string name="back">Si vuelves perderás este partido</string>
+    <string name="end">Si tu amigo no se une, vuelve</string>
+    <string name="congrats">Felicitaciones por tu victoria</string>
+    <string name="Point_of_experience">Puntos de experiencia</string>
+    <string name="Unfortunately">Desafortunadamente perdí</string>
+    <string name="toplay">Para jugar un partido local, debes \n</string>
+    <string name="tocollect">Para recolectarlos, agrega monedas.</string>
+    <string name="bluetooth">Para jugar una partida por Bluetooth, debes \n</string>
+    <string name="turn_on_bluetooth">Bluetooth debe estar activado</string>
+    <string name="oth_and_loc">Debes activar bluetooth y localización</string>
+    <string name="y">Es necesario activar la localización</string>
+    <string name="level">nivel :</string>
+    <string name="ri">¡No es tu turno de jugar ahora!</string>
+
+    <string name="add_a_friend">Añade</string>
+    <string name="ollect">\nNecesitas al menos\n</string>
+    <string name="yo">\nya has enviado una solicitud a\n</string>
+    <string name="re">\ntienes una solicitud de\n</string>
+    <string name="cce">\n, acéptalo desde el lugar de recepción\n</string>
+    <string name="ve">\ntú tienes\n</string>
+    <string name="is">\nen tu lista amigo\n</string>
+    <string name="lrea">\nya tienes una solicitud de\n</string>
+    <string name="an">\nactualiza la lista de recepción y acéptala\n</string>
+
+    <string name="yoa">usted y</string>
+    <string name="are">son amigos ahora</string>
+    <string name="invit">rechazó su invitación</string>
+    <string name="wants">quiere ser tu amigo</string>
+    <string name="with">quiero jugar contigo</string>
+    <string name="aiting_">Te estoy esperando en el ring</string>
+    <string name="Rewar">La recompensa periódica está lista, consíguela</string>
+    <string name="Reward">Recompensa periódica</string>
+    <string name="hi">Hola</string>
+    <string name="We">Esperamos esto</string>
+    <string name="sunday">domingo</string>
+    <string name="monday">lunes</string>
+    <string name="tuesday">martes</string>
+    <string name="wednesday">miércoles</string>
+    <string name="thursday">jueves</string>
+    <string name="friday">viernes</string>
+    <string name="saturday">sábado</string>
+    <string name="well">Te encuentra bien</string>
+    <string name="coming_soon">Próximamente, en breve, pronto …</string>
+    <string name="start_a_random_match_online">Iniciar una partida aleatoria en línea</string>
+    <string name="star_progress">Progreso estrella:</string>
+
+    <string name="con">condiciones y política de privacidad</string>
+    <string name="i_accept">Cuando hagas clic en Acepto, el juego usará tu: \ n ⬤ Perfil público (nombre + foto) \ n ⬤ Correo electrónico (para iniciar sesión)</string>
+    <string name="i">acepto</string>
+
+
+    <string name="timer">Temporizador</string>
+    <string name="virc">Barra de progreso circular</string>
+    <string name="text">Texto</string>
+
+
+    <string name="sent_challenge">Desafío enviado</string>
+
+
+    <string name="there_are_no_paired_devices">No hay dispositivos emparejados</string>
+    <string name="we_could_not_detect_any_unpaired_device">No pudimos detectar ningún dispositivo no emparejado</string>
+    <string name="lml">Encienda bluetooth para ver los dispositivos emparejados</string>
+    <string name="req">Se requieren Bluetooth y ubicación para encontrar dispositivos cercanos</string>
+    <string name="mm">Haz que tu dispositivo sea indetectable</string>
+    <string name="mak">Haz que tu dispositivo sea reconocible</string>
+    <string name="add_f">Agregar nuevos amigos</string>
+    <string name="with_id">con id</string>
+    <string name="randomly">al azar</string>
+    <string name="open">Abierto</string>
+    <string name="update">Actualizar</string>
+    <string name="to">Para abrir esta imagen necesitas</string>
+    <string name="type_name">Escriba su nombre favorito …</string>
+    <string name="need">Para cambiar tu nombre necesitas</string>
+    <string name="it">Parece que no tienes nombre</string>
+    <string name="name">Nombre</string>
+    <string name="pic">fotografía</string>
+
+    <string name="use">Usar</string>
+    <string name="select_new_picture">Seleccionar nueva imagen</string>
+    <string name="cashback">Devolución de dinero</string>
+    <string name="replay">Repetición</string>
+    <string name="p">Beneficios * 2</string>
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="vs">Vs</string>
+    <string name="look">como si estuvieras cansado de esperar, nos disculpamos</string>
+    <string name="country">País :</string>
+    <string name="m">m</string>
+    <string name="h">h</string>
+    <string name="year">año</string>
+    <string name="month">mes</string>
+    <string name="day">día</string>
+    <string name="edit">Editar</string>
+    <string name="lev">Nivel</string>
+    <string name="id_m">ID no debe contener</string>
+    <string name="b">B</string>
+    <string name="t">T</string>
+    <string name="q">Q</string>
+    <string name="accepted_your_challenge">aceptó su desafío</string>
+    <string name="i_send_you_a_challenge">enviarte un desafío</string>
+    <string name="onlinz">en línea</string>
+    <string name="world">Mundo</string>
+    <string name="no_data_yet">Aún no hay datos</string>
+    <string name="the_request_has_been_sent_successfully">La solicitud ha sido enviada con éxito.</string>
+    <string name="live_players">Jugadores en vivo</string>
+    <string name="rando">Aleatorio</string>
+    <string name="friend">Amigos</string>
+    <string name="bluetoot">Bluetooth</string>
+    <string name="local">Local</string>
+
+
+    <string name="canot_play">No puedo jugar ahora</string>
+    <string name="lets_play_a">Juguemos otra vez</string>
+    <string name="coo">conectando al servidor</string>
+    <string name="w">esperando un jugador</string>
+    <string name="starting">Partida inicial</string>
+
+
+    <string name="yesterday_s_heroes">Héroes de ayer</string>
+    <string name="today_t">Puntaje máximo de hoy</string>
+    <string name="congrate">Felicitaciones, eres el primero en</string>
+    <string name="con_g">Felicitaciones, eres el segundo en</string>
+    <string name="congra">Felicitaciones, eres el tercero en</string>
+
+    <string-array name="rang_name">
+        <item>Aprendiz</item>
+        <item>Principiante</item>
+        <item>Estudiante</item>
+        <item>Aficionado</item>
+        <item>Estafador</item>
+        <item>Semi-Pro</item>
+        <item>Profesional</item>
+        <item>Virtuoso</item>
+        <item>Experto</item>
+        <item>Veterano</item>
+        <item>Maestría</item>
+        <item>Gran maestre</item>
+        <item>As</item>
+        <item>Superestrella</item>
+        <item>Rey</item>
+        <item>Emperador Damas</item>
+    </string-array>
+</resources>

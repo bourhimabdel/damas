@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/table"
+    android:layout_width="@dimen/dimens_800ox"
+    android:layout_height="@dimen/dimens_800ox"
+    tools:context=".play_onlinge.table_play"
+
+    tools:ignore="ContentDescription,TooManyViews"
+
+    >
+
+
+    <!-- Linge 1 -->
+    <ImageButton
+        android:id="@+id/l1_c1"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l1_c2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/l1_c2"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l1_c3"
+        app:layout_constraintStart_toEndOf="@id/l1_c1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/l1_c3"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l1_c4"
+        app:layout_constraintStart_toEndOf="@id/l1_c2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/l1_c4"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l1_c5"
+        app:layout_constraintStart_toEndOf="@id/l1_c3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/l1_c5"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l1_c6"
+        app:layout_constraintStart_toEndOf="@id/l1_c4"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <ImageButton
+        android:id="@+id/l1_c6"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l1_c7"
+        app:layout_constraintStart_toEndOf="@id/l1_c5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/l1_c7"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l1_c8"
+        app:layout_constraintStart_toEndOf="@id/l1_c6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/l1_c8"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/l1_c7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!-- Linge 2 -->
+    <ImageButton
+        android:id="@+id/l2_c1"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l2_c2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l1_c1" />
+
+    <ImageButton
+        android:id="@+id/l2_c2"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l2_c3"
+        app:layout_constraintStart_toEndOf="@id/l2_c1"
+        app:layout_constraintTop_toBottomOf="@id/l1_c1" />
+
+    <ImageButton
+        android:id="@+id/l2_c3"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l2_c4"
+        app:layout_constraintStart_toEndOf="@id/l2_c2"
+        app:layout_constraintTop_toBottomOf="@id/l1_c1" />
+
+    <ImageButton
+        android:id="@+id/l2_c4"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l2_c5"
+        app:layout_constraintStart_toEndOf="@id/l2_c3"
+        app:layout_constraintTop_toBottomOf="@id/l1_c1" />
+
+    <ImageButton
+        android:id="@+id/l2_c5"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l2_c6"
+        app:layout_constraintStart_toEndOf="@id/l2_c4"
+        app:layout_constraintTop_toBottomOf="@id/l1_c1" />
+
+    <ImageButton
+        android:id="@+id/l2_c6"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l2_c7"
+        app:layout_constraintStart_toEndOf="@id/l2_c5"
+        app:layout_constraintTop_toBottomOf="@id/l1_c1" />
+
+    <ImageButton
+        android:id="@+id/l2_c7"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l2_c8"
+        app:layout_constraintStart_toEndOf="@id/l2_c6"
+        app:layout_constraintTop_toBottomOf="@id/l1_c1" />
+
+    <ImageButton
+        android:id="@+id/l2_c8"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/l2_c7"
+        app:layout_constraintTop_toBottomOf="@id/l1_c1" />
+
+    <!-- Linge 3 -->
+    <ImageButton
+        android:id="@+id/l3_c1"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l3_c2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l2_c1" />
+
+    <ImageButton
+        android:id="@+id/l3_c2"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l3_c3"
+        app:layout_constraintStart_toEndOf="@id/l3_c1"
+        app:layout_constraintTop_toBottomOf="@id/l2_c1" />
+
+    <ImageButton
+        android:id="@+id/l3_c3"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l3_c4"
+        app:layout_constraintStart_toEndOf="@id/l3_c2"
+        app:layout_constraintTop_toBottomOf="@id/l2_c1" />
+
+    <ImageButton
+        android:id="@+id/l3_c4"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l3_c5"
+        app:layout_constraintStart_toEndOf="@id/l3_c3"
+        app:layout_constraintTop_toBottomOf="@id/l2_c1" />
+
+    <ImageButton
+        android:id="@+id/l3_c5"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l3_c6"
+        app:layout_constraintStart_toEndOf="@id/l3_c4"
+        app:layout_constraintTop_toBottomOf="@id/l2_c1" />
+
+    <ImageButton
+        android:id="@+id/l3_c6"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l3_c7"
+        app:layout_constraintStart_toEndOf="@id/l3_c5"
+        app:layout_constraintTop_toBottomOf="@id/l2_c1" />
+
+    <ImageButton
+        android:id="@+id/l3_c7"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l3_c8"
+        app:layout_constraintStart_toEndOf="@id/l3_c6"
+        app:layout_constraintTop_toBottomOf="@id/l2_c1" />
+
+    <ImageButton
+        android:id="@+id/l3_c8"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/l3_c7"
+        app:layout_constraintTop_toBottomOf="@id/l2_c1" />
+
+
+    <!-- Linge 4 -->
+    <ImageButton
+        android:id="@+id/l4_c1"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l4_c2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l3_c1" />
+
+    <ImageButton
+        android:id="@+id/l4_c2"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l4_c3"
+        app:layout_constraintStart_toEndOf="@id/l4_c1"
+        app:layout_constraintTop_toBottomOf="@id/l3_c1" />
+
+    <ImageButton
+        android:id="@+id/l4_c3"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l4_c4"
+        app:layout_constraintStart_toEndOf="@id/l4_c2"
+        app:layout_constraintTop_toBottomOf="@id/l3_c1" />
+
+    <ImageButton
+        android:id="@+id/l4_c4"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l4_c5"
+        app:layout_constraintStart_toEndOf="@id/l4_c3"
+        app:layout_constraintTop_toBottomOf="@id/l3_c1" />
+
+    <ImageButton
+        android:id="@+id/l4_c5"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l4_c6"
+        app:layout_constraintStart_toEndOf="@id/l4_c4"
+        app:layout_constraintTop_toBottomOf="@id/l3_c1" />
+
+    <ImageButton
+        android:id="@+id/l4_c6"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l4_c7"
+        app:layout_constraintStart_toEndOf="@id/l4_c5"
+        app:layout_constraintTop_toBottomOf="@id/l3_c1" />
+
+    <ImageButton
+        android:id="@+id/l4_c7"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l4_c8"
+        app:layout_constraintStart_toEndOf="@id/l4_c6"
+        app:layout_constraintTop_toBottomOf="@id/l3_c1" />
+
+    <ImageButton
+        android:id="@+id/l4_c8"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/l4_c7"
+        app:layout_constraintTop_toBottomOf="@id/l3_c1" />
+
+    <!-- Linge 5 -->
+    <ImageButton
+        android:id="@+id/l5_c1"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l5_c2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l4_c1" />
+
+    <ImageButton
+        android:id="@+id/l5_c2"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l5_c3"
+        app:layout_constraintStart_toEndOf="@id/l5_c1"
+        app:layout_constraintTop_toBottomOf="@id/l4_c1" />
+
+    <ImageButton
+        android:id="@+id/l5_c3"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l5_c4"
+        app:layout_constraintStart_toEndOf="@id/l5_c2"
+        app:layout_constraintTop_toBottomOf="@id/l4_c1" />
+
+    <ImageButton
+        android:id="@+id/l5_c4"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l5_c5"
+        app:layout_constraintStart_toEndOf="@id/l5_c3"
+        app:layout_constraintTop_toBottomOf="@id/l4_c1" />
+
+    <ImageButton
+        android:id="@+id/l5_c5"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l5_c6"
+        app:layout_constraintStart_toEndOf="@id/l5_c4"
+        app:layout_constraintTop_toBottomOf="@id/l4_c1" />
+
+    <ImageButton
+        android:id="@+id/l5_c6"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l5_c7"
+        app:layout_constraintStart_toEndOf="@id/l5_c5"
+        app:layout_constraintTop_toBottomOf="@id/l4_c1" />
+
+    <ImageButton
+        android:id="@+id/l5_c7"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l5_c8"
+        app:layout_constraintStart_toEndOf="@id/l5_c6"
+        app:layout_constraintTop_toBottomOf="@id/l4_c1" />
+
+    <ImageButton
+        android:id="@+id/l5_c8"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/l5_c7"
+        app:layout_constraintTop_toBottomOf="@id/l4_c1" />
+
+    <!-- Linge 6 -->
+    <ImageButton
+        android:id="@+id/l6_c1"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l6_c2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l5_c1" />
+
+    <ImageButton
+        android:id="@+id/l6_c2"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l6_c3"
+        app:layout_constraintStart_toEndOf="@id/l6_c1"
+        app:layout_constraintTop_toBottomOf="@id/l5_c1" />
+
+    <ImageButton
+        android:id="@+id/l6_c3"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l6_c4"
+        app:layout_constraintStart_toEndOf="@id/l6_c2"
+        app:layout_constraintTop_toBottomOf="@id/l5_c1" />
+
+    <ImageButton
+        android:id="@+id/l6_c4"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l6_c5"
+        app:layout_constraintStart_toEndOf="@id/l6_c3"
+        app:layout_constraintTop_toBottomOf="@id/l5_c1" />
+
+    <ImageButton
+        android:id="@+id/l6_c5"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l6_c6"
+        app:layout_constraintStart_toEndOf="@id/l6_c4"
+        app:layout_constraintTop_toBottomOf="@id/l5_c1" />
+
+    <ImageButton
+        android:id="@+id/l6_c6"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l6_c7"
+        app:layout_constraintStart_toEndOf="@id/l6_c5"
+        app:layout_constraintTop_toBottomOf="@id/l5_c1" />
+
+    <ImageButton
+        android:id="@+id/l6_c7"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l6_c8"
+        app:layout_constraintStart_toEndOf="@id/l6_c6"
+        app:layout_constraintTop_toBottomOf="@id/l5_c1" />
+
+    <ImageButton
+        android:id="@+id/l6_c8"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/l6_c7"
+        app:layout_constraintTop_toBottomOf="@id/l5_c1" />
+
+    <!-- Linge 7 -->
+    <ImageButton
+        android:id="@+id/l7_c1"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l7_c2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l6_c1" />
+
+    <ImageButton
+        android:id="@+id/l7_c2"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l7_c3"
+        app:layout_constraintStart_toEndOf="@id/l7_c1"
+        app:layout_constraintTop_toBottomOf="@id/l6_c1" />
+
+    <ImageButton
+        android:id="@+id/l7_c3"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l7_c4"
+        app:layout_constraintStart_toEndOf="@id/l7_c2"
+        app:layout_constraintTop_toBottomOf="@id/l6_c1" />
+
+    <ImageButton
+        android:id="@+id/l7_c4"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l7_c5"
+        app:layout_constraintStart_toEndOf="@id/l7_c3"
+        app:layout_constraintTop_toBottomOf="@id/l6_c1" />
+
+    <ImageButton
+        android:id="@+id/l7_c5"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l7_c6"
+        app:layout_constraintStart_toEndOf="@id/l7_c4"
+        app:layout_constraintTop_toBottomOf="@id/l6_c1" />
+
+    <ImageButton
+        android:id="@+id/l7_c6"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l7_c7"
+        app:layout_constraintStart_toEndOf="@id/l7_c5"
+        app:layout_constraintTop_toBottomOf="@id/l6_c1" />
+
+    <ImageButton
+        android:id="@+id/l7_c7"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l7_c8"
+        app:layout_constraintStart_toEndOf="@id/l7_c6"
+        app:layout_constraintTop_toBottomOf="@id/l6_c1" />
+
+    <ImageButton
+        android:id="@+id/l7_c8"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/l7_c7"
+        app:layout_constraintTop_toBottomOf="@id/l6_c1" />
+
+    <!-- Linge 8 -->
+    <ImageButton
+        android:id="@+id/l8_c1"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l8_c2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l7_c1" />
+
+    <ImageButton
+        android:id="@+id/l8_c2"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l8_c3"
+        app:layout_constraintStart_toEndOf="@id/l8_c1"
+        app:layout_constraintTop_toBottomOf="@id/l7_c1" />
+
+    <ImageButton
+        android:id="@+id/l8_c3"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l8_c4"
+        app:layout_constraintStart_toEndOf="@id/l8_c2"
+        app:layout_constraintTop_toBottomOf="@id/l7_c1" />
+
+    <ImageButton
+        android:id="@+id/l8_c4"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l8_c5"
+        app:layout_constraintStart_toEndOf="@id/l8_c3"
+        app:layout_constraintTop_toBottomOf="@id/l7_c1" />
+
+    <ImageButton
+        android:id="@+id/l8_c5"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l8_c6"
+        app:layout_constraintStart_toEndOf="@id/l8_c4"
+        app:layout_constraintTop_toBottomOf="@id/l7_c1" />
+
+    <ImageButton
+        android:id="@+id/l8_c6"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l8_c7"
+        app:layout_constraintStart_toEndOf="@id/l8_c5"
+        app:layout_constraintTop_toBottomOf="@id/l7_c1" />
+
+    <ImageButton
+        android:id="@+id/l8_c7"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@color/white"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@id/l8_c8"
+        app:layout_constraintStart_toEndOf="@id/l8_c6"
+        app:layout_constraintTop_toBottomOf="@id/l7_c1" />
+
+    <ImageButton
+        android:id="@+id/l8_c8"
+        android:layout_width="@dimen/dimens_130px"
+        android:layout_height="@dimen/dimens_130px"
+        android:background="@drawable/caree_black"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/l8_c7"
+        app:layout_constraintTop_toBottomOf="@id/l7_c1" />
+
+
+    <ImageButton
+        android:id="@+id/b_l1_c1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l1_c1"
+        app:layout_constraintEnd_toEndOf="@id/l1_c1"
+        app:layout_constraintStart_toStartOf="@id/l1_c1"
+        app:layout_constraintTop_toTopOf="@id/l1_c1" />
+
+    <ImageButton
+        android:id="@+id/b_l1_c3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l1_c3"
+        app:layout_constraintEnd_toEndOf="@id/l1_c3"
+        app:layout_constraintStart_toStartOf="@id/l1_c3"
+        app:layout_constraintTop_toTopOf="@id/l1_c3" />
+
+    <ImageButton
+        android:id="@+id/b_l1_c5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l1_c5"
+        app:layout_constraintEnd_toEndOf="@id/l1_c5"
+        app:layout_constraintStart_toStartOf="@id/l1_c5"
+        app:layout_constraintTop_toTopOf="@id/l1_c5" />
+
+    <ImageButton
+        android:id="@+id/b_l1_c7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l1_c7"
+        app:layout_constraintEnd_toEndOf="@id/l1_c7"
+        app:layout_constraintStart_toStartOf="@id/l1_c7"
+        app:layout_constraintTop_toTopOf="@id/l1_c7" />
+
+    <ImageButton
+        android:id="@+id/b_l2_c2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l2_c2"
+        app:layout_constraintEnd_toEndOf="@id/l2_c2"
+        app:layout_constraintStart_toStartOf="@id/l2_c2"
+        app:layout_constraintTop_toTopOf="@id/l2_c2" />
+
+    <ImageButton
+        android:id="@+id/b_l2_c4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l2_c4"
+        app:layout_constraintEnd_toEndOf="@id/l2_c4"
+        app:layout_constraintStart_toStartOf="@id/l2_c4"
+        app:layout_constraintTop_toTopOf="@id/l2_c4" />
+
+    <ImageButton
+        android:id="@+id/b_l2_c6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l2_c6"
+        app:layout_constraintEnd_toEndOf="@id/l2_c6"
+        app:layout_constraintStart_toStartOf="@id/l2_c6"
+        app:layout_constraintTop_toTopOf="@id/l2_c6"
+
+        />
+
+    <ImageButton
+        android:id="@+id/b_l2_c8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l2_c8"
+        app:layout_constraintEnd_toEndOf="@id/l2_c8"
+        app:layout_constraintStart_toStartOf="@id/l2_c8"
+        app:layout_constraintTop_toTopOf="@id/l2_c8" />
+
+    <ImageButton
+        android:id="@+id/b_l3_c1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l3_c1"
+        app:layout_constraintEnd_toEndOf="@id/l3_c1"
+        app:layout_constraintStart_toStartOf="@id/l3_c1"
+        app:layout_constraintTop_toTopOf="@id/l3_c1" />
+
+    <ImageButton
+        android:id="@+id/b_l3_c3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l3_c3"
+        app:layout_constraintEnd_toEndOf="@id/l3_c3"
+        app:layout_constraintStart_toStartOf="@id/l3_c3"
+        app:layout_constraintTop_toTopOf="@id/l3_c3" />
+
+    <ImageButton
+        android:id="@+id/b_l3_c5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l3_c5"
+        app:layout_constraintEnd_toEndOf="@id/l3_c5"
+        app:layout_constraintStart_toStartOf="@id/l3_c5"
+        app:layout_constraintTop_toTopOf="@id/l3_c5" />
+
+    <ImageButton
+        android:id="@+id/b_l3_c7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l3_c7"
+        app:layout_constraintEnd_toEndOf="@id/l3_c7"
+        app:layout_constraintStart_toStartOf="@id/l3_c7"
+        app:layout_constraintTop_toTopOf="@id/l3_c7" />
+
+    <ImageButton
+        android:id="@+id/b_l6_c2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l6_c2"
+        app:layout_constraintEnd_toEndOf="@id/l6_c2"
+        app:layout_constraintStart_toStartOf="@id/l6_c2"
+        app:layout_constraintTop_toTopOf="@id/l6_c2" />
+
+    <ImageButton
+        android:id="@+id/b_l6_c4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l6_c4"
+        app:layout_constraintEnd_toEndOf="@id/l6_c4"
+        app:layout_constraintStart_toStartOf="@id/l6_c4"
+        app:layout_constraintTop_toTopOf="@id/l6_c4" />
+
+    <ImageButton
+        android:id="@+id/b_l6_c6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l6_c6"
+        app:layout_constraintEnd_toEndOf="@id/l6_c6"
+        app:layout_constraintStart_toStartOf="@id/l6_c6"
+        app:layout_constraintTop_toTopOf="@id/l6_c6" />
+
+    <ImageButton
+        android:id="@+id/b_l6_c8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l6_c8"
+        app:layout_constraintEnd_toEndOf="@id/l6_c8"
+        app:layout_constraintStart_toStartOf="@id/l6_c8"
+        app:layout_constraintTop_toTopOf="@id/l6_c8" />
+
+    <ImageButton
+        android:id="@+id/b_l7_c1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l7_c1"
+        app:layout_constraintEnd_toEndOf="@id/l7_c1"
+        app:layout_constraintStart_toStartOf="@id/l7_c1"
+        app:layout_constraintTop_toTopOf="@id/l7_c1" />
+
+    <ImageButton
+        android:id="@+id/b_l7_c3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l7_c3"
+        app:layout_constraintEnd_toEndOf="@id/l7_c3"
+        app:layout_constraintStart_toStartOf="@id/l7_c3"
+        app:layout_constraintTop_toTopOf="@id/l7_c3" />
+
+    <ImageButton
+        android:id="@+id/b_l7_c5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l7_c5"
+        app:layout_constraintEnd_toEndOf="@id/l7_c5"
+        app:layout_constraintStart_toStartOf="@id/l7_c5"
+        app:layout_constraintTop_toTopOf="@id/l7_c5" />
+
+    <ImageButton
+        android:id="@+id/b_l7_c7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l7_c7"
+        app:layout_constraintEnd_toEndOf="@id/l7_c7"
+        app:layout_constraintStart_toStartOf="@id/l7_c7"
+        app:layout_constraintTop_toTopOf="@id/l7_c7" />
+
+    <ImageButton
+        android:id="@+id/b_l8_c2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l8_c2"
+        app:layout_constraintEnd_toEndOf="@id/l8_c2"
+        app:layout_constraintStart_toStartOf="@id/l8_c2"
+        app:layout_constraintTop_toTopOf="@id/l8_c2" />
+
+    <ImageButton
+        android:id="@+id/b_l8_c4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l8_c4"
+        app:layout_constraintEnd_toEndOf="@id/l8_c4"
+        app:layout_constraintStart_toStartOf="@id/l8_c4"
+        app:layout_constraintTop_toTopOf="@id/l8_c4" />
+
+    <ImageButton
+        android:id="@+id/b_l8_c6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l8_c6"
+        app:layout_constraintEnd_toEndOf="@id/l8_c6"
+        app:layout_constraintStart_toStartOf="@id/l8_c6"
+        app:layout_constraintTop_toTopOf="@id/l8_c6" />
+
+    <ImageButton
+        android:id="@+id/b_l8_c8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/piece_player_2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@id/l8_c8"
+        app:layout_constraintEnd_toEndOf="@id/l8_c8"
+        app:layout_constraintStart_toStartOf="@id/l8_c8"
+        app:layout_constraintTop_toTopOf="@id/l8_c8" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_1_1"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l1_c1"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l1_c1"
+        app:layout_constraintStart_toStartOf="@id/b_l1_c1"
+        app:layout_constraintTop_toTopOf="@id/b_l1_c1"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_1_3"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l1_c3"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l1_c3"
+        app:layout_constraintStart_toStartOf="@id/b_l1_c3"
+        app:layout_constraintTop_toTopOf="@id/b_l1_c3"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_1_5"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l1_c5"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l1_c5"
+        app:layout_constraintStart_toStartOf="@id/b_l1_c5"
+        app:layout_constraintTop_toTopOf="@id/b_l1_c5"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_1_7"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l1_c7"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l1_c7"
+        app:layout_constraintStart_toStartOf="@id/b_l1_c7"
+        app:layout_constraintTop_toTopOf="@id/b_l1_c7"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3"
+
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_2_2"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l2_c2"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l2_c2"
+        app:layout_constraintStart_toStartOf="@id/b_l2_c2"
+        app:layout_constraintTop_toTopOf="@id/b_l2_c2"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_2_4"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l2_c4"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l2_c4"
+        app:layout_constraintStart_toStartOf="@id/b_l2_c4"
+        app:layout_constraintTop_toTopOf="@id/b_l2_c4"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_2_6"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l2_c6"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l2_c6"
+        app:layout_constraintStart_toStartOf="@id/b_l2_c6"
+        app:layout_constraintTop_toTopOf="@id/b_l2_c6"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_2_8"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l2_c8"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l2_c8"
+        app:layout_constraintStart_toStartOf="@id/b_l2_c8"
+        app:layout_constraintTop_toTopOf="@id/b_l2_c8"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_3_1"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l3_c1"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l3_c1"
+        app:layout_constraintStart_toStartOf="@id/b_l3_c1"
+        app:layout_constraintTop_toTopOf="@id/b_l3_c1"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_3_3"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l3_c3"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l3_c3"
+        app:layout_constraintStart_toStartOf="@id/b_l3_c3"
+        app:layout_constraintTop_toTopOf="@id/b_l3_c3"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_3_5"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l3_c5"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l3_c5"
+        app:layout_constraintStart_toStartOf="@id/b_l3_c5"
+        app:layout_constraintTop_toTopOf="@id/b_l3_c5"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_3_7"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l3_c7"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l3_c7"
+        app:layout_constraintStart_toStartOf="@id/b_l3_c7"
+        app:layout_constraintTop_toTopOf="@id/b_l3_c7"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_6_2"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l6_c2"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l6_c2"
+        app:layout_constraintStart_toStartOf="@id/b_l6_c2"
+        app:layout_constraintTop_toTopOf="@id/b_l6_c2"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_6_4"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l6_c4"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l6_c4"
+        app:layout_constraintStart_toStartOf="@id/b_l6_c4"
+        app:layout_constraintTop_toTopOf="@id/b_l6_c4"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_6_6"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l6_c6"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l6_c6"
+        app:layout_constraintStart_toStartOf="@id/b_l6_c6"
+        app:layout_constraintTop_toTopOf="@id/b_l6_c6"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_6_8"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l6_c8"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l6_c8"
+        app:layout_constraintStart_toStartOf="@id/b_l6_c8"
+        app:layout_constraintTop_toTopOf="@id/b_l6_c8"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_7_1"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l7_c1"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l7_c1"
+        app:layout_constraintStart_toStartOf="@id/b_l7_c1"
+        app:layout_constraintTop_toTopOf="@id/b_l7_c1"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_7_3"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l7_c3"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l7_c3"
+        app:layout_constraintStart_toStartOf="@id/b_l7_c3"
+        app:layout_constraintTop_toTopOf="@id/b_l7_c3"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_7_5"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l7_c5"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l7_c5"
+        app:layout_constraintStart_toStartOf="@id/b_l7_c5"
+        app:layout_constraintTop_toTopOf="@id/b_l7_c5"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_7_7"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l7_c7"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l7_c7"
+        app:layout_constraintStart_toStartOf="@id/b_l7_c7"
+        app:layout_constraintTop_toTopOf="@id/b_l7_c7"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_8_2"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l8_c2"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l8_c2"
+        app:layout_constraintStart_toStartOf="@id/b_l8_c2"
+        app:layout_constraintTop_toTopOf="@id/b_l8_c2"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_8_4"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l8_c4"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l8_c4"
+        app:layout_constraintStart_toStartOf="@id/b_l8_c4"
+        app:layout_constraintTop_toTopOf="@id/b_l8_c4"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_8_6"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l8_c6"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l8_c6"
+        app:layout_constraintStart_toStartOf="@id/b_l8_c6"
+        app:layout_constraintTop_toTopOf="@id/b_l8_c6"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_8_8"
+        android:layout_width="@dimen/dimens_180px"
+        android:layout_height="@dimen/dimens_180px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/b_l8_c8"
+
+        app:layout_constraintEnd_toEndOf="@id/b_l8_c8"
+        app:layout_constraintStart_toStartOf="@id/b_l8_c8"
+        app:layout_constraintTop_toTopOf="@id/b_l8_c8"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/enabled"
+        app:lottie_speed="3" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_select_player1"
+        android:layout_width="@dimen/dimens_220px"
+        android:layout_height="@dimen/dimens_220px"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/l6_c2"
+
+        app:layout_constraintEnd_toEndOf="@id/l6_c2"
+        app:layout_constraintStart_toStartOf="@id/l6_c2"
+        app:layout_constraintTop_toTopOf="@id/l6_c2"
+        app:layout_constraintVertical_bias="0.36"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/select"
+        app:lottie_speed="2" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_select_player2"
+        android:layout_width="@dimen/dimens_220px"
+        android:layout_height="@dimen/dimens_220px"
+        android:rotation="180"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/l3_c1"
+
+        app:layout_constraintEnd_toEndOf="@id/l3_c1"
+        app:layout_constraintStart_toStartOf="@id/l3_c1"
+        app:layout_constraintTop_toTopOf="@id/l3_c1"
+        app:layout_constraintVertical_bias="0.64"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/select"
+        app:lottie_speed="2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

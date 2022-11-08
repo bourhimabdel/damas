@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "422069516187",
+    "firebase_url": "https://damas-cc9b5-default-rtdb.firebaseio.com",
+    "project_id": "damas-cc9b5",
+    "storage_bucket": "damas-cc9b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422069516187:android:ef2140b2b1c734424fd33e",
+        "android_client_info": {
+          "package_name": "com.damasingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422069516187-9642gf31t88keroajom13leo60rmh08r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.damasingo",
+            "certificate_hash": "18660978a4390c0bdd7364139414a0eb789c44fb"
+          }
+        },
+        {
+          "client_id": "422069516187-kcm78il1jj9pa6ekr97et8ths3ok0i8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKUib2uD6_eJaiJ_zlHfL2b7hRRb4Mw1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422069516187-kcm78il1jj9pa6ekr97et8ths3ok0i8n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

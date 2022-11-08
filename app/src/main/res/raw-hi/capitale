@@ -1,0 +1,40 @@
+{
+  "capital":{
+    "capital_1":{
+      "title":" मास्को",
+      "lien":""
+    },
+    "capital_2":{
+       "title":"ओटावा",
+      "lien":"https://thelistli.com/wp-content/uploads/2018/03/msot-beautiful-capitals-5.jpg"
+    },
+    "capital_3":{
+       "title":"बुडापेस्टो",
+      "lien":"https://thelistli.com/wp-content/uploads/2018/03/msot-beautiful-capitals-6.jpg"
+    },
+    "capital_4":{
+       "title":"टोक्यो",
+      "lien":"https://thelistli.com/wp-content/uploads/2018/03/msot-beautiful-capitals-2.jpg"
+    },
+    "capital_5":{
+       "title":"रोम",
+      "lien":"https://thelistli.com/wp-content/uploads/2018/03/msot-beautiful-capitals-9.jpg"
+    },
+    "capital_6":{
+       "title":"पेरिस",
+      "lien":"https://thelistli.com/wp-content/uploads/2018/03/msot-beautiful-capitals-8.jpg"
+    },
+    "capital_7":{
+       "title":"बर्लिन",
+      "lien":"https://thelistli.com/wp-content/uploads/2018/03/msot-beautiful-capitals-7.jpg"
+    },
+    "capital_8":{
+       "title":"इस्लामाबाद",
+      "lien":"https://thelistli.com/wp-content/uploads/2018/03/msot-beautiful-capitals-1.jpg"
+    },
+    "capital_9":{
+       "title":"लंडन",
+      "lien":"https://thelistli.com/wp-content/uploads/2018/03/msot-beautiful-capitals-3.jpg"
+    }
+  }
+}

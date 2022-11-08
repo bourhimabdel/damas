@@ -1,0 +1,54 @@
+{
+  "info":{
+    "info_1":{
+      "title":"¿Cómo puedo iniciar sesión?",
+      "description":"puede iniciar sesión con tres proveedores:\n⬤ Google\n⬤ Facebook\n⬤ anónimo (visitante)\n\ndespués de iniciar sesión correctamente con Google o Facebook, usamos su imagen y su nombre únicamente.\nSi selecciona iniciar sesión como visitante, su nombre será el nombre de su teléfono y su imagen será una imagen vacía.\nSi selecciona iniciar sesión como visitante, puede vincular su cuenta a una cuenta de Facebook o una cuenta de Google para guardar sus datos (amigos y puntuación de partidos, puntos de experiencia, monedas recopiladas y más datos de usuario) en el lugar de Configuración.\nSi desea vincular su cuenta anónima a una cuenta de Google o una cuenta de Facebook, debe usar una cuenta que no inicie sesión antes.\nEn la aplicacion.\ny finalmente puede cerrar la sesión en cualquier momento que desee.",
+      "lien":"D9lXAW6UjvU"
+    },
+    "info_2":{
+      "title":"¿Cómo puedo agregar amigos?",
+      "description":"Hay dos métodos para agregar amigos:\n⬤ Envió una solicitud a un amigo.\n⬤ aceptar una solicitud recibida de un amigo.\n\n¿Cómo puedo enviar una solicitud?\ndile a un amigo que te envíe su identificación (está disponible en el lugar de la cuenta y también en el lugar de juego en línea en la aplicación)\ny copie esta identificación, abra la aplicación dama y vaya al lugar enviado, y pegue la identificación en el lugar de la identificación\ny haga clic para agregar, puede ver la solicitud enviada en la lista inferior.\nsu amigo recibirá su solicitud. Si la solicitud es aceptada, usted y su amigo serán amigos en la aplicación.\n\n¿Cómo puedo aceptar una solicitud recibida?\nsimplemente vaya a las solicitudes recibidas y haga clic en aceptar amigo que desea aceptar.\n\nNota: si un amigo te envió una solicitud y esta solicitud no llega o tarda mucho en llegar, te aconsejo que recargues o vuelvas a ver la lista.\nal deslizar de arriba hacia abajo, la aplicación obtiene todas las solicitudes recibidas del servidor automáticamente.\ntambién puedes hacerlo en la lista de reproducción o en la lista de enviados.",
+      "lien":"TNhf9iGUq_E"
+    },
+    "info_3":{
+      "title":"¿Cómo puedo iniciar una partida aleatoria en línea?",
+      "description":"Simplemente haga clic en el precio al que desea jugar y nuestros servidores buscarán un jugador para usted.",
+      "lien":""
+    },
+    "info_4":{
+      "title":"¿Cómo puedo iniciar un partido en línea?",
+      "description":"Hay un método para iniciar una partida en línea:\n⬤ jugar con un amigo:\n     ⬤ desafío enviado.\n          o\n     ⬤ aceptar el desafío.\n\ndesafío enviado:\nve al lugar de juego y haz clic en la imagen o el nombre de tu amigo,\nla aplicación te propone automáticamente un precio múltiple:\n⬤ 100 monedas\n⬤ 500 monedas\n⬤ 2.5 K monedas\n⬤ 10 K monedas\n⬤ 50 K monedas\n⬤ 100 K monedas\n⬤ 500 K monedas\n⬤ 2,5 M monedas\n⬤ 10 M monedas\nelija uno de ellos, y la aplicación enviará su desafío\npara tu amigo, si tu amigo acepta tu desafío, aparecerá una notificación en tu teléfono o en la lista de tus amigos, solo debes hacer clic en jugar y la partida comenzará automáticamente.\n\naceptar desafío:\nsi un amigo te desafía, puedes ver en la lista de amigos este desafío.\nsi haces clic en jugar, significa que aceptas este desafío\nsi tienes el precio de este desafío, el partido comenzará con el precio inicial\n si no tienes la aplicación crea la coincidencia con lo que tienes de dinero\nejemplo :\ntu amigo te desafía con 10K\ny solo tienes 216 monedas\nel partido comienza automáticamente con 100 monedas\n\n\uD83D\uDD34 Nota:\nsi no tienes el precio mínimo para jugar un partido en línea\nla aplicación te propone recolectar más monedas",
+      "lien":"glN1biw7b8A"
+    },
+    "info_5":{
+      "title":"¿Si gano un partido en línea?",
+      "description":"si gano un partido en línea, obtengo el precio del partido * 2\nEjemplo :\nSi juego una partida de 2.5 K monedas, ganaré 5 K monedas.",
+      "lien":"6v_Yl1vTDYs"
+    },
+    "info_6":{
+      "title":"¿Qué pasa con la puntuación?",
+      "description":"cuando tengo un amigo, la aplicación registra la puntuación de coincidencias entre él y yo.\nLa partitura aparece así:\n                   {Puntuación: A-B}\n⬤ A = es el número de partidos que gano.\n⬤ B = es el número de partidos que pierdo (amigo gana).",
+      "lien":"keOxan3vCDk"
+    },
+    "info_7":{
+      "title":"¿Cómo puedo iniciar una coincidencia de bluetooth?",
+      "description":"Puede iniciar una coincidencia de Bluetooth con un amigo que esté cerca de usted en términos de distancia.\nLas herramientas necesarias en su teléfono:\n   ⬤ la tecnología bluetooth\n   ⬤ la tecnología de ubicación\n\nEstas dos tecnologías nos ayudan a conectar su teléfono con el teléfono de su amigo.\ncuando activo estos dos últimos elementos, hago clic en el botón \"Encontrar a alguien con quien jugar con bluetooth\", la aplicación mostrará dos listas:\n ⬤ lista de dispositivos emparejados\n ⬤ lista de dispositivos no emparejados\n\nsi el teléfono de mi amigo está en la lista de dispositivos emparejados, simplemente hago clic en el botón de reproducción y se iniciará una partida.\n\nSi el teléfono de mi amigo está en la lista de dispositivos no emparejados, debo hacer clic en el botón \"Emparejar el dispositivo\", después de que el dispositivo se emparejó correctamente.\nla aplicación lo mueve a la lista de dispositivos emparejados, y ahora puedes jugar con él.\n\n\uD83D\uDD34 Nota: el precio de un partido de bluetooth es de 75 monedas, nadie gana algo después de un partido de bluetooth.",
+      "lien":"evN0Y87CVT8"
+    },
+    "info_8":{
+      "title":"¿Cómo puedo iniciar un partido local?",
+      "description":"Puedes jugar un partido local con un amigo en tu teléfono.\n\n\uD83D\uDD34 Nota: el precio de una partida local es de 25 monedas.",
+      "lien":"n93pJYEh124"
+    },
+    "info_9":{
+      "title":"¿Cómo puedo recolectar más monedas?",
+      "description":"puedes recolectar más monedas en tres métodos:\n ⬤ ganar partidos en línea.\n ⬤ obtenga la recompensa periódica.\n ⬤ vea el video de anuncios de recompensa.\n\nsobre ganar partidos en línea, cuando desafío a un amigo por 500 monedas\ny si gano el partido obtendré 1 K monedas.\n\nsobre la recompensa periódica, en el lugar para agregar monedas hay un círculo\nen la parte superior de la página, cuando deslizo este círculo y lo dejo volver a su lugar, me da 25 monedas.\ny después de 10 minutos estará listo nuevamente para pasar.\n\nacerca de ver los anuncios de recompensa vedio, hay tres tipos de anuncios de video de recompensa:\n ⬤ recompensa naranja.\n ⬤ recompensa verde (bloqueado por defecto).\n ⬤ recompensa azul (bloqueado por defecto).\n\nsi miras el video naranja, ganarás 75 monedas + el video verde se desbloqueará.\nsi miras el video verde, ganarás 125 monedas + se desbloqueará el vedio azul.\nsi miras el video azul, ganarás 175 monedas + la aplicación inicia un temporizador de 1h para desbloquear nuevamente el anuncio naranja.",
+      "lien":"gdjv0LYNpQ8"
+    },
+    "info_10":{
+      "title":"¿Qué pasa con la configuración de esta aplicación?",
+      "description":"Hay varias configuraciones en esta aplicación:\n ⬤ Tema\n ⬤ Barra de navegación inferior\n ⬤ Idioma\n ⬤ Sonido\n ⬤ Vibración\n\nacerca de la configuración del tema, puede cambiar entre el modo diurno y nocturno.\nsobre la configuración de la barra de navegación inferior, puede cambiar entre mostrar u ocultar esta última.\nsobre la configuración del idioma, puede cambiar entre 7 idiomas en la aplicación.\nsobre la configuración de sonido, puede utilizar la aplicación con sonido o sin él.\nsobre la configuración de vibración, puede utilizar la aplicación con vibración o sin ella.\n\n\nTambién en el lugar de la puesta,\npuede vincular su cuenta a una cuenta de Google o una cuenta de Facebook si es un visitante.\ny puedes calificarnos en Play Store.\ny puede compartir el enlace de la aplicación con otros.\ny puede obtener más información sobre esta aplicación.\ntambién puede cerrar la sesión.",
+      "lien":"AAC3yqiHtJc"
+    }
+  }
+}

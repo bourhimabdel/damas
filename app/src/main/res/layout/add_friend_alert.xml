@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+   <!-- <View
+        android:id="@+id/cancel_line"
+        android:layout_width="@dimen/dimens_200px"
+        android:layout_height="@dimen/dimens_70px"
+
+        android:background="@drawable/flech"
+        android:layout_marginTop="@dimen/dimens_32px"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+        -->
+
+    <View
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="50dp"
+        android:layout_height="3dp"
+        android:background="@drawable/bg_bottom_sheet_view"
+        android:alpha=".90" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_snack_bar">
+        <EditText
+            android:id="@+id/edt_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="@dimen/dimens_45px"
+            android:layout_marginEnd="@dimen/dimens_45px"
+            android:layout_marginTop="@dimen/dimens_70px"
+            android:hint="@string/type_or_paste_the_id_of_your_friend"
+
+            android:textColor="@color/color_text_login_and_cadre"
+            android:textStyle="bold"
+            android:textSize="@dimen/txt_15_sp"
+
+            android:gravity="start|center_vertical"
+            android:autofillHints="@string/type_or_paste_the_id_of_your_friend"
+            android:inputType="text" />
+
+
+
+
+        <Button
+            android:id="@+id/btn_ajj"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimens_45px"
+            android:background="@drawable/btn_copy_id"
+            app:layout_constraintWidth_percent="0.55"
+            android:text="@string/add"
+            android:textAllCaps="false"
+            android:textSize="@dimen/txt_13_sp"
+            android:gravity="start|center_vertical"
+            android:textStyle="bold"
+            android:textColor="@color/color_text_login_and_cadre"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edt_id"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/dimens_97px"
+
+
+            android:drawableEnd="@drawable/add_plean_"
+            android:drawableRight="@drawable/add_plean_"
+
+
+            android:paddingEnd="@dimen/dimens_70px"
+            android:paddingStart="@dimen/dimens_70px"
+            android:drawablePadding="@dimen/dimens_55px"
+            tools:ignore="RtlSymmetry"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
